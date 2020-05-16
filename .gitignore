@@ -1,2 +1,7 @@
 public
 resources
+node_modules
+
+themes/kross-hugo/assets/css/style.css
+package-lock.json
+.sass-cache/

@@ -27,18 +27,18 @@ URL = "plugins/shuffle/shuffle.min.js"
 
 # menu
 [[menu.main]]
-URL = "about"
-name = "About"
+URL = "projects"
+name = "Projects"
 weight = 2
+
+[[menu.main]]
+URL = "docs"
+name = "Docs"
+weight = 3
 
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
-
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
 weight = 4
 
 [[menu.main]]
