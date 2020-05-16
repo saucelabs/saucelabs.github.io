@@ -1,1 +1,0 @@
-# opensource.saucelabs.com
