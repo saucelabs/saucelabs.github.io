@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/icons_Continuous_Improvement@3x</title>
+    <g id="icons/icons_Continuous_Improvement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-21" transform="translate(1.900000, 4.000000)" stroke="#E2231A" stroke-width="2">
+            <path d="M48.29594,0.15664 C53.07654,-0.21516 57.98914,0.06864 62.92044,1.08174 C87.84204,6.20004 104.96354,28.23634 104.76554,52.75094" id="Stroke-1"></path>
+            <path d="M12.90256,86.80089 C2.54826,74.90549 -2.33684,58.48799 1.08086,41.84719 C4.42816,25.55179 15.00686,12.59269 28.78326,5.62749" id="Stroke-3"></path>
+            <path d="M100.70324,72.61375 C91.24654,95.26935 66.79794,108.81145 41.84664,103.68655 C37.34434,102.76145 33.09724,101.28525 29.16034,99.34155" id="Stroke-5"></path>
+            <polyline id="Stroke-7" points="96.35648 46.60799 104.95408 53.57869 112.18878 44.65549"></polyline>
+            <polyline id="Stroke-9" points="39.00611 94.99941 28.69801 99.03201 32.88241 109.72951"></polyline>
+            <polyline id="Stroke-11" points="27.66016 15.81547 29.60936 4.91997 18.30356 2.89597"></polyline>
+            <polyline id="Stroke-13" points="24.26666 66.1254 24.26666 55.7117 38.85926 55.7117 38.85926 66.1254"></polyline>
+            <polyline id="Stroke-15" points="42.69221 66.1254 42.69221 41.8572 57.28591 41.8572 57.28591 66.1254"></polyline>
+            <polyline id="Stroke-17" points="61.70318 66.1254 61.70318 27.8344 76.29688 27.8344 76.29688 66.1254"></polyline>
+            <line x1="18.96059" y1="69.55861" x2="82.91239" y2="69.55861" id="Stroke-19"></line>
+        </g>
+    </g>
+</svg>

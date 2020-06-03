@@ -74,6 +74,25 @@ education:
       year : "1998"
       academy : "Cardiff School"
 
+# values
+values:
+  enable: true
+  title: "Our Values"
+  heading: "Be Open and Act Open"
+  intro: "Sauce Labs believes in the value of Open Source practices and leadership. We support and encourage employees across departments to be good Open Source citizens by participating in communities, sharing our knowledge and promoting Open Source best practices."
+  item:
+    - title: "Participate"
+      image: "/images/icons/participate.png"
+      content: "We invest and participate in projects and communities that share our common goal to create a world of digital confidence."
+
+    - title: "Share"
+      image: "/images/icons/share.png"
+      content: "We are eager to share our knowledge, code and practices around automated testing to benefit as many people as possible."
+
+    - title: "Promote"
+      image: "/images/icons/promote.png"
+      content: "We encourage and celebrate our engineering teams and their work they put out for the common good."
+
 # service
 service:
   enable : true

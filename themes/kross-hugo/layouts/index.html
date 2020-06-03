@@ -46,6 +46,37 @@
   </section>
   <!-- /hero area -->
 
+  {{ if .Site.Data.homepage.values.enable }}
+  {{ with .Site.Data.homepage.values }}
+  <!-- services -->
+  <section class="section values">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 class="section-title">{{ .title | markdownify }}</h4>
+          <h3 class="section-heading">{{ .heading | markdownify }}</h3>
+        </div>
+        <div class="col-12 text-center">
+          <p class="intro">{{ .intro | markdownify }}</p>
+        </div>
+        {{ range .item }}
+        <div class="col-md-4 mb-4">
+          <div class="card hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <img src="{{.image }}" alt="{{.title}}" />
+              <h5 class="mb-4">{{.title}}</h5>
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /services -->
+  {{ end }}
+  {{ end }}
+
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">
