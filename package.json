@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "description": "Open Source Program Office website",
   "scripts": {
-    "build": "hugo",
+    "build": "run-s import build:*",
     "build:production": "hugo --minify",
+    "import": "node scripts/import.js",
     "lint": "sass-lint -c .sass-lint.yml",
     "sass": "sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
     "start": "run-p start:*",
