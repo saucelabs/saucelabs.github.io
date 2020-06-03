@@ -7,3 +7,6 @@ themes/kross-hugo/assets/css/style.css.map
 package-lock.json
 .sass-cache/
 .DS_Store
+
+content
+data
