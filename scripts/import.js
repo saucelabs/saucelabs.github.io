@@ -2,17 +2,17 @@ const fs = require('fs')
 const path = require('path')
 
 const { Octokit } = require('@octokit/rest')
-const octokit = new Octokit()
 
 const VALID_FILE_EXTENSIONS = ['.yml', '.md']
 const INVALID_DIRECTORIES = ['.github']
 const INVALID_FILES = ['README.md']
 const DATA_DIR = 'opensource.saucelabs.com'
 
-if (!process.env.GITHUB_AUTH) {
-    throw new Error('Please export a "GITHUB_AUTH" access token to generate the changelog.')
+if (!process.env.GITHUB_TOKEN) {
+    throw new Error('Please export a "GITHUB_TOKEN" access token to generate the changelog.')
 }
 
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 const owner = 'saucelabs'
 const repo = 'opensource'
 
