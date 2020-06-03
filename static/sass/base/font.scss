@@ -1,8 +1,7 @@
-@import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
+@import "https://use.typekit.net/zmt8tam.css";
 
 @font-face {
-    font-family: bwnistaint-xbd;
-    src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
+    font-family: $fontFamily;
     font-style: normal;
     font-display: swap
 }
