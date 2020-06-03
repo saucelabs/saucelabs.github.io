@@ -8,7 +8,9 @@
     "build:production": "hugo --minify",
     "clean": "rm -rf .sass-cache content data public resources themes/kross-hugo/assets/css",
     "import": "node scripts/import.js",
-    "lint": "sass-lint -c .sass-lint.yml",
+    "lint": "run-p lint:*",
+    "lint:sass": "sass-lint -c .sass-lint.yml",
+    "lint:eslint": "eslint scripts",
     "sass": "mkdir ./themes/kross-hugo/assets/css && sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
@@ -25,6 +27,8 @@
   },
   "devDependencies": {
     "@octokit/rest": "^17.9.3",
+    "eslint": "^7.1.0",
+    "eslint-plugin-import": "^2.20.2",
     "npm-run-all": "^4.1.5",
     "sass": "^1.26.7",
     "sass-lint": "^1.13.1"
