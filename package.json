@@ -11,7 +11,7 @@
     "lint": "run-p lint:*",
     "lint:sass": "sass-lint -c .sass-lint.yml",
     "lint:eslint": "eslint scripts",
-    "sass": "mkdir ./themes/kross-hugo/assets/css && sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
+    "sass": "mkdir -p ./themes/kross-hugo/assets/css && sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
     "start:sass": "npm run sass -- --watch",
