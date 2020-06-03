@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Open Source Program Office website",
   "scripts": {
-    "build": "run-s import sass build:*",
+    "build": "run-s sass build:*",
     "build:production": "hugo --minify",
     "clean": "rm -rf .sass-cache content data public resources themes/kross-hugo/assets/css",
     "lint": "run-p lint:*",
