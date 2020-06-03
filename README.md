@@ -21,7 +21,7 @@ $ git clone git@github.com:saucelabs/opensource.saucelabs.com.git
 Then download its content files:
 
 ```sh
-$ npm setup
+$ npm run setup
 ```
 
 and start the server:

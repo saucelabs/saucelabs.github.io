@@ -5,9 +5,10 @@
   "description": "Open Source Program Office website",
   "scripts": {
     "lint": "sass-lint -c .sass-lint.yml",
+    "sass": "sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
-    "start:sass": "sass --watch ./themes/kross-hugo/assets/css/style.scss:./themes/kross-hugo/assets/css/style.css",
+    "start:sass": "npm run sass -- --watch",
     "start:open": "open http://localhost:8080"
   },
   "repository": {
