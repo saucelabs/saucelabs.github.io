@@ -33,6 +33,7 @@
 {{ end }}
 
 <!-- footer -->
+{{ if .Site.Params.footer.enable }}
 <footer class="bg-dark footer-section">
   <div class="section">
     <div class="container">
@@ -56,6 +57,7 @@
     <small class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</small>
   </div>
 </footer>
+{{ end }}
 <!-- /footer -->
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
