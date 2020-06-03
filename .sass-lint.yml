@@ -14,7 +14,7 @@
 # Linter VendorPrefix, option "identifier_list"
 
 files:
-  include: 'themes/kross-hugo/assets/css/**/*.scss'
+  include: 'static/sass/**/*.scss'
 options:
   formatter: stylish
   merge-default-rules: false

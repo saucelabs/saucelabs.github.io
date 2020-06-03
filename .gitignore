@@ -3,6 +3,7 @@ resources
 node_modules
 
 themes/kross-hugo/assets/css/style.css
+themes/kross-hugo/assets/css/style.css.map
 package-lock.json
 .sass-cache/
 .DS_Store
