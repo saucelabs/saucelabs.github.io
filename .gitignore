@@ -6,6 +6,3 @@ themes/kross-hugo/assets/css
 package-lock.json
 .sass-cache/
 .DS_Store
-
-content
-data
