@@ -1,7 +1,8 @@
-opensource.saucelabs.com Hugo Template
+opensource.saucelabs.com 
 ======================================
 
-This repository contains static files to generate the website for Sauce Labs Open Source Program Office. If you are looking for its content please visit the official [GitHub repository](https://github.com/saucelabs/opensource).
+This repository contains static files to generate the website for Sauce Labs
+Open Source Program Office. 
 
 The page is based on the [Kross Hugo Theme](https://themes.gohugo.io/kross-hugo-portfolio-template/).
 
@@ -17,19 +18,19 @@ The following tools are required to build this page:
 Important files to edit are:
 
 - `/content` for all content files
-- `/dara` for module content
+- `/data` for module content
 - `/static/images` for all images
 - `/static/sass` to modify CSS files using Sass
-- `/themes/kross-hugo/assets/js` to modify JavaScript files
-- `/themes/kross-hugo/layouts/` to modify templates
-- `/themes/kross-hugo/static/` other static content
+- `/assets/js` to modify JavaScript files
+- `/layouts/` to modify templates
+- `/static/` other static content
 
 # Build Locally
 
 First clone the project to a directory:
 
 ```sh
-$ git clone git@github.com:saucelabs/opensource.saucelabs.com.git
+$ git clone git@github.com:saucelabs/saucelabs.github.io.git
 ```
 
 Then build the page via:
