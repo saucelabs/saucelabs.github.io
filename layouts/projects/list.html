@@ -1,11 +1,19 @@
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
+<section class="page-title page-title-short">
+  <div class="container">
+      <h2 class="text-white font-tertiary">{{.Title}}</h2>
+      <div class="form-group">
+        <input id="projects" name="shuffle-filter" type="input" placeholder="Filter..." />
+        <button type="submit"><i class="magnifier"></i></button>
+      </div>
+  </div>
+</section>
 
 <!-- projects -->
 <section class="section projects">
   <div class="container">
-    <div class="row shuffle-wrapper">
+    <div class="row shuffle-wrapper-projects">
       {{ range .Site.Data.projects.items }}
       <div class="col-lg-3 col-4 mb-3 shuffle-item">
         <div class="position-relative rounded">
@@ -16,10 +24,6 @@
         </div>
       </div>
       {{ end }}
-    </div>
-
-    <div class="link">
-      <a class="btn btn-light btn-sm" href="/projects">Request Open Sauce License Now!</a>
     </div>
   </div>
 </section>
