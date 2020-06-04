@@ -1,0 +1,66 @@
+# projects item
+item:
+  - name: "Appium"
+    image: "images/logos/appium.png"
+    description: "Appium is an open source test automation framework for use with native, hybrid and mobile web apps."
+    project_url: "http://appium.io/"
+
+  - name: "Selenium"
+    image: "images/logos/selenium.png"
+    description: "Selenium is a portable framework for testing web applications. Selenium provides a playback tool for authoring functional tests without the need to learn a test scripting language."
+    project_url: "https://www.selenium.dev/"
+
+  - name: "WebdriverIO"
+    image: "images/logos/webdriverio.png"
+    description: "Next-gen browser and mobile automation test framework for Node.js"
+    project_url: "https://webdriver.io/"
+
+  - name: "node-saucelabs"
+    image: "images/logos/node-saucelabs.png"
+    description: "Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions."
+    project_url: "https://www.npmjs.com/package/saucelabs"
+
+  - name: "Sauce Connect Proxy"
+    image: "images/logos/gh-action.png"
+    description: "A GitHub action to launch Sauce Connect Proxy."
+    project_url: "https://github.com/marketplace/actions/sauce-connect-proxy-action"
+
+  - name: "SauceCTL"
+    image: "images/logos/go.png"
+    description: "A command line interface to run testrunner tests."
+    project_url: "https://saucelabs.github.io/testrunner-toolkit/"
+
+  - name: "Sauce Bindings"
+    image: "images/logos/saucelabs.png"
+    description: "An interface to simplify working with Sauce Labs session-related interactions."
+    project_url: "https://saucelabs.github.io/sauce_bindings/docs/overview.html"
+
+  - name: "Sample App Mobile"
+    image: "images/logos/saucelabs.png"
+    description: "This is the Sauce Labs Native Sample Application which is designed to be used with mobile devices."
+    project_url: "https://github.com/saucelabs/sample-app-mobile"
+
+  - name: "Sample App Web"
+    image: "images/logos/saucelabs.png"
+    description: "This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers."
+    project_url: "https://github.com/saucelabs/sample-app-web"
+
+  - name: "Speedo"
+    image: "images/logos/speedo.png"
+    description: "Simple performance testing tool using SauceLabs"
+    project_url: "https://github.com/saucelabs/speedo"
+
+  - name: "TraceLib"
+    image: "images/logos/node.png"
+    description: "A Node.js library that provides Chrome DevTools trace models to parse arbitrary trace logs."
+    project_url: "https://github.com/saucelabs/tracelib"
+
+  - name: "FoxDriver"
+    image: "images/logos/node.png"
+    description: "Foxdriver is a Node library which provides a high-level API to control Firefox over the Remote Debugging Protocol."
+    project_url: "https://github.com/saucelabs/foxdriver"
+
+  - name: "Monocle"
+    image: "images/logos/python.png"
+    description: "An async programming framework with a blocking look-alike syntax."
+    project_url: "https://github.com/saucelabs/monocle"

@@ -120,6 +120,33 @@ portfolio:
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
+# projects
+open_sauce_projects:
+  enable: true
+  title: "Projects"
+  heading: "Active projects on Open Sauce"
+  intro: "Sauce Labs is committed to support the Open Source ecosystem by providing free licenses."
+  item:
+    - name: "AMP"
+      image: "images/logos/amp.svg"
+      description: "AMP is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else."
+      project_url: "https://amp.dev/"
+
+    - name: "levelup"
+      image: "images/logos/level.png"
+      description: "A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+      project_url: "https://github.com/Level/levelup"
+
+    - name: "Firebase"
+      image: "images/logos/firebase.png"
+      description: "Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
+      project_url: "https://firebase.google.com/"
+
+    - name: "socket.io"
+      image: "images/logos/socket-io.svg"
+      description: "Socket.IO enables real-time bidirectional event-based communication."
+      project_url: "https://socket.io/"
+
 # testimonial
 testimonial:
   enable : true

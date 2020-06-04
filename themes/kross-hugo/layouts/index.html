@@ -48,7 +48,7 @@
 
   {{ if .Site.Data.homepage.values.enable }}
   {{ with .Site.Data.homepage.values }}
-  <!-- services -->
+  <!-- values -->
   <section class="section values">
     <div class="container">
       <div class="row">
@@ -73,7 +73,43 @@
       </div>
     </div>
   </section>
-  <!-- /services -->
+  <!-- /values -->
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.open_sauce_projects.enable }}
+  {{ with .Site.Data.homepage.open_sauce_projects }}
+  <!-- projects -->
+  <section class="section projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 class="section-title">{{ .title | markdownify }}</h4>
+          <h3 class="section-heading">{{ .heading| markdownify }}</h3>
+        </div>
+        <div class="col-12 text-center">
+          <p class="intro">{{ .intro | markdownify }}</p>
+        </div>
+      </div>
+      <div class="row shuffle-wrapper">
+        {{ range .item }}
+        <div class="col-lg-3 col-4 mb-3 shuffle-item">
+          <div class="position-relative rounded">
+            <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
+            <h5>{{ .name }}</h5>
+            <p>{{ .description }}</p>
+            <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">view project</a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      <div class="link">
+        <a class="btn btn-light btn-sm" href="/projects">Request Open Sauce License Now!</a>
+      </div>
+    </div>
+  </section>
+  <!-- /projects -->
   {{ end }}
   {{ end }}
 
