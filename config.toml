@@ -41,12 +41,6 @@ URL = "blog"
 name = "Blog"
 weight = 4
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-
-
 # default parameters
 [params]
 home = "Home"
