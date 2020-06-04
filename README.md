@@ -33,6 +33,12 @@ First clone the project to a directory:
 $ git clone git@github.com:saucelabs/saucelabs.github.io.git
 ```
 
+Pull the git submodules (for the Hugo theme) after cloning the project from GitHub
+
+```sh
+$ git submodule update --init
+```
+
 Then build the page via:
 
 ```sh
