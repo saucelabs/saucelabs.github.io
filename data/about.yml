@@ -19,19 +19,31 @@ work_process:
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "The People That Make it Happen"
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
+    - title : "Christian Bromann"
+      image : "images/people/christian.jpg"
+      designation : "Senior Software Engineer"
 
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
+    - title : "Diego Molina"
+      image : "images/people/diego.jpg"
+      designation : "Senior Software Engineer"
 
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
+    - title : "Marcus Merrell"
+      image : "images/people/marcus.jpg"
+      designation : "Technical Services Director"
+
+    - title : "Nikolay Advolodkin"
+      image : "images/people/nikolay.jpg"
+      designation : "Sr. Solution Architect"
+
+    - title : "Titus Fortner"
+      image : "images/people/titus.jpg"
+      designation : "Sr. Solution Architect"
+
+    - title : "Wim Selles"
+      image : "images/people/wim.png"
+      designation : "Sr. Solution Architect"
 
 
 # client logo slider

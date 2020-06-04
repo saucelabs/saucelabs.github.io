@@ -113,6 +113,12 @@
   {{ end }}
   {{ end }}
 
+  {{ if .Site.Data.about.team.enable }}
+  {{ with .Site.Data.about.team }}
+  {{ partial "team.html" . }}
+  {{ end }}
+  {{ end }}
+
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">

@@ -1,0 +1,20 @@
+<section class="section team bg-cover">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="section-title">{{ .title | markdownify }}</h3>
+      </div>
+      {{ range .team_member }}
+      <div class="col-md-3 col-sm-4 mb-3 mb-md-0">
+        <div class="card text-center">
+          <img src="{{ .image | absURL }}" class="card-img-top">
+          <div class="card-body">
+            <h4 class="card-title">{{.title }}</h4>
+            <p class="text-light font-secondary">{{.designation }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
