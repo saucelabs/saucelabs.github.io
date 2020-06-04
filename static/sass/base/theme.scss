@@ -184,12 +184,17 @@ textarea.form-control {
 .card-footer {
     border: 0
 }
-.navigation {
-    padding: 40px 130px;
-    transition: .3s ease
+.navigation.home-page {
+    padding: 15px 130px;
+    transition: .3s ease;
+    background-color: var(--primary-color);
+}
+.navigation.content-page {
+    padding: 15px 130px;
+    transition: .3s ease;
+    background-color: #FFFFFF;
 }
 .navigation.nav-bg {
-    background-color: var(--primary-color);
     padding: 15px 100px
 }
 @media(max-width:991px) {
@@ -207,11 +212,17 @@ textarea.form-control {
     font-family: $fontFamily;
     padding: 15px
 }
-.navbar .nav-item.active .nav-link{
-    color: #52f8f4;
+.navbar.home-page .nav-item.active .nav-link {
+    color: $themeColor;
 }
-.navbar-dark .navbar-nav .nav-link {
+.navbar.content-page .nav-item.active .nav-link {
+    color: #464B54;
+}
+.navbar.home-page .navbar-nav .nav-link {
     color: #fff;
+}
+.navbar.content-page .navbar-nav .nav-link {
+    color: #AC1414;
 }
 .hero-area {
     padding: 250px 0 200px;
