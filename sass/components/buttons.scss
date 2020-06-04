@@ -1,6 +1,6 @@
 .btn {
     font-size: 22px;
-    font-family: playfair display, serif;
+    font-family: $fontFamily;
     text-transform: capitalize;
     padding: 16px 44px;
     border-radius: 5px;
@@ -8,45 +8,45 @@
     border: 0;
     position: relative;
     z-index: 1;
-    transition: .2s ease 
+    transition: .2s ease
 }
 .btn:focus {
     outline: 0;
-    box-shadow: none !important 
+    box-shadow: none !important
 }
 .btn:active {
-    box-shadow: none 
+    box-shadow: none
 }
 .btn-sm {
     font-size: 15px;
-    padding: 10px 30px 
+    padding: 10px 30px
 }
 .btn-xs {
     padding: 5px 10px;
-    font-size: 15px 
+    font-size: 15px
 }
 .btn-primary {
     background: var(--primary-color);
-    color: #fff 
+    color: #fff
 }
 .btn-primary.active {
     opacity: .8;
 }
 .btn-primary:active {
-    background: var(--primary-color) !important 
+    background: var(--primary-color) !important
 }
 .btn-primary:hover {
-    background: var(--primary-color) 
+    background: var(--primary-color)
 }
 .btn-primary.focus, .btn-primary.active {
     background: var(--primary-color) !important;
-    box-shadow: none !important 
+    box-shadow: none !important
 }
 .btn-transparent {
     background: transparent;
     color: var(--primary-color);
-    font-weight: 700 
+    font-weight: 700
 }
 .btn-transparent:active, .btn-transparent:hover {
-    color: var(--primary-color) 
+    color: var(--primary-color)
 }
