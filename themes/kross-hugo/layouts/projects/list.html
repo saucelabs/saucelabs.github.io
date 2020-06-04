@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- projects -->
+<section class="section projects">
+  <div class="container">
+    <div class="row shuffle-wrapper">
+      {{ range .Site.Data.projects.items }}
+      <div class="col-lg-3 col-4 mb-3 shuffle-item">
+        <div class="position-relative rounded">
+          <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
+          <h5>{{ .name }}</h5>
+          <p>{{ .description }}</p>
+          <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">view project</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="link">
+      <a class="btn btn-light btn-sm" href="/projects">Request Open Sauce License Now!</a>
+    </div>
+  </div>
+</section>
+<!-- /projects -->
+
+{{ end }}

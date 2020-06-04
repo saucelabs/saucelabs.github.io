@@ -68,7 +68,7 @@ copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE L
 
 # contact
 [params.contact]
-enable = true
+enable = false
 form_action = "#" # contact form works with : https://formspree.io
 
 #footer

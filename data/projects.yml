@@ -1,5 +1,5 @@
 # projects item
-item:
+items:
   - name: "Appium"
     image: "images/logos/appium.png"
     description: "Appium is an open source test automation framework for use with native, hybrid and mobile web apps."
