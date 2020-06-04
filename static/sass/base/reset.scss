@@ -1,6 +1,6 @@
 body {
     line-height: 1.2;
-    font-family: roboto, sans-serif;
+    font-family: $fontFamily;
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
     color: #4c4c4c;
@@ -13,7 +13,7 @@ p {
     color: #4c4c4c;
     font-size: 15px;
     line-height: 1.8;
-    font-family: roboto, sans-serif
+    font-family: $fontFamily;
 }
 
 h1, h2, h3, h4, h5, h6 {

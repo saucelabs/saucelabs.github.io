@@ -18,7 +18,7 @@ work_process:
 
 # team
 team:
-  enable: true
+  enable: false
   title : "The People That Make it Happen"
   team_member:
     - title : "Christian Bromann"
