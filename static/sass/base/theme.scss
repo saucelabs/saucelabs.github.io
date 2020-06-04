@@ -113,6 +113,14 @@
 .font-tertiary {
     font-family: $fontFamily !important
 }
+.font-meta-tags {
+    font-family: $fontFamily;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: .1em;
+}  
 .shadow {
     box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
 }
@@ -197,7 +205,6 @@ textarea.form-control {
 }
 .navbar .nav-item .nav-link {
     font-family: $fontFamily;
-    text-transform: uppercase;
     padding: 15px
 }
 .navbar .nav-item.active .nav-link{
