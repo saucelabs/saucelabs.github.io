@@ -2,7 +2,7 @@ public
 resources
 node_modules
 
-themes/kross-hugo/assets/css
+/assets/css
 package-lock.json
 .sass-cache/
 .DS_Store

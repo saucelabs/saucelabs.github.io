@@ -6,11 +6,11 @@
   "scripts": {
     "build": "run-s sass build:*",
     "build:production": "hugo --minify",
-    "clean": "rm -rf .sass-cache content data public resources themes/kross-hugo/assets/css",
+    "clean": "rm -rf .sass-cache content data public resources ./assets/css",
     "lint": "run-p lint:*",
     "lint:sass": "sass-lint -c .sass-lint.yml",
     "lint:eslint": "eslint scripts",
-    "sass": "mkdir -p ./themes/kross-hugo/assets/css && sass ./static/sass/style.scss:./themes/kross-hugo/assets/css/style.css",
+    "sass": "mkdir -p ./assets/css && sass ./static/sass/style.scss:./assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
     "start:sass": "npm run sass -- --watch",
