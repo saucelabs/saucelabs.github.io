@@ -16,13 +16,13 @@ The following tools are required to build this page:
 
 Important files to edit are:
 
+- `/content` for all content files
+- `/dara` for module content
 - `/static/images` for all images
 - `/static/sass` to modify CSS files using Sass
 - `/themes/kross-hugo/assets/js` to modify JavaScript files
 - `/themes/kross-hugo/layouts/` to modify templates
 - `/themes/kross-hugo/static/` other static content
-
-This repository doesn't contain any content files as they are maintained in [`github.com/saucelabs/opensource`](https://github.com/saucelabs/opensource).
 
 # Build Locally
 
