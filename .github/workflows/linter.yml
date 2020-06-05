@@ -1,4 +1,4 @@
-name: Publish OSPO Site
+name: Run linter
 
 on:
   pull_request:
