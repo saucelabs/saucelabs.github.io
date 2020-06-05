@@ -216,7 +216,7 @@ textarea.form-control {
     color: $themeColor;
 }
 .navbar.content-page .nav-item.active .nav-link {
-    color: #464B54;
+    color: $contentPageActiveLinkColor;
 }
 .navbar.home-page .navbar-nav .nav-link {
     color: #fff;
