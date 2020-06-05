@@ -97,6 +97,13 @@
   {{ end }}
   {{ end }}
 
+
+  {{ if .Site.Data.homepage.involvement.enable }}
+  {{ with .Site.Data.homepage.involvement }}
+  {{ partial "involvement.html" . }}
+  {{ end }}
+  {{ end }}
+
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">

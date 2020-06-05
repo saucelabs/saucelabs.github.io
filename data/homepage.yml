@@ -33,6 +33,28 @@ skill:
       progress : "70%"
       color : "#ffbcaa"
 
+# involvement
+involvement:
+  enable: true
+  title: "Involvement"
+  heading: "Organizations we support"
+  item:
+    - logo: "images/logos/w3c.jpg"
+      title: "World Wide Web Consortium (W3C)"
+      description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
+
+    - logo: "images/logos/linux-foundation.png"
+      title: "Linux Foundation"
+      description: "The Linux Foundation is a trade association dedicated to fostering the growth of the Linux operating system and related projects."
+
+    - logo: "images/logos/openjsf.jpg"
+      title: "OpenJS Foundation"
+      description: "The OpenJS Foundation is the open and neutral home for JavaScript communities."
+
+    - logo: "images/logos/todogroup.png"
+      title: "TODO Group"
+      description: "TODO is an open group of companies who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs."
+
 # experience
 experience:
   enable : true
