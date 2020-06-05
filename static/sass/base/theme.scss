@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: $backgroundColor;
     z-index: 999999;
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: .1em;
-}  
+}
 .shadow {
     box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
 }
