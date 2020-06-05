@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Update theme
-        run: git submodule update --init --recursive
       - name: Setup Node
         uses: actions/setup-node@v1
         with:

@@ -41,16 +41,11 @@ URL = "blog"
 name = "Blog"
 weight = 4
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-
-
 # default parameters
 [params]
 home = "Home"
-logo = "images/saucelabs_logo_white.png"
+logo_home = "images/saucelabs_logo_white.png"
+logo_content = "images/saucelabs_logo_color.png"
 # theme color
 theme_color = "#AC1414"
 # contact info
