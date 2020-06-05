@@ -20,7 +20,8 @@ jobs:
           hugo-version: '0.66.0'
       - name: Update theme
         run: git submodule update --init --recursive
-      - uses: actions/setup-node@v1
+      - name: Setup Node
+        uses: actions/setup-node@v1
         with:
           node-version: '12.x'
       - run: npm install

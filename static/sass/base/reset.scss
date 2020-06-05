@@ -3,15 +3,15 @@ body {
     font-family: $fontFamily;
     -webkit-font-smoothing: antialiased;
     font-size: 15px;
-    color: #4c4c4c;
-    background-color: #fff;
+    color: $fontColor;
+    background-color: $backgroundColor;
     overflow-x: hidden;
 }
 
 p {
-    font-weight: 400;
-    color: #4c4c4c;
-    font-size: 15px;
+    font-weight: 300;
+    color: $fontColor;
+    font-size: 16px;
     line-height: 1.8;
     font-family: $fontFamily;
 }
