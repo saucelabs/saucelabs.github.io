@@ -9,7 +9,7 @@
     "clean": "rm -rf .sass-cache content data public resources ./assets/css",
     "lint": "run-p lint:*",
     "lint:sass": "sass-lint -c .sass-lint.yml",
-    "lint:eslint": "eslint scripts",
+    "lint:eslint": "eslint ./assets/js",
     "sass": "mkdir -p ./assets/css && sass ./static/sass/style.scss:./assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
