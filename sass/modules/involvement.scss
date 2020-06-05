@@ -1,0 +1,33 @@
+.involvement {
+    .section-title {
+        margin-bottom: 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h4 {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        justify-content: center;
+    }
+}
