@@ -11,11 +11,12 @@
 </section>
 
 <!-- projects -->
-<section class="section projects">
+<section class="section projects max-height">
   <div class="container">
+    <div class="noElemFoundEl" style="display: none;">Oh oh, no project found, try a different query!</div>
     <div class="row shuffle-wrapper-projects">
       {{ range .Site.Data.projects.items }}
-      <div class="col-lg-3 col-4 mb-3 shuffle-item">
+      <div class="col-xs-1 col-lg-3 col-md-4 shuffle-item">
         <div class="position-relative rounded">
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
           <h5>{{ .name }}</h5>
