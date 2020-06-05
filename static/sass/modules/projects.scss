@@ -1,6 +1,10 @@
 .projects {
     background-color: #EEE;
 
+    &.max-height {
+        min-height: 100%;
+    }
+
     .section-title {
         margin-bottom: 0;
     }

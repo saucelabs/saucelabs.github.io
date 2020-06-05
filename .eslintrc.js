@@ -5,7 +5,7 @@ module.exports = {
         'plugin:import/warnings'
     ],
     env: {
-        node: true,
+        browser: true,
         es6: true
     },
     parserOptions: {
