@@ -1,0 +1,22 @@
+name: Run linter
+
+on:
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  linter:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Update theme
+        run: git submodule update --init --recursive
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npm install
+      - name: Run linter
+        run: npm run lint

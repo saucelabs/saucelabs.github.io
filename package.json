@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/saucelabs/opensource.saucelabs.com.git"
   },
-  "license": "Apacha-2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/saucelabs/opensource.saucelabs.com/issues"
   },
