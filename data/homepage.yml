@@ -51,6 +51,10 @@ involvement:
       title: "OpenJS Foundation"
       description: "The OpenJS Foundation is the open and neutral home for JavaScript communities."
 
+    - logo: "images/logos/sfc.png"
+      title: "Software Freedom Conservancy"
+      description: "Software Freedom Conservancy is an organization that provides a non-profit home and infrastructure support, including legal services, for free/open source software projects."
+
     - logo: "images/logos/todogroup.png"
       title: "TODO Group"
       description: "TODO is an open group of companies who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs."
