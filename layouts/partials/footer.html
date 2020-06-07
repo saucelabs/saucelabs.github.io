@@ -39,16 +39,39 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h5 class="text-white">Links</h5>
-          <p class="text-light paragraph-lg">{{.Site.Params.email}}</p>
+          <h5 class="text-white"><strong>Links</strong></h5>
+            {{ range .Site.Menus.main }}
+            <p class="footer-item-text">
+              <a href="{{.URL | absURL }}" class="footer-item-text" target="_blank">{{.Name}}</a>            
+            </p>
+            {{ end }}
+          </ul>
         </div>
         <div class="col-md-3">
-          <h5 class="text-white">Organizations</h5>
-          <p class="text-light paragraph-lg">{{.Site.Params.phone}}</p>
+          <h5 class="text-white"><strong>Organizations</strong></h5>
+          {{ if .Site.Data.homepage.involvement.enable }}
+          {{ with .Site.Data.homepage.involvement }}
+          {{ range .item }}
+          {{ if .short_title }} 
+          <p class="footer-item-text">
+            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank">{{ .short_title | markdownify }}</a>
+          </p>
+          {{ else }}
+          <p class="footer-item-text">
+            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank">{{ .title | markdownify }}</a>
+          </p>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
         </div>
         <div class="col-md-3">
-          <h5 class="text-white">Connect with us</h5>
-          <p class="text-light paragraph-lg">{{.Site.Params.address}}</p>
+          <h5 class="text-white"><strong>Connect with us</strong></h5>
+          {{ range .Site.Params.social }}
+          <p class="footer-item-text">
+            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank"><i class="{{.icon}}"></i> {{.description}}</a>            
+          </p>
+          {{ end }}
         </div>
       </div>
     </div>

@@ -48,10 +48,6 @@ logo_home = "images/saucelabs_logo_white.png"
 logo_content = "images/saucelabs_logo_color.png"
 # theme color
 theme_color = "#AC1414"
-# contact info
-phone = "+880 2544 658 256"
-email = "opensource@saucelabs.com"
-address = "116 New Montgomery St, 3rd Floor San Francisco, CA 94105 USA"
 # meta description
 author = "Sauce Labs Open Source Program Office"
 description = "Website with contents for the Sauce Labs Open Source Program Office"
@@ -79,15 +75,24 @@ preloader = "" # use png, jpg, svg or gif format
 [[params.social]]
 icon = "ti-world"
 URL = "https://saucelabs.com/"
+description = "Website"
 
 [[params.social]]
 icon = "ti-linkedin"
 URL = "https://www.linkedin.com/company/sauce-labs/"
+description = "Sauce Labs"
 
 [[params.social]]
 icon = "ti-github"
 URL = "https://github.com/saucelabs"
+description = "@saucelabs"
 
 [[params.social]]
 icon = "ti-twitter-alt"
 URL = "https://twitter.com/saucelabs/"
+description = "@saucelabs"
+
+[[params.social]]
+icon = "ti-email"
+URL = "mailto:opensource@saucelabs.com"
+description = "opensource@saucelabs.com"
