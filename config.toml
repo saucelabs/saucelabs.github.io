@@ -79,15 +79,24 @@ preloader = "" # use png, jpg, svg or gif format
 [[params.social]]
 icon = "ti-world"
 URL = "https://saucelabs.com/"
+description = "Website"
 
 [[params.social]]
 icon = "ti-linkedin"
 URL = "https://www.linkedin.com/company/sauce-labs/"
+description = "Sauce Labs"
 
 [[params.social]]
 icon = "ti-github"
 URL = "https://github.com/saucelabs"
+description = "@saucelabs"
 
 [[params.social]]
 icon = "ti-twitter-alt"
 URL = "https://twitter.com/saucelabs/"
+description = "@saucelabs"
+
+[[params.social]]
+icon = "ti-email"
+URL = "mailto:opensource@saucelabs.com"
+description = "opensource@saucelabs.com"

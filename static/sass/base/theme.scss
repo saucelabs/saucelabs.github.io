@@ -124,8 +124,14 @@
 .shadow {
     box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
 }
-.bg-dark {
-    background-color: #222 !important
+.bg-footer-dark {
+    background-color: $footerBackgroundColor !important
+}
+.footer-item-text {
+    color: #EDEDEF !important;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    padding-left: 0;;
 }
 .icon {
     font-size: 45px
@@ -422,7 +428,7 @@ textarea.form-control {
     bottom: -50px
 }
 .footer-section {
-    padding-top: 200px
+    padding-top: 40px
 }
 .section-on-footer {
     margin-bottom: -250px

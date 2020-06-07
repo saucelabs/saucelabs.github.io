@@ -5,7 +5,7 @@ banner:
 
 # about
 about:
-  enable : true
+  enable : false
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
@@ -14,7 +14,7 @@ about:
 
 # skill
 skill:
-  enable : true
+  enable : false
   title : "Skills"
   item:
     - title : "Web Design"
@@ -41,27 +41,34 @@ involvement:
   item:
     - logo: "images/logos/w3c.jpg"
       title: "World Wide Web Consortium (W3C)"
+      short_title: "W3C"
       description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
+      URL: "https://www.w3.org/"
 
     - logo: "images/logos/linux-foundation.png"
       title: "Linux Foundation"
       description: "The Linux Foundation is a trade association dedicated to fostering the growth of the Linux operating system and related projects."
+      URL: "https://www.linuxfoundation.org/"
 
     - logo: "images/logos/openjsf.jpg"
       title: "OpenJS Foundation"
       description: "The OpenJS Foundation is the open and neutral home for JavaScript communities."
+      URL: "https://openjsf.org/"
 
     - logo: "images/logos/sfc.png"
       title: "Software Freedom Conservancy"
+      short_title: "SFC"
       description: "Software Freedom Conservancy is an organization that provides a non-profit home and infrastructure support, including legal services, for free/open source software projects."
+      URL: "https://sfconservancy.org/"
 
     - logo: "images/logos/todogroup.png"
       title: "TODO Group"
       description: "TODO is an open group of companies who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs."
+      URL: "https://todogroup.org/"
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item:
     - logo : "images/experience/icon-1.png"
@@ -81,7 +88,7 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -121,7 +128,7 @@ values:
 
 # service
 service:
-  enable : true
+  enable : false
   title : "Services"
   item:
     - title : "UI Design"
@@ -141,7 +148,7 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
   title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
@@ -175,7 +182,7 @@ open_sauce_projects:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
@@ -195,7 +202,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -230,5 +237,5 @@ clients_logo_slider:
 # blog
 blog:
   enable : true
-  title : "Blogs"
+  title : "Blog"
   # blog post comes from "content/blog" folder
