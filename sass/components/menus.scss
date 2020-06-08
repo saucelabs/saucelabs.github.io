@@ -1,0 +1,23 @@
+#TableOfContents {
+    ul {
+        list-style: none;
+        padding: 0 0 0 10px;
+    }
+}
+
+.menu {
+    list-style: none;
+
+    > li {
+        border-bottom: 1px solid #DDD;
+        padding: 10px 0;
+
+        ul {
+            margin-top: 10px;
+        }
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
