@@ -97,10 +97,15 @@
   {{ end }}
   {{ end }}
 
-
   {{ if .Site.Data.homepage.involvement.enable }}
   {{ with .Site.Data.homepage.involvement }}
   {{ partial "involvement.html" . }}
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.events.enable }}
+  {{ with .Site.Data.homepage.events }}
+  {{ partial "events.html" . }}
   {{ end }}
   {{ end }}
 
@@ -124,7 +129,6 @@
   </section>
   <!-- /about -->
   {{ end }}
-
 
   {{ if .Site.Data.homepage.skill.enable }}
   {{ with .Site.Data.homepage.skill }}
