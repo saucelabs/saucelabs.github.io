@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row justify-content-around">
       <div class="col-lg-12 text-center section-header">
-        <h4 class="section-title">{{ .title | markdownify }}</h4>
-        <h3 class="section-title">{{ .heading | markdownify }}</h3>
+        <p class="section-title font-meta-tags">{{ .title | markdownify }}</p>
+        <h1 class="section-title">{{ .heading | markdownify }}</h1>
       </div>
       {{ range .item }}
       <div class="col-lg-3 col-md-4 text-center">
