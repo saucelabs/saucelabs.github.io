@@ -1,12 +1,15 @@
 #TableOfContents {
     ul {
-        padding: 0 0 0 5px;
+        list-style: none;
+        padding: 0 0 0 10px;
     }
 }
 
 .menu {
+    list-style: none;
+
     > li {
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #DDD;
         padding: 10px 0;
 
         ul {
