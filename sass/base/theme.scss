@@ -134,7 +134,7 @@
     padding-left: 0;;
 }
 .icon {
-    font-size: 45px
+    font-size: 45px;
 }
 .icon-bg {
     height: 100px;
@@ -144,6 +144,9 @@
 }
 .icon-light {
     color: #c8d5ef
+}
+.icon-footer {
+    margin-right: 5px;
 }
 .slick-dots {
     text-align: center;
@@ -229,6 +232,12 @@ textarea.form-control {
 }
 .navbar.content-page .navbar-nav .nav-link {
     color: #AC1414;
+}
+.home-page .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.content-page .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(172, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .hero-area {
     padding: 250px 0 200px;
