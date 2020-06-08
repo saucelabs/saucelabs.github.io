@@ -126,6 +126,22 @@ values:
       image: "/images/icons/promote.png"
       content: "We encourage and celebrate our engineering teams and their work they put out for the common good."
 
+# events
+events:
+  enable: true
+  title: "Events"
+  heading: "Come out and join us"
+  intro: "We always love to connect! If you happen to be at one of the following events please make sure to visit the Sauce Labs booth and say hi."
+  item:
+    - name: "Selenium Conference"
+      image: "/images/events/seleniumconf.png"
+      description: "The Selenium Conference is a non-profit, volunteer-run event presented by members of the Selenium Community. The goal of the conference is to bring together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future success of the project."
+      link: "https://2020.seleniumconf.in/"
+    - name: "Open Source Summit"
+      image: "/images/events/ossummit.png"
+      description: "Open Source Summit is a name for a series of annual conventions organized each year since 2009 by the Linux Foundation. The first LinuxCon took place in North America. Linux Foundation started organizing similar events in Europe and Japan."
+      link: "https://events.linuxfoundation.org/open-source-summit-north-america/"
+
 # service
 service:
   enable : false
