@@ -254,4 +254,5 @@ clients_logo_slider:
 blog:
   enable : true
   title : "Blog"
+  heading: "Read and learn more at our blog"
   # blog post comes from "content/blog" folder
