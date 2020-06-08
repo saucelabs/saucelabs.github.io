@@ -1,0 +1,53 @@
+.events {
+    background-color: #EEE;
+
+    &.max-height {
+        min-height: 100%;
+    }
+
+    .section-title {
+        margin-bottom: 0;
+    }
+
+    .intro {
+        margin-bottom: 50px;
+    }
+
+    .link {
+        text-align: center;
+    }
+
+    .shuffle-item {
+        padding: 0;
+
+        .position-relative {
+            margin: 10px;
+            background-color: #fff;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h5 {
+            margin-top: 20px;
+        }
+
+        p {
+            height: 76px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        h5, p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .btn, .btn:hover {
+            background: transparent;
+        }
+    }
+}
