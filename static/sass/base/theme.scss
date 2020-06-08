@@ -208,6 +208,12 @@ textarea.form-control {
     padding: 15px 100px
 }
 @media(max-width:991px) {
+    .navigation.home-page {
+        padding: 15px 30px;
+    }
+    .navigation.content-page {
+        padding: 15px 30px;
+    }
     .navigation.nav-bg {
         padding: 15px 20px
    }
@@ -253,6 +259,11 @@ textarea.form-control {
 .hero-area h1 {
     position: relative;
     z-index: 2
+}
+@media(max-width:991px) {
+    .social-icons {
+        display: none;
+    }
 }
 .layer {
     position: absolute;
@@ -439,6 +450,9 @@ textarea.form-control {
 }
 .footer-section {
     padding-top: 40px
+}
+.footer-section h5 {
+    padding-top: 10px
 }
 .section-on-footer {
     margin-bottom: -250px
