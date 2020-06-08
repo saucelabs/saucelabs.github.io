@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+  {{ partial "page-title.html" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="font-tertiary mb-5">{{.Title}}</h2>
+          <div class="content">
+            {{.Content }}
+          </div>
+        </div>
+        <aside class="col-lg-4">
+          {{ $currentPageName := .Name }}
+          {{ $parentPageName := .Parent.Name }}
+          <ul class="menu">
+            {{ range .Site.Home.Sections.ByTitle }}
+              {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
+              {{ if eq .Name $parentPageName }}
+              {{ if ne $numberOfPages 0 }}
+              {{- .Scratch.Set "pages" .Pages -}}
+              {{- if .Sections -}}
+                {{- .Scratch.Set "pages" (.Pages | union .Sections) -}}
+              {{- end -}}
+              {{- $pages := (.Scratch.Get "pages") -}}
+              {{- range $pages.ByTitle -}}
+              <li>
+                {{ if ne .Name $currentPageName }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ else }}
+                <b>{{ .Name }}</b>
+                {{ .TableOfContents }}
+                {{ end }}
+              </li>
+              {{- end -}}
+              {{ end }}
+              {{ end }}
+            {{ end }}
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+{{ end }}
