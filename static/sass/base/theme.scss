@@ -205,7 +205,10 @@ textarea.form-control {
 }
 .navigation.nav-bg {
     padding: 15px 100px;
-    background-color: var(--primary-color);
+
+    &.home-page {
+        background-color: var(--primary-color);
+    }
 }
 @media(max-width:991px) {
     .navigation.home-page {
