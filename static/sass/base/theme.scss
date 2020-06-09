@@ -197,7 +197,6 @@ textarea.form-control {
 .navigation.home-page {
     padding: 15px 130px;
     transition: .3s ease;
-    background-color: var(--primary-color);
 }
 .navigation.content-page {
     padding: 15px 130px;
@@ -205,7 +204,8 @@ textarea.form-control {
     background-color: #FFFFFF;
 }
 .navigation.nav-bg {
-    padding: 15px 100px
+    padding: 15px 100px;
+    background-color: var(--primary-color);
 }
 @media(max-width:991px) {
     .navigation.home-page {
@@ -221,7 +221,6 @@ textarea.form-control {
 @media(max-width:991px) {
     .navigation {
         padding: 20px;
-        background: var(--primary-color)
    }
 }
 .navbar .nav-item .nav-link {
