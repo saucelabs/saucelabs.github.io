@@ -61,3 +61,98 @@
         }
     }
 }
+
+section#parallax {
+    &:before {
+        content: "";
+        display: block;
+        width: 2000px;
+        height: 2000px;
+        background: white;
+        position: absolute;
+        transform: rotate(32deg);
+        opacity: .1;
+        left: 46%;
+        top: -170%;
+    }
+
+    &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url('/images/hero_bot_illustration.png') no-repeat;
+        position: absolute;
+        top: 15%;
+        right: -50%;
+        background-size: 700px;
+    }
+}
+
+.hero-area .container {
+    max-width: 1500px;
+
+    h1 {
+        max-width: 520px;
+    }
+}
+
+@media(max-width:1400px) {
+    section#parallax {
+        &:before {
+            left: 42%;
+        }
+
+        &:after {
+            top: 18%;
+            background-size: 600px;
+        }
+    }
+
+    .hero-area .container {
+        max-width: 1140px;
+    }
+}
+
+@media(max-width:991px) {
+    section#parallax {
+        &:before {
+            top: -236%;
+        }
+
+        &:after {
+            background-size: 500px;
+            right: -48%;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    section#parallax {
+        &:before {
+            top: -292%;
+            left: 3%;
+        }
+
+        &:after {
+            background-size: 350px;
+            right: -52%;
+            top: 30%;
+        }
+    }
+
+    .hero-area .container h1 {
+        max-width: 390px;
+    }
+}
+
+@media(max-width:565px) {
+    section#parallax {
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+}
