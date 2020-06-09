@@ -34,6 +34,14 @@ body {
     flex: 1 0 auto;
 }
 
+.content blockquote {
+    font-style: normal;
+
+    p {
+        margin: 0;
+    }
+}
+
 .footer-section {
     flex-shrink: 0;
 }

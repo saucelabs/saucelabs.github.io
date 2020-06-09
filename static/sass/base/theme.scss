@@ -494,11 +494,13 @@ blockquote {
 }
 .content strong {
     font-family: $fontFamily;
-    font-size: 22px;
     font-weight: 400;
     color: #000;
     display: inherit;
-    line-height: 1.5
+    line-height: 1.5;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
 }
 .page-title-alt {
     padding: 350px 0 70px

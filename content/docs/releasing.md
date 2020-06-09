@@ -6,7 +6,7 @@ draft: false
 
 Here you can see all the steps that describe how Saucers can release a new Open Source project. This is a simple process and in case you need help to go through it, the Open Source team is here to give you a hand.
 
-__Note:__ This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
+> This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
 
 ### Overview
 Releasing a new open source project is a simple process, just check the following sections:
