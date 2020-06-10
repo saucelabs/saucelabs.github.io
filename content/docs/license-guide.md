@@ -8,7 +8,7 @@ Policies and guidance on which licenses can be used at Sauce Labs, both internal
 
 Understanding and respecting the licenses of your project dependencies are important when using and releasing Open Source software. The purpose of this document is to outline what licenses to avoid, which ones can be freely used and which licenses come with special requirements.
 
-__Note:__ This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
+> This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
 
 ### Summary
 

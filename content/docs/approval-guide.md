@@ -8,7 +8,7 @@ As a manager in Sauce Labs, you will from time to time be asked by your directs 
 
 Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you like.
 
-__Note:__ This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
+> This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
 
 ### Summary
 To determine if a project can be open-sourced, you should be able to answer “yes“ to the following 3 questions, background information on each are provided in sections below:

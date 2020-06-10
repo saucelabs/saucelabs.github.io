@@ -6,7 +6,7 @@ draft: false
 
 Participation in Open Source projects is highly encouraged, and the Open Source team wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding what type of information and code is contributed to upstream Open Source projects. If you are in doubt, please reach out to the Open Source team or ask your manager for instructions.
 
-__Note:__ This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
+> This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
 
 ### Summary
 
