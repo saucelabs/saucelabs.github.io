@@ -4,7 +4,7 @@ description: "This is meta description."
 draft: false
 ---
 
-As a manager in Sauce Labs, you will from time to time be asked by your directs if you can support open sourcing an internal codebase. This can be a difficult question to answer, so to guide your decision-making, this handy guide has been put together.
+As a manager at Sauce Labs, you will from time to time be asked by your direct reports if you can support open sourcing an internal codebase. This can be a difficult question to answer, so to guide your decision-making, this handy guide has been put together.
 
 Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you like.
 
