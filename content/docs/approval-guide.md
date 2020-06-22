@@ -4,9 +4,9 @@ description: "This is meta description."
 draft: false
 ---
 
-As a manager at Sauce Labs, you will from time to time be asked by your direct reports if you can support open sourcing an internal codebase. This can be a difficult question to answer, so to guide your decision-making, this handy guide has been put together.
+As a manager at Sauce Labs, you will from time to time be asked by your direct reports if they can make an internal codebase an open source project. This can be a difficult question to answer, so to guide your decision-making, we have put together a handy guide for you to review.
 
-Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you like.
+Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you would like.
 
 > This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
 
@@ -17,13 +17,13 @@ __Value of ownership:__ Do the maintainers and Sauce Labs benefit from open sour
 
 __Commitment:__ Have you approved that the maintainers will have the time to work on the project and promote it beyond Sauce Labs?
 
-__Confidentiality:__ Are you sure the source code does not expose any of Sauce Labs’ competitive advantages, and that the source code helps users, not just our competitors?
+__Confidentiality:__ Are you sure the source code does not expose any of Sauce Labs competitive advantages, and that the source code helps users, not just our competitors?
 
 ### Value of ownership
 In short, does Sauce Labs benefit in any way from open-sourcing this code? There can be several direct or indirect ways Sauce Labs can benefit, as listed below:
 
 - __Internal use:__ The code is used inside Sauce Labs and there is a vested interest in long term maintenance
-- __Employer branding:__ Project gives an insight into the scale and problem-solving of Sauce Labs.
+- __Employer branding:__ Project gives an insight into the scale and problem-solving of Sauce Labs
 - __Hiring:__ contributors and users of the project could be attractive job candidates
 - __Learning:__ Saucers can collaborate with and learn from external experts on the topic
 - __Enhancement:__ the project could gain new functionality and refinement by external use and contribution
