@@ -1,6 +1,6 @@
 ---
 title: "Releasing a new Open Source project"
-description: "This is meta description."
+description: "Releasing a new Open Source project"
 draft: false
 ---
 

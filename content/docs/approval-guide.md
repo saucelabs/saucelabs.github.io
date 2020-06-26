@@ -1,6 +1,6 @@
 ---
 title: "Approval guide for managers"
-description: "This is meta description."
+description: "Approval guide for managers"
 draft: false
 ---
 

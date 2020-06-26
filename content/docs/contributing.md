@@ -1,6 +1,6 @@
 ---
 title: "Contributing to Open Source"
-description: "This is meta description."
+description: "Contributing to Open Source"
 draft: false
 ---
 
