@@ -12,9 +12,10 @@
           </div>
         </div>
         <aside class="col-lg-4">
-          <ul class="menu">
+          <h4 class="text-center">Documentation</h4>
+          <ul class="menu border px-4">
             {{ range .Data.Pages }}
-              <li>
+            <li class="py-3">
                 <a href="{{ .URL }}">{{ .Name }}</a>
               </li>
             {{ end }}
