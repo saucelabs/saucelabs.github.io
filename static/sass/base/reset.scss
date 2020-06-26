@@ -35,12 +35,15 @@ select:focus {
     outline: 0
 }
 
+a {
+    color: $linkColor;
+}
 a.text-dark:hover {
-    color: var(--primary-color) !important
+    color: $linkHoverColor !important
 }
 
 a:hover {
-    color: var(--primary-color)
+    color: $linkHoverColor
 }
 
 ol,
