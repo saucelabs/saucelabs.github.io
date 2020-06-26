@@ -1,6 +1,6 @@
 ---
 title: "Open Source Licensing Guide"
-description: "This is meta description."
+description: "Open Source Licensing Guide"
 draft: false
 ---
 
