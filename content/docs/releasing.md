@@ -62,6 +62,9 @@ When the project has been released as a public project on GitHub the following w
 - Make sure that no credentials, private identifiers or personal data is at any time present in your repository
 - Make sure code-reviews with by least 1 Sauce employee on all code to minimize the risk of implanted security backdoors and vulnerable code.
 - Make sure there is an active team of maintainers of at least 2 Saucers taking ownership of the project
+
+We recommend to also:
+
 - Make sure there is a continuous integration setup in place that runs all linting, tests and measures coverage for every commit in every branch and in every pull request
 
 #### Community best practices
