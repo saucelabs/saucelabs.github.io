@@ -50,3 +50,22 @@
 .btn-transparent:active, .btn-transparent:hover {
     color: var(--primary-color)
 }
+
+.sauce-button {
+    background: $bgColorSauceButton;
+    background: -webkit-gradient(linear,right top,left top,from($bgColorSauceButtonGradientFrom),to($bgColorSauceButtonGradientTo));
+    background: linear-gradient(270deg,$bgColorSauceButtonGradientFrom,$bgColorSauceButtonGradientTo);
+    box-shadow: -3px 0 16px -11px #000;
+    border-radius: 290486px;
+    color: $textColorSauceButton;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.sauce-button:hover {
+    font-weight: 700;
+    background: $bgColorSauceButtonHover;
+    background: -webkit-gradient(linear,right top,left top,from($bgColorSauceButtonHover),to($bgColorSauceButtonHoverGradientTo));
+    background: linear-gradient(270deg,$bgColorSauceButtonHover,$bgColorSauceButtonHoverGradientTo);
+    color: $textColorSauceButton;
+}

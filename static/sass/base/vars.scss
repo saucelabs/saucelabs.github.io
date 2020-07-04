@@ -4,6 +4,7 @@ $fontFamily: "museo-sans", "HelveticaNeue", "Helvetica Neue", "serif";
 $themeColor: #AC1414;
 $linkHoverColor: #57C1E8;
 $linkColor: #E12726;
+$white: #ffffff;
 
 $darkGray: #464B54;
 $projectPageBackgroundColor: $darkGray;
@@ -12,4 +13,10 @@ $footerBackgroundColor: $darkGray;
 
 $fontColor: #444;
 $menuColor: #888;
-$backgroundColor: #fff;
+$backgroundColor: $white;
+$bgColorSauceButton: $linkColor;
+$bgColorSauceButtonHover: #f85d5d;
+$textColorSauceButton: $white;
+$bgColorSauceButtonGradientFrom: #ee4439;
+$bgColorSauceButtonGradientTo: #d92519;
+$bgColorSauceButtonHoverGradientTo: #f83838;

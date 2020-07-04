@@ -178,7 +178,7 @@ open_sauce_projects:
   item:
     - name: "AMP"
       image: "images/logos/amp.svg"
-      description: "AMP is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else."
+      description: "An open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else."
       project_url: "https://amp.dev/"
 
     - name: "levelup"
@@ -188,12 +188,12 @@ open_sauce_projects:
 
     - name: "Firebase"
       image: "images/logos/firebase.png"
-      description: "Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business."
+      description: "Google's mobile platform that helps you quickly develop high-quality apps."
       project_url: "https://firebase.google.com/"
 
     - name: "socket.io"
       image: "images/logos/socket-io.svg"
-      description: "Socket.IO enables real-time bidirectional event-based communication."
+      description: "Enables real-time bidirectional event-based communication."
       project_url: "https://socket.io/"
 
 # testimonial
