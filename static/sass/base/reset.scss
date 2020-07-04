@@ -38,10 +38,6 @@ select:focus {
 a {
     color: $linkColor;
 }
-a.text-dark:hover {
-    color: $linkHoverColor !important
-}
-
 a:hover {
     color: $linkHoverColor
 }
