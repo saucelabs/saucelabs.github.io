@@ -261,7 +261,7 @@ blog:
 hiring:
   enable: true
   title: hiring
-  heading: We Are Hiring!
+  heading: We are hiring!
   text: |
     We are currently looking for an addition to our team that will have
     the opportunity to contribute and lead Open Source projects that are
