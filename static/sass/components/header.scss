@@ -127,13 +127,7 @@ section#parallax {
 @media(max-width:1399px) {
     .layer img { width: 90%; }
     #l1 { left: 40%; bottom: 10%; }
-    #l2 { left: 44%; top: 79%; }
-    #l3 { left: 73%; bottom: 60%; }
-    #l4 { left: 18%; top: 66%; }
-    #l5 { left: 54%; top: 84%; }
     #l6 { left: 13%; bottom: 60%; }
-    #l7 { left: 26%; bottom: 56%; }
-    #l8 { left: 70%; top: 45%; }    
 }
 
 @media(max-width:1249px) {
@@ -143,21 +137,14 @@ section#parallax {
     #l3 { left: 70%; bottom: 55%; }
     #l4 { left: 13%; top: 55%; }
     #l5 { left: 50%; top: 80%; }
-    #l6 { bottom: 57%; left: 12%; }
-    #l7 { left: 26%; bottom: 56%; }
-    #l8 { left: 70%; top: 45%; }    
+    #l6 { left: 12%; bottom: 57%; }
 }
 
 @media(max-width:999px) {
     .layer img { width: 70%; }
     #l1 { left: 35%; bottom: 3%; }
-    #l2 { left: 40%; top: 75%; }
-    #l3 { left: 70%; bottom: 55%; }
-    #l4 { left: 13%; top: 55%; }
-    #l5 { left: 50%; top: 80%; }
-    #l6 { bottom: 54%; left: 7%; }
-    #l7 { bottom: 56%; left: 22%; }
-    #l8 { left: 70%; top: 45%; }    
+    #l6 { left: 7%; bottom: 54%; }
+    #l7 { left: 22%; bottom: 56%; }
 }
 
 @media(max-width:849px) {
@@ -165,21 +152,14 @@ section#parallax {
     #l1 { left: 34%; bottom: -5%; }
     #l2 { left: 40%; top: 70%; }
     #l3 { left: 65%; bottom: 45%; }
-    #l4 { left: 13%; top: 55%; }
     #l5 { left: 50%; top: 70%; }
-    #l6 { bottom: 48%; left: 1%; }
-    #l7 { bottom: 53%; left: 17%; }
-    #l8 { left: 70%; top: 45%; }    
+    #l6 { left: 1%; bottom: 48%; }
+    #l7 { left: 17%; bottom: 53%; }
 }
 
 @media(max-width:768px) {
     .layer img { width: 50%; }
-    #l1 { left: 34%; bottom: -5%; }
     #l2 { left: 40%; top: 60%; }
-    #l3 { left: 65%; bottom: 45%; }
     #l4 { left: 12%; top: 48%; }
     #l5 { left: 50%; top: 60%; }
-    #l6 { bottom: 48%; left: 1%; }
-    #l7 { bottom: 53%; left: 17%; }
-    #l8 { left: 70%; top: 45%; }    
 }
