@@ -63,7 +63,7 @@
 }
 
 section#parallax {
-    background-image: linear-gradient(32deg, $themeColor 50%, 59%, $themeColorWithOpacity 50%) !important;
+    background: linear-gradient(32deg, $themeColor 50%, 59%, $themeColorWithOpacity 50%) !important;
 }
 
 .hero-area .container {
