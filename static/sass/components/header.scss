@@ -63,32 +63,11 @@
 }
 
 section#parallax {
-    &:before {
-        content: "";
-        display: block;
-        width: 2000px;
-        height: 2000px;
-        background: white;
-        position: absolute;
-        transform: rotate(32deg);
-        opacity: .1;
-        left: 46%;
-        top: -175%;
-    }
-
-    &:after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        background: url('/images/hero/opensourcebox.svg') no-repeat;
-        position: absolute;
-        top: 0%;
-        right: -60%;
-        background-size: 300px;
-    }
+    background-image: linear-gradient(32deg, $themeColor 50%, 59%, $themeColorWithOpacity 50%) !important;
 }
 
 .hero-area .container {
+    height: 430px;
     max-width: 1500px;
 
     h1 {
@@ -96,153 +75,111 @@ section#parallax {
     }
 }
 
-#l2 { left: 64%; top: 69%; }
-#l3 { left: 73%; top: 19%; }
-#l4 { right: 43%; top: 56%; }
-#l5 { right: 29%; top: 71%; }
-#l6 { bottom: 59%; left: 51%; }
-#l7 { bottom: 56%; left: 56%; }
-#l8 {
-    bottom: 10%; right: 19%;
-    img { width: 120%; }
+#l1 { 
+    left: 40%;
+    bottom: 17%; 
+    width: 237px;
+    height: 440px;
+}
+#l2 { 
+    left: 44%; 
+    top: 79%;
+    width: 59px;
+    height: 77px;
+}
+#l3 { 
+    left: 73%; 
+    bottom: 60%; 
+    width: 166px;
+    height: 172px;
+}
+#l4 { 
+    left: 18%; 
+    top: 66%; 
+    width: 106px;
+    height: 136px;
+}
+#l5 { 
+    left: 54%; 
+    top: 84%; 
+    width: 67px;
+    height: 81px;
+}
+#l6 { 
+    left: 11%; 
+    bottom: 65%; 
+    width: 239px;
+    height: 186px;
+}
+#l7 { 
+    left: 26%; 
+    bottom: 56%; 
+    width: 81px; 
+    height: 84px;
+}
+#l8 { 
+    left: 70%; 
+    top: 45%; 
+    width: 220px;
+    height: 292px;
 }
 
-@media(max-width:2100px) {
-    #l8 { right: 14%; }
+@media(max-width:1399px) {
+    .layer img { width: 90%; }
+    #l1 { left: 40%; bottom: 10%; }
+    #l2 { left: 44%; top: 79%; }
+    #l3 { left: 73%; bottom: 60%; }
+    #l4 { left: 18%; top: 66%; }
+    #l5 { left: 54%; top: 84%; }
+    #l6 { left: 13%; bottom: 60%; }
+    #l7 { left: 26%; bottom: 56%; }
+    #l8 { left: 70%; top: 45%; }    
 }
 
-@media(max-width:1600px) {
-    #l2 { left: 67%; }
-    #l3 { left: 78%; }
-    #l5 { right: 22%; }
-    #l6 { bottom: 65%; left: 45%; }
-    #l7 { bottom: 60%; left: 53%; }
-    #l8 { right: 6%; bottom: 12%; }
-
-    section#parallax {
-        &:before {
-            top: -169%;
-        }
-    }
-}
-@media(max-width:1400px) {
-    #l2 { left: 73%; }
-    #l3 { left: 85%; }
-    #l4 { right: 38%; }
-    #l5 { right: 16%; }
-    #l6 { left: 50%; bottom: 60%; }
-    #l7 { left: 59%; bottom: 55%; }
-    #l8 {
-        right: -1%; bottom: 13%;
-        img { width: 100%; }
-    }
-
-    section#parallax {
-        &:before {
-            top: -164%;
-            left: 50%;
-        }
-
-        &:after {
-            left: 65%;
-        }
-    }
-
-    .hero-area .container {
-        max-width: 1140px;
-    }
+@media(max-width:1249px) {
+    .layer img { width: 80%; }
+    #l1 { left: 37%; bottom: 8%; }
+    #l2 { left: 40%; top: 75%; }
+    #l3 { left: 70%; bottom: 55%; }
+    #l4 { left: 13%; top: 55%; }
+    #l5 { left: 50%; top: 80%; }
+    #l6 { bottom: 57%; left: 12%; }
+    #l7 { left: 26%; bottom: 56%; }
+    #l8 { left: 70%; top: 45%; }    
 }
 
-@media(max-width:1200px) {
-    #l8 { right: -7%; bottom: 20%; }
+@media(max-width:999px) {
+    .layer img { width: 70%; }
+    #l1 { left: 35%; bottom: 3%; }
+    #l2 { left: 40%; top: 75%; }
+    #l3 { left: 70%; bottom: 55%; }
+    #l4 { left: 13%; top: 55%; }
+    #l5 { left: 50%; top: 80%; }
+    #l6 { bottom: 54%; left: 7%; }
+    #l7 { bottom: 56%; left: 22%; }
+    #l8 { left: 70%; top: 45%; }    
 }
 
-@media(max-width:1100px) {
-    .layer img, #l8 img { width: 75%; }
-    #l2 { left: 77%; }
-    #l3 { left: 91%; top: 29%; }
-    #l5 { right: 10%; }
-    #l6 { left: 50%; bottom: 58%; }
-    #l8 { right: -12%; bottom: 22%; }
-
-    section#parallax {
-        &:before {
-            top: -159%;
-        }
-    }
+@media(max-width:849px) {
+    .layer img { width: 60%; }
+    #l1 { left: 34%; bottom: -5%; }
+    #l2 { left: 40%; top: 70%; }
+    #l3 { left: 65%; bottom: 45%; }
+    #l4 { left: 13%; top: 55%; }
+    #l5 { left: 50%; top: 70%; }
+    #l6 { bottom: 48%; left: 1%; }
+    #l7 { bottom: 53%; left: 17%; }
+    #l8 { left: 70%; top: 45%; }    
 }
 
-@media(max-width:991px) {
-    #l2 { left: 72%; top: 70%; }
-    #l3 { left: 85%; top: 26%; }
-    #l5 { right: 13%; }
-    #l6 { left: 47%; bottom: 57%; }
-    #l7 { left: 57%; bottom: 53%; }
-    #l8 { right: -7%; bottom: 14%; }
-
-    section#parallax {
-        &:before {
-            top: -230%;
-        }
-
-        &:after {
-            background-size: 200px;
-            top: 7%;
-        }
-    }
-}
-
-@media(max-width:800px) {
-    #l2 { left: 75%; top: 73%; }
-    #l3 { left: 88%; top: 30%; }
-    #l4 { right: 34%; top: 61%; }
-    #l5 { right: 7%; top: 74%; }
-    #l6 { left: 44%; bottom: 55%; }
-    #l7 { left: 56%; bottom: 51%; }
-    #l8 { right: -17%; bottom: 14%; }
-
-    section#parallax {
-        &:before {
-            top: -226%;
-        }
-
-        &:after {
-            top: 9%;
-        }
-    }
-}
-
-@media(max-width:767px) {
-    #l2 { left: 76%; top: 78%; }
-    #l3 { left: 92%; top: 38%; }
-    #l4 { right: 37%; top: 63%; }
-    #l5 { right: 6%; top: 79%; }
-    #l6 { bottom: 50%; }
-    #l7 { left: 56%; bottom: 46%; }
-    #l8 { right: -19%; bottom: 5%; }
-
-    section#parallax {
-        &:before {
-            top: -289%;
-            left: 3%;
-        }
-    }
-
-    .hero-area .container h1 {
-        max-width: 390px;
-    }
-}
-
-@media(max-width:565px) {
-    .layer { display: none; }
-
-    section#parallax {
-        &:before {
-            display: none;
-        }
-
-        &:after {
-            display: none;
-        }
-    }
+@media(max-width:768px) {
+    .layer img { width: 50%; }
+    #l1 { left: 34%; bottom: -5%; }
+    #l2 { left: 40%; top: 60%; }
+    #l3 { left: 65%; bottom: 45%; }
+    #l4 { left: 12%; top: 48%; }
+    #l5 { left: 50%; top: 60%; }
+    #l6 { bottom: 48%; left: 1%; }
+    #l7 { bottom: 53%; left: 17%; }
+    #l8 { left: 70%; top: 45%; }    
 }
