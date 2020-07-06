@@ -256,3 +256,15 @@ blog:
   title : "Blog"
   heading: "Read and learn more at our blog"
   # blog post comes from "content/blog" folder
+
+# hiring
+hiring:
+  enable: true
+  title: hiring
+  heading: We Are Hiring!
+  text: |
+    We are currently looking for an addition to our team that will have
+    the opportunity to contribute and lead Open Source projects that are
+    critical to the mission of Sauce Labs. Check out our
+    [careers page](https://saucelabs.com/company/careers/job?gh_jid=2218654)
+    for more information.
