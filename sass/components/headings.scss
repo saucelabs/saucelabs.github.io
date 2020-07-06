@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
+    color: $fontColor;
     font-family: $fontFamily display, serif;
     line-height: 1.2;
 }
@@ -7,7 +7,6 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1 {
     font-size: 51px;
     font-weight: 300;
-    color: #444;
 }
 
 h2, .h2 {
@@ -23,7 +22,8 @@ h4, .h4 {
 }
 
 h5, .h5 {
-    font-size: 18px
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 h6, .h6 {

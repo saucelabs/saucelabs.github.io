@@ -63,7 +63,7 @@
     color: #4c4c4c
 }
 .text-dark {
-    color: #000 !important
+    color: $fontColor !important
 }
 .text-light {
     color: #999 !important
@@ -122,7 +122,7 @@
     letter-spacing: .1em;
 }
 .shadow {
-    box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
+    box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .54) !important
 }
 .bg-footer-dark {
     background-color: $footerBackgroundColor !important
@@ -340,7 +340,7 @@ textarea.form-control {
     transition: .2s ease
 }
 .hover-shadow:hover {
-    box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .54) !important
+    box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .94) !important
 }
 .hover-wrapper {
     overflow: hidden
