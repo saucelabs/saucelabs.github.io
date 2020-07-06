@@ -176,10 +176,10 @@ open_sauce_projects:
   heading: "Active projects on Open Sauce"
   intro: "Sauce Labs is committed to support the Open Source ecosystem by providing free licenses."
   item:
-    - name: "AMP"
-      image: "images/logos/amp.svg"
-      description: "An open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else."
-      project_url: "https://amp.dev/"
+    - name: "Nuxt"
+      image: "images/logos/nuxt.png"
+      description: "Build your next Vue.js application with confidence using Nuxt.js: a framework making web development simple and powerful."
+      project_url: "https://nuxtjs.org/"
 
     - name: "levelup"
       image: "images/logos/level.png"
