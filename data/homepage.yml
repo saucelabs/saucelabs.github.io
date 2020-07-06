@@ -39,7 +39,7 @@ involvement:
   title: "Involvement"
   heading: "Organizations we support"
   item:
-    - logo: "images/logos/w3c.jpg"
+    - logo: "images/logos/w3c.png"
       title: "World Wide Web Consortium (W3C)"
       short_title: "W3C"
       description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
