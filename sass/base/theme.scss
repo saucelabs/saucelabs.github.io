@@ -1,5 +1,5 @@
 ::selection {
-    background: var(--primary-color);
+    background: $themeColor;
     color: #fff
 }
 
@@ -51,13 +51,13 @@
     display: unset !important
 }
 .bg-primary {
-    background: var(--primary-color) !important
+    background: $themeColor !important
 }
 .bg-gray {
     background: #eaeaea !important
 }
 .text-primary {
-    color: var(--primary-color) !important
+    color: $themeColor !important
 }
 .text-color {
     color: #4c4c4c
@@ -177,7 +177,7 @@
     height: 60px
 }
 .form-control:focus {
-    border-color: var(--primary-color);
+    border-color: $themeColor;
     outline: 0;
     box-shadow: none !important
 }
@@ -207,7 +207,7 @@ textarea.form-control {
     padding: 15px 100px;
 
     &.home-page {
-        background-color: var(--primary-color);
+        background-color: $themeColor;
     }
 }
 @media(max-width:991px) {
@@ -324,14 +324,14 @@ textarea.form-control {
     transition: .3s ease
 }
 .hover-bg-primary:hover {
-    background: var(--primary-color)
+    background: $themeColor
 }
 .hover-bg-primary:hover * {
     color: #fff
 }
 .active-bg-primary {
     transition: .3s ease;
-    background: var(--primary-color)
+    background: $themeColor
 }
 .active-bg-primary * {
     color: #fff
@@ -450,7 +450,7 @@ blockquote {
     display: inline-block;
     padding: 10px 20px;
     background: #eaeaea;
-    border-left: 2px solid var(--primary-color);
+    border-left: 2px solid $themeColor;
     font-style: italic;
     font-size: 22px
 }
