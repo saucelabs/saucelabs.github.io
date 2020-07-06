@@ -29,6 +29,7 @@ And 3 types which you cannot use in any way:
 
 - Code licensed under AGPL or variants thereof
 - Guidance on Commons Clause and similar
+- WTFPL and Beerware
 - Unlicensed code
 
 This document is a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with the Open Source team.
@@ -78,8 +79,13 @@ Sauce Labs is not a Cloud provider (it is a SaaS), it is a commercial endeavor a
 - The Commons Clause is not approved by OSI and is therefore not open source, furthermore, the language of the license is unclear in regards to what is proper use, if, in breach of this license, Sauce Labs must publish all associated assets such as interfaces, build systems and modifications made under the same license.
 - Sauce Labs uses and supports Open Source under the belief that it is the freedom to use, modify, and distribute which have enabled its success. The projects using these licenses still enjoy the full freedoms and benefits from Open Source, but at the same time, limit the freedom of others to use their code - Sauce Labs does not wish to support this development.
 
+### WTFPL not allowed
+Code released under the [WTFPL](http://www.wtfpl.net/) cannot be used at Sauce Labs. This license has a large number of issues (lack of warranty disclaimer, very vague rights grant), and was also rejected as an open source license by OSI. We also do not allow contribution to projects under the WTFPL.
+
+The [Beerware](http://en.wikipedia.org/wiki/Beerware) license has similar issues to the WTFPL on account of its vague grant of rights and likewise __cannot be used at Sauce Labs__, nor can Beerware-licensed projects be patched by Saucers.
+
 ### Unlicensed code
-Code that does not include a license or has no clear ownership cannot be used at Sauce Labs.
+Code that does not include a license or has no clear ownership __cannot be used at Sauce Labs__.
 
 As per standard copyright law, any code which is not explicitly licensed is the property of the author and cannot be used without permission.
 

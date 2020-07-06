@@ -68,6 +68,7 @@ We recommend to also:
 - Make sure there is a continuous integration setup in place that runs all linting, tests and measures coverage for every commit in every branch and in every pull request
 
 #### Community best practices
+
 Different Open Source projects that have been embraced by the community have a few things in common, here are some that we require you to implement:
 
 - Have a code of conduct and enforce it to create a safe environment for collaboration
@@ -78,9 +79,13 @@ Different Open Source projects that have been embraced by the community have a f
 [opensource.guide](https://opensource.guide/building-community/) has plenty more resources and recommendations for maintainers.
 
 ### Copyright and ownership
-All code released by Saucers must be released under a Sauce Labs managed GitHub organization and its copyright is owned by Sauce Labs.
+
+All code released by Saucers must be released under a Sauce Labs managed GitHub organization and its copyright is owned by Sauce Labs. Ensure your project has:
+
+- any non-Sauce code is in a _third_party_ directory.
 
 ### Prepare your repository
+
 Having a repository ready to be open-sourced is more than following the previous recommendations, it is also about having refactored and documented code that facilitates users and potential contributors to make sense of it. A few more things to look out are:
 
 - Make sure you do not have any tokens, passwords or confidential data in your code
@@ -91,9 +96,11 @@ Having a repository ready to be open-sourced is more than following the previous
 - Make sure that it is easy to get up and running, not just on your machine
 
 ### Get Reviewed
+
 When you have checked off the previous recommendations checklist and prepared your code for release, request a review from the Open Source team who will help you set up a GitHub repository in the Sauce Labs organization and sign off on open-sourcing your project.
 
 ### Release
+
 When all the above points are in order and the review has been passed, the project is released to a Sauce Labs managed GitHub organization. All released projects are then reviewed over a 6 month period to double-check they are still valuable for the community.
 
 As part of the release, it is highly encouraged that a blog post is drafted, where the project and its benefits for the community are described (see an example). Please coordinate with the Open Source team to get the draft completed and published.

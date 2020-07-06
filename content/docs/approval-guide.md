@@ -6,6 +6,8 @@ draft: false
 
 As a manager at Sauce Labs, you will from time to time be asked by your direct reports if they can make an internal codebase an open source project. This can be a difficult question to answer, so to guide your decision-making, we have put together a handy guide for you to review.
 
+We generally encourage approving releases unless there’s a good reason not to, but if you have any questions, you can reach out to [opensource@saucelabs.com](opensource@saucelabs.com).
+
 Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you would like.
 
 ### Summary
