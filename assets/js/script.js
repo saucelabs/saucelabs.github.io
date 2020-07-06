@@ -70,14 +70,14 @@ $(document).ready(function () {
             return
         }
 
-        const l1 = document.getElementById('l1');
-        const l2 = document.getElementById('l2');
-        const l3 = document.getElementById('l3');
-        const l4 = document.getElementById('l4');
-        const l5 = document.getElementById('l5');
-        const l6 = document.getElementById('l6');
-        const l7 = document.getElementById('l7');
-        const l8 = document.getElementById('l8');
+        const l1 = document.getElementById('l1')
+        const l2 = document.getElementById('l2')
+        const l3 = document.getElementById('l3')
+        const l4 = document.getElementById('l4')
+        const l5 = document.getElementById('l5')
+        const l6 = document.getElementById('l6')
+        const l7 = document.getElementById('l7')
+        const l8 = document.getElementById('l8')
 
         let c1left, c1top, c2left, c2top, c3left, c3top, c4left, c4top, c5left, c5top, c6left, c6top, c7left, c7top, c8left, c8top
 
