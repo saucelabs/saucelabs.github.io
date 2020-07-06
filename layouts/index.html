@@ -307,5 +307,11 @@
   <!-- /blog -->
   {{ end }}
 
+  {{ if .Site.Data.homepage.hiring.enable }}
+  {{ with .Site.Data.homepage.hiring }}
+  {{ partial "hiring.html" . }}
+  {{ end }}
+  {{ end }}
+
 
 {{ end }}
