@@ -39,7 +39,7 @@ involvement:
   title: "Involvement"
   heading: "Organizations we support"
   item:
-    - logo: "images/logos/w3c.jpg"
+    - logo: "images/logos/w3c.png"
       title: "World Wide Web Consortium (W3C)"
       short_title: "W3C"
       description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
@@ -137,10 +137,10 @@ events:
       image: "/images/events/seleniumconf.png"
       description: "The Selenium Conference is a non-profit, volunteer-run event presented by members of the Selenium Community. The goal of the conference is to bring together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future success of the project."
       link: "https://www.seleniumconf.com/"
-    - name: "Open Source Summit"
-      image: "/images/events/ossummit.png"
-      description: "Open Source Summit is a name for a series of annual conventions organized each year since 2009 by the Linux Foundation. The first LinuxCon took place in North America. Linux Foundation started organizing similar events in Europe and Japan."
-      link: "https://events.linuxfoundation.org/open-source-summit-north-america/"
+    - name: "All Things Open"
+      image: "/images/events/ato2020.png"
+      description: "All Things Open is an Open Source/Open Tech/Open Web conference that takes place in Raleigh, NC. Since 2013 some of the top experts and emerging thought leaders in the world have spoken."
+      link: "https://2020.allthingsopen.org/"
 
 # service
 service:
@@ -176,10 +176,10 @@ open_sauce_projects:
   heading: "Active projects on Open Sauce"
   intro: "Sauce Labs is committed to support the Open Source ecosystem by providing free licenses."
   item:
-    - name: "AMP"
-      image: "images/logos/amp.svg"
-      description: "An open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else."
-      project_url: "https://amp.dev/"
+    - name: "Nuxt"
+      image: "images/logos/nuxt.png"
+      description: "Build your next Vue.js application with confidence using Nuxt.js: a framework making web development simple and powerful."
+      project_url: "https://nuxtjs.org/"
 
     - name: "levelup"
       image: "images/logos/level.png"
@@ -256,3 +256,15 @@ blog:
   title : "Blog"
   heading: "Read and learn more at our blog"
   # blog post comes from "content/blog" folder
+
+# hiring
+hiring:
+  enable: true
+  title: hiring
+  heading: We are hiring!
+  text: |
+    We are currently looking for an addition to our team that will have
+    the opportunity to contribute and lead Open Source projects that are
+    critical to the mission of Sauce Labs. Check out our
+    [careers page](https://saucelabs.com/company/careers/job?gh_jid=2218654)
+    for more information.
