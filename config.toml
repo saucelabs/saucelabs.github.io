@@ -44,8 +44,8 @@ weight = 4
 # default parameters
 [params]
 home = "Home"
-logo_home = "images/saucelabs_logo_white.png"
-logo_content = "images/saucelabs_logo_color.png"
+logo_home = "images/saucelabs_logo_white.svg"
+logo_content = "images/saucelabs_logo_color.svg"
 # theme color
 theme_color = "#AC1414"
 # meta description
@@ -55,7 +55,8 @@ description = "Website with contents for the Sauce Labs Open Source Program Offi
 google_analitycs_id = "" # Your ID
 # copyright
 copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
-
+# social links on hero
+enable_social_links_hero = true
 
 # contact
 [params.contact]

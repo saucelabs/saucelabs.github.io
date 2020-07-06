@@ -21,7 +21,7 @@
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
           <h5>{{ .name }}</h5>
           <p>{{ .description }}</p>
-          <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">view project</a>
+          <a target="_blank" href="{{ .project_url | safeURL }}">View project</a>
         </div>
       </div>
       {{ end }}

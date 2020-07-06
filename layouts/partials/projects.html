@@ -1,5 +1,5 @@
 <!-- projects -->
-<section class="section events">
+<section class="section projects">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -12,15 +12,21 @@
     </div>
     <div class="row shuffle-wrapper">
       {{ range .item }}
-      <div class="col-xs-1 col-lg-6 col-md-6 shuffle-item">
-        <div class="position-relative rounded">
+      <div class="col-xs-1 col-lg-3 col-md-4 shuffle-item">
+        <div class="position-relative rounded mb-20">
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
           <h5>{{ .name }}</h5>
           <p>{{ .description }}</p>
-          <a target="_blank" href="{{ .link | safeURL }}">Visit conference website</a>
+          <a target="_blank" href="{{ .project_url | safeURL }}">View project</a>
         </div>
       </div>
       {{ end }}
+    </div>
+
+    <div class="link">
+      <a class="sauce-button" target="_blank" href="https://saucelabs.com/solutions/open-source">
+        Request Open Sauce License Now!
+      </a>
     </div>
   </div>
 </section>
