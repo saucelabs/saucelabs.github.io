@@ -9,6 +9,7 @@
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
   <meta name="theme-color" content="{{ .Site.Params.theme_color }}"/>
+  <link rel="manifest" href="/site.webmanifest">
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
@@ -25,4 +26,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ `images/favicon-16x16.png` | absURL }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ `images/apple-touch-icon.png` | absURL }}">
   <link rel="mask-icon" color="{{ .Site.Params.theme_color }}" href="{{ `images/safari-pinned-tab.svg` | absURL }}">
+
+  <script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+  }
+  </script>
 </head>
