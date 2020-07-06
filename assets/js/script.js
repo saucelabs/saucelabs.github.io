@@ -70,22 +70,36 @@ $(document).ready(function () {
             return
         }
 
-        const c2left = document.getElementById('l2').offsetLeft
-        const c2top = document.getElementById('l2').offsetTop
-        const c3left = document.getElementById('l3').offsetLeft
-        const c3top = document.getElementById('l3').offsetTop
-        const c4left = document.getElementById('l4').offsetLeft
-        const c4top = document.getElementById('l4').offsetTop
-        const c5left = document.getElementById('l5').offsetLeft
-        const c5top = document.getElementById('l5').offsetTop
-        // const c6left = document.getElementById('l6').offsetLeft
-        // const c6top = document.getElementById('l6').offsetTop
-        const c7left = document.getElementById('l7').offsetLeft
-        const c7top = document.getElementById('l7').offsetTop
-        // const c8left = document.getElementById('l8').offsetLeft
-        // const c8top = document.getElementById('l8').offsetTop
+        let c2left, c2top, c3left, c3top, c4left, c4top, c5left, c5top, /* c6left, c6top,*/ c7left, c7top /*, c8left, c8top */
 
-        parallaxBox.onmousemove = function (event) {
+        function setElementPosition () {
+            c2left = document.getElementById('l2').offsetLeft
+            c2top = document.getElementById('l2').offsetTop
+            c3left = document.getElementById('l3').offsetLeft
+            c3top = document.getElementById('l3').offsetTop
+            c4left = document.getElementById('l4').offsetLeft
+            c4top = document.getElementById('l4').offsetTop
+            c5left = document.getElementById('l5').offsetLeft
+            c5top = document.getElementById('l5').offsetTop
+            // c6left = document.getElementById('l6').offsetLeft
+            // c6top = document.getElementById('l6').offsetTop
+            c7left = document.getElementById('l7').offsetLeft
+            c7top = document.getElementById('l7').offsetTop
+            // c8left = document.getElementById('l8').offsetLeft
+            // c8top = document.getElementById('l8').offsetTop
+        }
+
+        function clearElementPosition () {
+            document.getElementById('l2').removeAttribute('style')
+            document.getElementById('l3').removeAttribute('style')
+            document.getElementById('l4').removeAttribute('style')
+            document.getElementById('l5').removeAttribute('style')
+            // document.getElementById('l6').removeAttribute('style')
+            document.getElementById('l7').removeAttribute('style')
+            // document.getElementById('l8').removeAttribute('style')
+        }
+
+        function moveElements (event) {
             event = event || window.event
             const x = event.clientX - parallaxBox.offsetLeft
             const y = event.clientY - parallaxBox.offsetTop
@@ -98,6 +112,16 @@ $(document).ready(function () {
             mouseParallax('l7', c7left, c7top, x, y, 30)
             // mouseParallax('l8', c8left, c8top, x, y, 25)
         }
+
+        setElementPosition()
+
+        window.onresize = function () {
+            clearElementPosition()
+            setElementPosition()
+            moveElements()
+        }
+
+        parallaxBox.onmousemove = moveElements
     }
 
     function mouseParallax(id, left, top, mouseX, mouseY, speed) {
