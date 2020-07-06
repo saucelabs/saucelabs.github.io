@@ -115,8 +115,7 @@ $(document).ready(function () {
             event = event || window.event
             const x = event.clientX - parallaxBox.offsetLeft
             const y = event.clientY - parallaxBox.offsetTop
-
-			mouseParallax(l1, c1left, c1top, x, y, 5)
+            mouseParallax(l1, c1left, c1top, x, y, 5)
             mouseParallax(l2, c2left, c2top, x, y, 10)
             mouseParallax(l3, c3left, c3top, x, y, 10)
             mouseParallax(l4, c4left, c4top, x, y, 10)
