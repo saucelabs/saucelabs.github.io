@@ -1,0 +1,55 @@
+{
+    "name": "Sauce Labs Open Source",
+    "short_name": "Sauce Labs Open Source",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "theme_color": "#AC1414",
+    "icons": [
+      {
+        "src": "/images/appicons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/appicons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/appicons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/appicons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/appicons/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/appicons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Projects",
+        "url": "/projects/"
+      },
+      {
+        "name": "Sauce Labs Open Source Documentation",
+        "url": "/docs/"
+      },
+      {
+        "name": "Blog",
+        "url": "/blog/"
+      }
+    ]
+  }
