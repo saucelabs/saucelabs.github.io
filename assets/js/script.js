@@ -28,9 +28,10 @@ $(document).ready(function () {
     'use strict'
 
     // Sticky Menu
+    const NAVIGATION_MENU_TRESHOLD = 100
     const navigation = $('.navigation')
     $(window).scroll(function () {
-        if (navigation.offset().top > 100) {
+        if (navigation.offset().top > NAVIGATION_MENU_TRESHOLD) {
             navigation.addClass('nav-bg')
         } else {
             navigation.removeClass('nav-bg')
@@ -38,7 +39,9 @@ $(document).ready(function () {
     })
 
     $('.navbar-toggler').click(() => {
-        navigation.toggleClass('nav-bg')
+        if (navigation.offset().top <= NAVIGATION_MENU_TRESHOLD) {
+            navigation.toggleClass('nav-bg')
+        }
     })
 
     // Background-images
@@ -113,7 +116,7 @@ $(document).ready(function () {
             l6.removeAttribute('style')
             l7.removeAttribute('style')
             l8.removeAttribute('style')
-        }        
+        }
 
         function moveElements (event) {
             event = event || window.event
