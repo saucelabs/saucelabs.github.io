@@ -26,6 +26,10 @@ jobs:
           node-version: '12.x'
       - run: npm install
       - run: npm run build
+      - name: Update ServiceWorker
+        run: |
+          npm run update:sw
+          git add ./static/sw.js
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
