@@ -70,38 +70,73 @@ $(document).ready(function () {
             return
         }
 
-        const c2left = document.getElementById('l2').offsetLeft
-        const c2top = document.getElementById('l2').offsetTop
-        const c3left = document.getElementById('l3').offsetLeft
-        const c3top = document.getElementById('l3').offsetTop
-        const c4left = document.getElementById('l4').offsetLeft
-        const c4top = document.getElementById('l4').offsetTop
-        const c5left = document.getElementById('l5').offsetLeft
-        const c5top = document.getElementById('l5').offsetTop
-        // const c6left = document.getElementById('l6').offsetLeft
-        // const c6top = document.getElementById('l6').offsetTop
-        const c7left = document.getElementById('l7').offsetLeft
-        const c7top = document.getElementById('l7').offsetTop
-        // const c8left = document.getElementById('l8').offsetLeft
-        // const c8top = document.getElementById('l8').offsetTop
+        const l1 = document.getElementById('l1')
+        const l2 = document.getElementById('l2')
+        const l3 = document.getElementById('l3')
+        const l4 = document.getElementById('l4')
+        const l5 = document.getElementById('l5')
+        const l6 = document.getElementById('l6')
+        const l7 = document.getElementById('l7')
+        const l8 = document.getElementById('l8')
 
-        parallaxBox.onmousemove = function (event) {
+        let c1left, c1top, c2left, c2top, c3left, c3top, c4left, c4top, c5left, c5top, c6left, c6top, c7left, c7top, c8left, c8top
+
+        function setElementPosition () {
+            c1left = l1.offsetLeft
+            c1top = l1.offsetTop
+            c2left = l2.offsetLeft
+            c2top = l2.offsetTop
+            c3left = l3.offsetLeft
+            c3top = l3.offsetTop
+            c4left = l4.offsetLeft
+            c4top = l4.offsetTop
+            c5left = l5.offsetLeft
+            c5top = l5.offsetTop
+            c6left = l6.offsetLeft
+            c6top = l6.offsetTop
+            c7left = l7.offsetLeft
+            c7top = l7.offsetTop
+            c8left = l8.offsetLeft
+            c8top = l8.offsetTop
+        }
+
+        function clearElementPosition () {
+            l1.removeAttribute('style')
+            l2.removeAttribute('style')
+            l3.removeAttribute('style')
+            l4.removeAttribute('style')
+            l5.removeAttribute('style')
+            l6.removeAttribute('style')
+            l7.removeAttribute('style')
+            l8.removeAttribute('style')
+        }        
+
+        function moveElements (event) {
             event = event || window.event
             const x = event.clientX - parallaxBox.offsetLeft
             const y = event.clientY - parallaxBox.offsetTop
-
-            mouseParallax('l2', c2left, c2top, x, y, 25)
-            mouseParallax('l3', c3left, c3top, x, y, 20)
-            mouseParallax('l4', c4left, c4top, x, y, 35)
-            mouseParallax('l5', c5left, c5top, x, y, 30)
-            // mouseParallax('l6', c6left, c6top, x, y, 45)
-            mouseParallax('l7', c7left, c7top, x, y, 30)
-            // mouseParallax('l8', c8left, c8top, x, y, 25)
+            mouseParallax(l1, c1left, c1top, x, y, 5)
+            mouseParallax(l2, c2left, c2top, x, y, 10)
+            mouseParallax(l3, c3left, c3top, x, y, 10)
+            mouseParallax(l4, c4left, c4top, x, y, 10)
+            mouseParallax(l5, c5left, c5top, x, y, 10)
+            mouseParallax(l6, c6left, c6top, x, y, 10)
+            mouseParallax(l7, c7left, c7top, x, y, 10)
+            mouseParallax(l8, c8left, c8top, x, y, 10)
         }
+
+        setElementPosition()
+
+        window.onresize = function () {
+            clearElementPosition()
+            setElementPosition()
+            moveElements()
+        }
+
+        parallaxBox.onmousemove = moveElements
     }
 
-    function mouseParallax(id, left, top, mouseX, mouseY, speed) {
-        const obj = document.getElementById(id)
+    function mouseParallax(obj, left, top, mouseX, mouseY, speed) {
         const parentObj = obj.parentNode
         const containerWidth = parseInt(parentObj.offsetWidth)
         const containerHeight = parseInt(parentObj.offsetHeight)
