@@ -37,6 +37,10 @@ $(document).ready(function () {
         }
     })
 
+    $('.navbar-toggler').click(() => {
+        navigation.toggleClass('nav-bg')
+    })
+
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({
