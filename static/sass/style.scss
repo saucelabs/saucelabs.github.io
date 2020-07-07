@@ -11,6 +11,7 @@
 @import 'components/menus.scss';
 @import 'components/lists.scss';
 @import 'components/navigation.scss';
+@import 'components/footer.scss';
 
 // modules
 @import 'modules/values.scss';
@@ -52,8 +53,8 @@ body {
 
 .content ul {
     padding: 15px;
-}
-
-.footer-section {
-    flex-shrink: 0;
+    li {
+        line-height: 1.5;
+        height: auto;
+    }
 }
