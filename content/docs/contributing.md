@@ -12,13 +12,13 @@ We highly encourage contributions to existing open source projects. There are so
 
 - Patches generally don't require any review from the Open Source Program Office
 - Double-check you are not sharing confidential information
-- Please associate your commit with your saucelabs.com email unless you have a history of contributing to the repo under a different email before your employment at Sauce Lavs. [How to associate your commit with a saucelabs.com email.](https://help.github.com/articles/setting-your-email-in-git/)
+- Ensure your commits are associated with your saucelabs.com email unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs. [How to associate your commit with a saucelabs.com email.](https://help.github.com/articles/setting-your-email-in-git/)
 
 ### Common Contribution Rules
 
 The following criteria must be met when contributing to an open source project:
 
-- Only contribute to public repositories on GitHub that are under the Apache 2, MIT, BSD*, LGPL*, GPL*, MPL, EPL, ISC, CC-BY, CC-BY-SA, OFL, MS-PL, Boost Software License, Unlicense, or Artistic licenses
+- Only contribute to public repositories on GitHub (or the community GitLab version) that have a permissive, weak copyleft or string copyleft license according to the [license guide](/docs/license-guide)
 - Do not share Sauce Labs confidential information
 - Do not contribute code used internally that is giving us an advantage over competitors
     - In short, do not reveal our secret Sauce.

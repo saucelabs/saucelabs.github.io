@@ -25,7 +25,7 @@ Overall there are 3 types of licenses which you can use:
 - Weak copyleft licenses
 - Strong copyleft licenses
 
-And 3 types which you cannot use in any way:
+And 3 types which you __can not__ use in any way:
 
 - Code licensed under AGPL or variants thereof
 - Guidance on Commons Clause and similar
