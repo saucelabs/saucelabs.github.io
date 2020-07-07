@@ -452,10 +452,8 @@ blockquote {
     font-family: $fontFamily;
     font-weight: 400;
     color: #000;
-    display: inherit;
-    line-height: 1.5;
+    display: inline;
     list-style: none;
-    font-size: 18px;
     margin: 0;
 }
 .page-title-alt {
