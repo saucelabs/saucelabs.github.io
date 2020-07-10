@@ -57,6 +57,8 @@ google_analitycs_id = "" # Your ID
 copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
 # social links on hero
 enable_social_links_hero = false
+# Google Tag Manager
+google_tag_manager_id = "UA-6735579-1"
 
 # contact
 [params.contact]
