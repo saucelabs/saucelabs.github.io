@@ -40,12 +40,11 @@
       <div class="row">
         <div class="col-md-3">
           <h5 class="text-white"><strong>Links</strong></h5>
-            {{ range .Site.Menus.main }}
-            <p class="footer-item-text">
-              <a href="{{.URL | absURL }}" class="footer-item-text">{{.Name}}</a>            
-            </p>
-            {{ end }}
-          </ul>
+          {{ range .Site.Menus.main }}
+          <p class="footer-item-text">
+            <a href="{{.URL | absURL }}" class="footer-item-text">{{.Name}}</a>            
+          </p>
+          {{ end }}
         </div>
         <div class="col-md-3">
           <h5 class="text-white"><strong>Organizations</strong></h5>
@@ -74,10 +73,12 @@
           {{ end }}
         </div>
       </div>
+      <div class="row pt-5">
+        <div class="col-md-12">
+          <small class="mb-0 text-white">{{ .Site.Params.copyright | markdownify }}</small>          
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="text-center border-dark p-4">
-    <small class="mb-0 text-white">{{ .Site.Params.copyright | markdownify }}</small>
   </div>
 </footer>
 {{ end }}

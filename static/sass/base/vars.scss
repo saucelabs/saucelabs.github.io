@@ -2,12 +2,22 @@ $fontFamily: "museo-sans", "HelveticaNeue", "Helvetica Neue", "serif";
 
 // colors
 $themeColor: #AC1414;
+$themeColorWithOpacity: #b52c2c;
+$linkHoverColor: #57C1E8;
+$linkColor: #E12726;
+$white: #ffffff;
 
 $darkGray: #464B54;
 $projectPageBackgroundColor: $darkGray;
 $contentPageActiveLinkColor: $darkGray;
 $footerBackgroundColor: $darkGray;
 
-$fontColor: #333;
+$fontColor: #444;
 $menuColor: #888;
-$backgroundColor: #fff;
+$backgroundColor: $white;
+$bgColorSauceButton: $linkColor;
+$bgColorSauceButtonHover: #f85d5d;
+$textColorSauceButton: $white;
+$bgColorSauceButtonGradientFrom: #ee4439;
+$bgColorSauceButtonGradientTo: #d92519;
+$bgColorSauceButtonHoverGradientTo: #f83838;

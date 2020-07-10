@@ -1,5 +1,5 @@
 ::selection {
-    background: var(--primary-color);
+    background: $themeColor;
     color: #fff
 }
 
@@ -51,19 +51,19 @@
     display: unset !important
 }
 .bg-primary {
-    background: var(--primary-color) !important
+    background: $themeColor !important
 }
 .bg-gray {
     background: #eaeaea !important
 }
 .text-primary {
-    color: var(--primary-color) !important
+    color: $themeColor !important
 }
 .text-color {
     color: #4c4c4c
 }
 .text-dark {
-    color: #000 !important
+    color: $fontColor !important
 }
 .text-light {
     color: #999 !important
@@ -122,7 +122,7 @@
     letter-spacing: .1em;
 }
 .shadow {
-    box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
+    box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .54) !important
 }
 .bg-footer-dark {
     background-color: $footerBackgroundColor !important
@@ -177,7 +177,7 @@
     height: 60px
 }
 .form-control:focus {
-    border-color: var(--primary-color);
+    border-color: $themeColor;
     outline: 0;
     box-shadow: none !important
 }
@@ -207,7 +207,7 @@ textarea.form-control {
     padding: 15px 100px;
 
     &.home-page {
-        background-color: var(--primary-color);
+        background-color: $themeColor;
     }
 }
 @media(max-width:991px) {
@@ -217,9 +217,6 @@ textarea.form-control {
     .navigation.content-page {
         padding: 15px 30px;
     }
-    .navigation.nav-bg {
-        padding: 15px 20px
-   }
 }
 @media(max-width:991px) {
     .navigation {
@@ -243,13 +240,13 @@ textarea.form-control {
     color: #AC1414;
 }
 .home-page .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 .content-page .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(172, 20, 20)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .hero-area {
-    padding: 250px 0 200px;
+    padding: 200px 0 200px;
     position: relative
 }
 @media(max-width:767px) {
@@ -324,14 +321,14 @@ textarea.form-control {
     transition: .3s ease
 }
 .hover-bg-primary:hover {
-    background: var(--primary-color)
+    background: $themeColor
 }
 .hover-bg-primary:hover * {
     color: #fff
 }
 .active-bg-primary {
     transition: .3s ease;
-    background: var(--primary-color)
+    background: $themeColor
 }
 .active-bg-primary * {
     color: #fff
@@ -340,7 +337,7 @@ textarea.form-control {
     transition: .2s ease
 }
 .hover-shadow:hover {
-    box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .54) !important
+    box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .94) !important
 }
 .hover-wrapper {
     overflow: hidden
@@ -415,12 +412,6 @@ textarea.form-control {
     right: 200px;
     bottom: -50px
 }
-.footer-section {
-    padding-top: 40px
-}
-.footer-section h5 {
-    padding-top: 10px
-}
 .section-on-footer {
     margin-bottom: -250px
 }
@@ -450,7 +441,7 @@ blockquote {
     display: inline-block;
     padding: 10px 20px;
     background: #eaeaea;
-    border-left: 2px solid var(--primary-color);
+    border-left: 2px solid $themeColor;
     font-style: italic;
     font-size: 22px
 }
@@ -461,10 +452,8 @@ blockquote {
     font-family: $fontFamily;
     font-weight: 400;
     color: #000;
-    display: inherit;
-    line-height: 1.5;
+    display: inline;
     list-style: none;
-    font-size: 18px;
     margin: 0;
 }
 .page-title-alt {
@@ -518,7 +507,7 @@ blockquote {
     right: -100px
 }
 .page-title {
-    padding: 250px 0 150px
+    padding: 130px 0 30px
 }
 .page-title .container {
     position: relative;

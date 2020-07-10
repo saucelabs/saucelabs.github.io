@@ -3,38 +3,44 @@
   <!-- hero area -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <p class="text-white font-meta-tags">{{ .Site.Data.homepage.banner.title_header | safeHTML }}</p>
+      <div class="row h-100 align-items-center">
+        <div class="col-10 mx-auto col-sm-5 ml-sm--auto mr-sm-0">
+          <div class="row">
+            <p class="text-white font-meta-tags">{{ .Site.Data.homepage.banner.title_header | safeHTML }}</p>
+          </div>
+          <div class="row">
+            <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>            
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 ml-sm-0 mr-sm-auto h-100">
+          <div class="layer" id="l1">
+            <img src="{{`/images/hero/opensourcebox.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l2">
+            <img src="{{`images/hero/checkbox.svg` | relURL}}" alt="bg-shape">
+          </div>          
+          <div class="layer" id="l3">
+            <img src="{{`images/hero/clouds.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l4">
+            <img src="{{`images/hero/codewindows.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l5">
+            <img src="{{`images/hero/espressobox.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l6">
+            <img src="{{`images/hero/saucebot.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l7">
+            <img src="{{`images/hero/seleniumbox.svg` | relURL}}" alt="bg-shape">
+          </div>
+          <div class="layer" id="l8">
+            <img src="{{`images/hero/whitebot.svg` | relURL}}" alt="bg-shape">
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
-        </div>
-      </div>
     </div>
-    <div class="layer" id="l2">
-      <img src="{{`images/hero/checkbox.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l3">
-      <img src="{{`images/hero/clouds.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l4">
-      <img src="{{`images/hero/codewindows.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l5">
-      <img src="{{`images/hero/espressobox.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l6">
-      <img src="{{`images/hero/saucebot.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l7">
-      <img src="{{`images/hero/seleniumbox.svg` | relURL}}" alt="bg-shape">
-    </div>
-    <div class="layer" id="l8">
-      <img src="{{`images/hero/whitebot.svg` | relURL}}" alt="bg-shape">
-    </div>
+    {{ if .Site.Params.enable_social_links_hero }}
     <!-- social icon -->
     <ul class="social-icons list-unstyled ml-5 mt-3 position-relative zindex-1">
       {{ range .Site.Params.social }}
@@ -42,73 +48,19 @@
       {{ end }}
     </ul>
     <!-- /social icon -->
+    {{ end }}
   </section>
   <!-- /hero area -->
 
   {{ if .Site.Data.homepage.values.enable }}
   {{ with .Site.Data.homepage.values }}
-  <!-- values -->
-  <section class="section values">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <p class="section-title font-meta-tags">{{ .title | markdownify }}</p>
-          <h1 class="section-heading">{{ .heading | markdownify }}</h1>
-        </div>
-        <div class="col-12 text-center">
-          <p class="intro">{{ .intro | markdownify }}</p>
-        </div>
-        {{ range .item }}
-        <div class="col-md-4 mb-4">
-          <div class="card hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <img src="{{.image }}" alt="{{.title}}" />
-              <h5 class="mb-4">{{.title}}</h5>
-              <p>{{.content | markdownify}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /values -->
+  {{ partial "values.html" . }}
   {{ end }}
   {{ end }}
 
   {{ if .Site.Data.homepage.open_sauce_projects.enable }}
   {{ with .Site.Data.homepage.open_sauce_projects }}
-  <!-- projects -->
-  <section class="section projects">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <p class="section-title font-meta-tags">{{ .title | markdownify }}</p>
-          <h1 class="section-heading">{{ .heading| markdownify }}</h1>
-        </div>
-        <div class="col-12 text-center">
-          <p class="intro">{{ .intro | markdownify }}</p>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        {{ range .item }}
-        <div class="col-xs-1 col-lg-3 col-md-4 shuffle-item">
-          <div class="position-relative rounded">
-            <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
-            <h5>{{ .name }}</h5>
-            <p>{{ .description }}</p>
-            <a class="btn btn-light btn-sm" href="{{ .project_url | safeURL }}">view project</a>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-
-      <div class="link">
-        <a class="btn btn-light btn-sm" href="/projects">Request Open Sauce License Now!</a>
-      </div>
-    </div>
-  </section>
-  <!-- /projects -->
+  {{ partial "projects.html" . }}
   {{ end }}
   {{ end }}
 
@@ -358,6 +310,12 @@
     </div>
   </section>
   <!-- /blog -->
+  {{ end }}
+
+  {{ if .Site.Data.homepage.hiring.enable }}
+  {{ with .Site.Data.homepage.hiring }}
+  {{ partial "hiring.html" . }}
+  {{ end }}
   {{ end }}
 
 

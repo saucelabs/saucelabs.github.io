@@ -7,6 +7,7 @@
 
     .section-title {
         margin-bottom: 0;
+        padding-bottom: 20px;
     }
 
     .intro {
@@ -15,6 +16,7 @@
 
     .link {
         text-align: center;
+        padding-top: 30px;
     }
 
     .shuffle-item {
@@ -45,7 +47,7 @@
         }
 
         p {
-            height: 76px;
+            height: 80px;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;

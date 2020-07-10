@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+  {{ partial "page-title.html" . }}
+
+  <!-- docs -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="content">
+            {{.Content }}
+          </div>
+        </div>
+        <aside class="col-lg-4">
+          <ul class="menu border px-4 py-3">
+            <h4 class="text-center pt-3">Documentation</h4>
+            {{ range .Data.Pages }}
+            <li class="py-3">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+        </aside>          
+      </div>
+    </div>
+  </section>
+  <!-- /docs -->
+
+{{ end }}

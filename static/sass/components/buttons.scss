@@ -26,27 +26,46 @@
     font-size: 15px
 }
 .btn-primary {
-    background: var(--primary-color);
+    background: $themeColor;
     color: #fff
 }
 .btn-primary.active {
     opacity: .8;
 }
 .btn-primary:active {
-    background: var(--primary-color) !important
+    background: $themeColor !important
 }
 .btn-primary:hover {
-    background: var(--primary-color)
+    background: $themeColor
 }
 .btn-primary.focus, .btn-primary.active {
-    background: var(--primary-color) !important;
+    background: $themeColor !important;
     box-shadow: none !important
 }
 .btn-transparent {
     background: transparent;
-    color: var(--primary-color);
+    color: $themeColor;
     font-weight: 700
 }
 .btn-transparent:active, .btn-transparent:hover {
-    color: var(--primary-color)
+    color: $themeColor
+}
+
+.sauce-button {
+    background: $bgColorSauceButton;
+    background: -webkit-gradient(linear,right top,left top,from($bgColorSauceButtonGradientFrom),to($bgColorSauceButtonGradientTo));
+    background: linear-gradient(270deg,$bgColorSauceButtonGradientFrom,$bgColorSauceButtonGradientTo);
+    box-shadow: -3px 0 16px -11px #000;
+    border-radius: 2em;
+    color: $textColorSauceButton;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.sauce-button:hover {
+    font-weight: 700;
+    background: $bgColorSauceButtonHover;
+    background: -webkit-gradient(linear,right top,left top,from($bgColorSauceButtonHover),to($bgColorSauceButtonHoverGradientTo));
+    background: linear-gradient(270deg,$bgColorSauceButtonHover,$bgColorSauceButtonHoverGradientTo);
+    color: $textColorSauceButton;
 }

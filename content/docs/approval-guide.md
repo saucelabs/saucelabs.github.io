@@ -1,14 +1,14 @@
 ---
 title: "Approval guide for managers"
-description: "This is meta description."
+description: "Approval guide for managers"
 draft: false
 ---
 
 As a manager at Sauce Labs, you will from time to time be asked by your direct reports if they can make an internal codebase an open source project. This can be a difficult question to answer, so to guide your decision-making, we have put together a handy guide for you to review.
 
-Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you would like.
+We generally encourage managers to approve requests by teams to open source a project unless there’s a good reason not to. If you have any questions, you can reach out to [opensource@saucelabs.com](opensource@saucelabs.com).
 
-> This content is inspired by Zalando's Open Source [documentation](https://opensource.zalando.com/docs), which has an [MIT license](https://github.com/zalando/zalando.github.io/blob/master/LICENSE).
+Also, every request to open source will be reviewed and must be approved by our Open Source Program Office (and usually in collaboration with Legal, Product, and so on). Feel free to reach out to the OSPO for advice beforehand, if you would like.
 
 ### Summary
 To determine if a project can be open-sourced, you should be able to answer “yes“ to the following 3 questions, background information on each are provided in sections below:

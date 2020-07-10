@@ -5,39 +5,14 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
+          <h3 class="font-tertiary">{{.Title}}</h3>
+          <p class="font-secondary mb-5">Published on {{ .PublishDate.Format "Jan 02, 2006" }} by <span class="text-primary">{{.Site.Params.Author}}</span></p>
           <div class="content">
+            <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
             {{.Content }}
           </div>
         </div>
-        <aside class="col-lg-4">
-          {{ $currentPageName := .Name }}
-          {{ $parentPageName := .Parent.Name }}
-          <ul class="menu">
-            {{ range .Site.Home.Sections.ByTitle }}
-              {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
-              {{ if eq .Name $parentPageName }}
-              {{ if ne $numberOfPages 0 }}
-              {{- .Scratch.Set "pages" .Pages -}}
-              {{- if .Sections -}}
-                {{- .Scratch.Set "pages" (.Pages | union .Sections) -}}
-              {{- end -}}
-              {{- $pages := (.Scratch.Get "pages") -}}
-              {{- range $pages.ByTitle -}}
-              <li>
-                {{ if ne .Name $currentPageName }}
-                <a href="{{ .URL }}">{{ .Name }}</a>
-                {{ else }}
-                <b>{{ .Name }}</b>
-                {{ .TableOfContents }}
-                {{ end }}
-              </li>
-              {{- end -}}
-              {{ end }}
-              {{ end }}
-            {{ end }}
-          </ul>
-        </aside>
       </div>
     </div>
   </section>
