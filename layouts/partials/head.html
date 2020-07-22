@@ -27,7 +27,18 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ `images/apple-touch-icon.png` | absURL }}">
   <link rel="mask-icon" color="{{ .Site.Params.theme_color }}" href="{{ `images/safari-pinned-tab.svg` | absURL }}">
 
+  {{ with .Site.Params.google_tag_manager_id }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  {{ end }}
+
   <script>
+  {{ with .Site.Params.google_tag_manager_id }}
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+  {{ end }}
+
   if('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js', { scope: '/' })
   }
