@@ -28,12 +28,12 @@ items:
   - name: "SauceCTL"
     image: "images/logos/go.png"
     description: "A command line interface to run testrunner tests."
-    project_url: "https://saucelabs.github.io/testrunner-toolkit/"
+    project_url: "https://opensource.saucelabs.com/testrunner-toolkit"
 
   - name: "Sauce Bindings"
     image: "images/logos/saucelabs.png"
     description: "An interface to simplify working with Sauce Labs session-related interactions."
-    project_url: "https://saucelabs.github.io/sauce_bindings/docs/overview.html"
+    project_url: "https://opensource.saucelabs.com/sauce_bindings"
 
   - name: "Sample App Mobile"
     image: "images/logos/saucelabs.png"
