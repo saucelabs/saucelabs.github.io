@@ -44,7 +44,7 @@ Upstream code contributions are encouraged to open source projects that our cust
 
 Both are allowed and they do not need a review unless you have questions about the contribution rules and guidelines mentioned above. Simply ensure that the project you are contributing to is not licensed under [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
-### allowlist (whitelisted) CLAs
+### Allowed list CLAs
 
 If a non-Sauce Labs Open Source project requires you to sign a contributor agreement, ask the OSPO, unless it is one of the following allowlisted CLAs:
 
