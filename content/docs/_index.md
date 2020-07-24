@@ -15,6 +15,6 @@ description: "Sauce Labs Open Source Documentation"
 - [Approval guide for managers]({{< relref "approval-guide.md" >}}) As a manager at Sauce Labs, you will from time to time be asked by your direct reports if they can make an internal codebase an open source project.
 - [Contributing to Open Source]({{< relref "contributing.md" >}}) Participation in open source projects is highly encouraged, and the Open Source Program Office (OSPO) wants to make this process as simple as possible.
 - [Open Source Licensing Guide]({{< relref "license-guide.md" >}}) Policies and guidance on which licenses can be used at Sauce Labs, both internally and in open source projects hosted under a Sauce Labs managed GitHub organization.
-- [Releasing a new Open Source project]({{< relref "releasing.md" >}}) Here you can see all the steps that describe how Saucers can release a new open oource project.
+- [Releasing a new Open Source project]({{< relref "releasing.md" >}}) Here you can see all the steps that describe how Saucers can release a new open source project.
 
 If any of this documentation is unclear, misleading or in error, please reach out to the [Open Source team](mailto:opensource@saucelabs.com) at Sauce Labs.
