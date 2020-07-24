@@ -47,4 +47,3 @@ It goes without saying that some components working inside Sauce Labs should not
 If you need any guidance before seeking approval to open source your project, please reach out to the open source team.
 
 Every single project that requests to be open sourced will be reviewed by the Open Source Program Office, who may raise additional questions for you as a manager or to the maintainers.
-git f
