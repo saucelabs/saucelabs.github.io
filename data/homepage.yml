@@ -112,7 +112,7 @@ values:
   enable: true
   title: "Our Values"
   heading: "Be Open and Act Open"
-  intro: "Sauce Labs believes in the value of Open Source practices and leadership. We support and encourage employees across departments to be good Open Source citizens by participating in communities, sharing our knowledge and promoting Open Source best practices."
+  intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be good open source citizens by participating in communities, sharing our knowledge and promoting open source best practices."
   item:
     - title: "Participate"
       image: "/images/icons/participate_3x.svg"
@@ -173,8 +173,8 @@ portfolio:
 open_sauce_projects:
   enable: true
   title: "Projects"
-  heading: "Active projects on Open Sauce"
-  intro: "Sauce Labs is committed to support the Open Source ecosystem by providing free licenses."
+  heading: "Active Projects on Open Sauce"
+  intro: "Sauce Labs is committed to support the open source ecosystem by providing free licenses."
   item:
     - name: "Nuxt"
       image: "images/logos/nuxt.png"
@@ -264,7 +264,7 @@ hiring:
   heading: We are hiring!
   text: |
     We are currently looking for an addition to our team that will have
-    the opportunity to contribute and lead Open Source projects that are
+    the opportunity to contribute and lead open source projects that are
     critical to the mission of Sauce Labs. Check out our
     [careers page](https://saucelabs.com/company/careers/job?gh_jid=2218654)
     for more information.
