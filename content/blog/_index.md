@@ -1,5 +1,5 @@
 ---
-title: "Blog"
-date: 2019-05-12T12:14:34+06:00
-description: "This is meta description."
+title: "Sauce Labs Open Source and Engineering Blog"
+date: 2020-07-27T12:00:00+02:00
+description: "Thoughts from the Sauce Labs Open Source and Engineering teams"
 ---
