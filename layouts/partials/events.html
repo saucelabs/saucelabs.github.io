@@ -17,7 +17,7 @@
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
           <h5>{{ .name }}</h5>
           <p>{{ .description }}</p>
-          <a target="_blank" href="{{ .link | safeURL }}">Visit conference website</a>
+          <a target="_blank" rel="noreferrer" href="{{ .link | safeURL }}">Visit conference website</a>
         </div>
       </div>
       {{ end }}

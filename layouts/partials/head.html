@@ -4,12 +4,17 @@
   <link rel="alternate" href="/index.xml" type="application/atom+xml" data-title="Sauce Labs Engineering Blog feed" />
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
   <meta name="theme-color" content="{{ .Site.Params.theme_color }}"/>
   <link rel="manifest" href="/site.webmanifest">
+
+  {{ "<!-- Preconnect -->" | safeHTML }}
+  {{ range .Site.Params.preconnect }}
+  <link rel="preconnect" href="{{ .URL | absURL }}">
+  {{ end }}
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}

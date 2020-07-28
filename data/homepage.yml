@@ -45,12 +45,12 @@ involvement:
       description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
       URL: "https://www.w3.org/"
 
-    - logo: "images/logos/linux-foundation.png"
+    - logo: "images/logos/linux-foundation.svg"
       title: "Linux Foundation"
       description: "The Linux Foundation is a trade association dedicated to fostering the growth of the Linux operating system and related projects."
       URL: "https://www.linuxfoundation.org/"
 
-    - logo: "images/logos/openjsf.jpg"
+    - logo: "images/logos/openjsf.svg"
       title: "OpenJS Foundation"
       description: "The OpenJS Foundation is the open and neutral home for JavaScript communities."
       URL: "https://openjsf.org/"
@@ -187,7 +187,7 @@ open_sauce_projects:
       project_url: "https://github.com/Level/levelup"
 
     - name: "Firebase"
-      image: "images/logos/firebase.png"
+      image: "images/logos/firebase.gif"
       description: "Google's mobile platform that helps you quickly develop high-quality apps."
       project_url: "https://firebase.google.com/"
 

@@ -53,11 +53,11 @@
           {{ range .item }}
           {{ if .short_title }}
           <p class="footer-item-text">
-            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank">{{ .short_title | markdownify }}</a>
+            <a href="{{.URL | safeURL }}" class="footer-item-text" rel="noreferrer" target="_blank">{{ .short_title | markdownify }}</a>
           </p>
           {{ else }}
           <p class="footer-item-text">
-            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank">{{ .title | markdownify }}</a>
+            <a href="{{.URL | safeURL }}" class="footer-item-text" rel="noreferrer" target="_blank">{{ .title | markdownify }}</a>
           </p>
           {{ end }}
           {{ end }}
@@ -68,7 +68,7 @@
           <h5 class="text-white"><strong>Connect with us</strong></h5>
           {{ range .Site.Params.social }}
           <p class="footer-item-text">
-            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank"><i class="{{.icon}} icon-footer"></i>{{.description}}</a>
+            <a href="{{.URL | safeURL }}" class="footer-item-text" target="_blank" rel="noreferrer"><i class="{{.icon}} icon-footer"></i>{{.description}}</a>
           </p>
           {{ end }}
         </div>
@@ -86,7 +86,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+<script rel="preload" src="{{ .URL | absURL }}"></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
