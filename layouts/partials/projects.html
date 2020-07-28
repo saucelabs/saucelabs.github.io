@@ -17,14 +17,14 @@
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
           <h5>{{ .name }}</h5>
           <p>{{ .description }}</p>
-          <a target="_blank" href="{{ .project_url | safeURL }}">View project</a>
+          <a target="_blank" rel="noreferrer" href="{{ .project_url | safeURL }}">View project</a>
         </div>
       </div>
       {{ end }}
     </div>
 
     <div class="link">
-      <a class="sauce-button" target="_blank" href="https://saucelabs.com/solutions/open-source">
+      <a class="sauce-button" rel="noopener" target="_blank" href="https://saucelabs.com/solutions/open-source">
         Request Open Sauce License Now!
       </a>
     </div>

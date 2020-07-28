@@ -13,7 +13,6 @@ URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
 URL = "plugins/themify-icons/themify-icons.css"
 
-
 # js plugin
 [[params.plugins.js]]
 URL = "plugins/jQuery/jquery.min.js"
@@ -24,6 +23,11 @@ URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
 
+# preconnect
+[[params.preconnect]]
+URL = "https://use.typekit.net"
+[[params.preconnect]]
+URL = "https://www.google-analytics.com"
 
 # menu
 [[menu.main]]
