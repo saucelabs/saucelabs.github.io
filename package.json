@@ -6,7 +6,7 @@
   "scripts": {
     "build": "run-s sass build:*",
     "build:production": "hugo --minify",
-    "build:netlify": "run-s sass hugo --minify --baseURL $DEPLOY_PRIME_URL",
+    "build:netlify": "run-s sass && hugo --minify --baseURL $DEPLOY_PRIME_URL",
     "clean": "rm -rf .sass-cache content data public resources ./assets/css",
     "lint": "run-p lint:*",
     "lint:sass": "sass-lint -c .sass-lint.yml",
