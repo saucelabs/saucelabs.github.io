@@ -1,0 +1,19 @@
+[build]
+publish = "public"
+command = "npm install && npm run update:sw && npm run build:netlify"
+
+[context.production.environment]
+HUGO_VERSION = "0.66.0"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "npm install && npm run update:sw && npm run build:netlify"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.66.0"
+
+[context.branch-deploy]
+command = "npm install && npm run update:sw && npm run build:netlify"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.66.0"
