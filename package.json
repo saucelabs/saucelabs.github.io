@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Open Source Program Office website",
   "scripts": {
-    "build": "run-s sass build:*",
+    "build": "run-s sass build:production",
     "build:production": "hugo --minify",
     "build:netlify": "run-s sass && hugo --minify --baseURL $DEPLOY_PRIME_URL",
     "clean": "rm -rf .sass-cache content data public resources ./assets/css",
