@@ -40,10 +40,10 @@ URL = "docs"
 name = "Docs"
 weight = 3
 
-# [[menu.main]]
-# URL = "blog"
-# name = "Blog"
-# weight = 4
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 4
 
 # default parameters
 [params]

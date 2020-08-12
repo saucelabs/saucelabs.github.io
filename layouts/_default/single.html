@@ -9,7 +9,6 @@
           <h3 class="font-tertiary">{{.Title}}</h3>
           <p class="font-secondary mb-5">Published on {{ .PublishDate.Format "Jan 02, 2006" }} by <span class="text-primary">{{.Params.Author}}</span></p>
           <div class="content">
-            <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
             {{.Content }}
           </div>
         </div>
