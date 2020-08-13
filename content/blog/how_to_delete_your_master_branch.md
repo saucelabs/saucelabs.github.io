@@ -5,6 +5,8 @@ description: "How to delete your master branch"
 author: "Diego Molina"
 ---
 
+{{< figure src="/images/blog/how_to_delete_your_master_branch_2.png" class="text-center" >}}
+
 At the Selenium project we practice 
 [trunk based development](https://trunkbaseddevelopment.com/), in which `trunk` is the 
 usual name of the default git branch of the repository. However, when the project was
@@ -65,6 +67,8 @@ branch, all the open pull requests got closed. This made sense, since they were 
 targeting the `master` branch. Therefore, before deleting your `master` branch, double 
 check and, if needed, edit the open pull requests so they target the new branch.
 
+{{< figure src="/images/blog/how_to_delete_your_master_branch_1.png" class="text-center my-5" >}}
+
 It goes without saying that the name of your new branch can be any name that works 
 well for your context and environment. For example, the 
 [repository](https://github.com/SeleniumHQ/seleniumhq.github.io) that has the 
@@ -73,5 +77,6 @@ branch with the website source files and publish as the branch with the generate
 static website that gets published.
 
 These are our lessons learned during the process of deleting the `master` branch in 
-all the major repositories under the SeleniumHQ GitHub organization. I hope they 
-are helpful if you decide to move from `master` as a name for your default branch. 
+all the major repositories under the [SeleniumHQ GitHub](https://github.com/seleniumhq/)
+organization. I hope they are helpful if you decide to move from `master` as a name 
+for your default branch. 
