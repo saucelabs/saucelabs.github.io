@@ -1,6 +1,6 @@
 ---
 title: "How to delete your master branch"
-date: 2020-08-12T09:00:00+02:00
+date: 2020-08-13T09:00:00+02:00
 description: "How to delete your master branch"
 author: "Diego Molina"
 ---
