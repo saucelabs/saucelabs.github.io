@@ -5,7 +5,7 @@ description: "Intro: Sauce Labs Open Source Program Office"
 author: "Diego Molina"
 ---
 
-{{< figure src="/images/blog/intro_sauce_labs_open_source_program_office.jpg" attr="Photo by Markus Winkler (Unsplash)" link="https://unsplash.com/@markuswinkler" class="img-fluid rounded float-left mr-5 mb-4" target="_blank" >}}
+{{< figure src="/images/blog/intro_sauce_labs_open_source_program_office.jpg" attr="Photo by Markus Winkler (Unsplash)" link="https://unsplash.com/@markuswinkler" class="img-responsive float-left mr-5 mb-4" target="_blank" >}}
 
 Not long ago, we announced that we created our 
 [Open Source Program Office](https://saucelabs.com/news/sauce-labs-deepens-investment-in-oss-community-establishes-new-open-source-program-office)

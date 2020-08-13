@@ -31,7 +31,7 @@ responsibilities including engineers, scrum masters, product management,
 sales engineering, product marketing, and more.
 
 
-{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_1.jpg" attr="Photo by Annie Spratt (Unsplash)" link="https://unsplash.com/@anniespratt" class="text-center my-5" target="_blank" >}}
+{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_1.jpg" attr="Photo by Annie Spratt (Unsplash)" link="https://unsplash.com/@anniespratt" class="img-responsive text-center my-5" target="_blank" >}}
 
 Delegating certain product responsibilities to others allowed engineers to 
 focus on their work, implementing new features and fixing bugs. This model 
@@ -50,7 +50,7 @@ actual usefulness to the end user. A relationship to the product has to be
 developed internally as well as externally otherwise features just appear 
 to be boxes of value being thrown over an imaginary wall.
 
-{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_2.jpg" attr="Modified picture of a sauceio.com blog post (see slide 24 of https://www.slideshare.net/ManueldelaPeaPea/testing-101-66597895)" link="https://www.slideshare.net/ManueldelaPeaPea/testing-101-66597895" class="text-center my-5" target="_blank" >}}
+{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_2.jpg" attr="Modified picture of a sauceio.com blog post (see slide 24 of https://www.slideshare.net/ManueldelaPeaPea/testing-101-66597895)" link="https://www.slideshare.net/ManueldelaPeaPea/testing-101-66597895" class="img-responsive text-center my-5" target="_blank" >}}
 
 While it is the responsibility of a product owner to build out the product 
 vision, innovation can’t be driven by a product team alone. It needs support 
@@ -92,7 +92,7 @@ programmable interface for users to download as a language package and used if
 desired. Every binary offered as a download to users must be delivered with a 
 Docker image, a GitHub Action or similar integrations.
 
-{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_3.jpg" attr="Photo by Annie Spratt (Unsplash)" link="https://unsplash.com/@anniespratt" class="img-fluid rounded float-left mr-5 mb-4" target="_blank" >}}
+{{< figure src="/images/blog/how_open_source_can_drive_product_obsession_3.jpg" attr="Photo by Annie Spratt (Unsplash)" link="https://unsplash.com/@anniespratt" class="img-responsive float-left mr-5 mb-4" target="_blank" >}}
 
 These are the opportunities to build user communities that interact directly 
 with the developers of your organization. These users will often end up filing 
