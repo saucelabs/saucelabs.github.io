@@ -72,9 +72,9 @@ check and, if needed, edit the open pull requests so they target the new branch.
 It goes without saying that the name of your new branch can be any name that works 
 well for your context and environment. For example, the 
 [repository](https://github.com/SeleniumHQ/seleniumhq.github.io) that has the 
-contents of the Selenium [website](https://www.selenium.dev/) uses now dev as the
-branch with the website source files and publish as the branch with the generated
-static website that gets published.
+contents of the Selenium [website](https://www.selenium.dev/) uses now `dev` as the
+branch with the website source files and `publish` as the branch with the generated
+static website that gets *published*.
 
 These are our lessons learned during the process of deleting the `master` branch in 
 all the major repositories under the [SeleniumHQ GitHub](https://github.com/seleniumhq/)
