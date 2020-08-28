@@ -40,15 +40,14 @@ Use the [new-project](https://github.com/saucelabs/new-project) template as a bo
     - How to install it
     - How to use it (with examples)
     - If applicable, extended documentation explaining more elaborate use cases
-- Include a MAINTAINERS.md file with contact information
 - Include a CONTRIBUTION.md file with guidelines on how to contribute, including:
     - How to set up and develop the project
     - If necessary, an explanation of code style
     - How to run and write tests
     - How to write documentation or, if applicable, how to generate it
     - A list of requirements to contribute a patch (this could also be described in a pull request [template](https://help.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates))
-- Include a CODE_OF_CONDUCT.md file with guidelines that establish expectations for behavior by participants (maintainers, contributors, users) working on your project
-- Include a SECURITY.md file
+- Include a CODE_OF_CONDUCT.md file with guidelines that establish expectations for behavior by participants (maintainers, contributors, users) working on your project (only necessary if your project has custom wording as our default [CODE_OF_CONDUCT.md](https://github.com/saucelabs/.github/blob/master/CODE_OF_CONDUCT.md))
+- Include a SECURITY.md file (only necessary if your project has special requirements for security escalations as we have a default [SECURITY.md](https://github.com/saucelabs/.github/blob/master/SECURITY.md) for all projects)
 - Add a LICENSE.md file; the license must be MIT with the copyright attributed to Sauce Labs
 - Ensure you only use license-compatible code/dependencies (see [licensing](/docs/license-guide/))
 
