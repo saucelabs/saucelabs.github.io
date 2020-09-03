@@ -6,14 +6,15 @@ images:
     - /images/docs/contributions.svg
 ---
 
-Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. Saucers are responsible to preserve our valuable information and code. OSPO and your manager can help you understand and determine what is open sourceable and what must remain private. In doubt, always ask.
+Participation in open source projects is highly encouraged and part of every engineers job at Sauce Labs. While you are working with your team on a product backlog you should always ensure to take some time off and spend it to expand your capabilities and experiences working on an Open Source project of your choice. If your backlog doesn't allow this, please talk to your manager.
+
+The Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code is contributed to upstream open source projects. If you are in doubt, please reach out to the [OSPO](mailto:opensource@saucelabs.com) or ask your manager for direction.
 
 ### Summary
 
 We highly encourage contributions to any open source project that aligns with the guidelines. If you are looking for projects to contribute, but don't know how to choose, we can help.
 
-There are some requirements before you start patching, and guides to help you figure out the right path:
-
+- Everyone is encouraged to spend time working on Open Source - please talk with your peers and manager to agree on times you like to contribute to Open Source projects
 - [Patches](https://en.wikipedia.org/wiki/Patch_(computing)) generally don't require any review from the Open Source Program Office
 - Double-check to make certain you are not sharing confidential information
 - Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email](https://help.github.com/articles/setting-your-email-in-git/).
