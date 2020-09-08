@@ -36,6 +36,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   {{ end }}
 
+  {{ with .Params.Author }}
+  <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5f50fae56b5d9900194e28ff&product=inline-share-buttons"></script>
+  {{ end }}
+
   <script>
   {{ with .Site.Params.google_tag_manager_id }}
   window.dataLayer = window.dataLayer || [];
