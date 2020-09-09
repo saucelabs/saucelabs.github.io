@@ -93,8 +93,9 @@
   <meta name="twitter:url" value="{{ .URL | absURL }}"/>
 
   {{ if isset .Params "image" }}
-  <meta property="og:image"  content="{{.Params.image | absURL}}">
-  <meta property="twitter:image"  content="{{.Params.image | absURL}}">
+    <meta property="og:image"  content="{{.Params.image | absURL}}">
+    <meta property="twitter:image"  content="{{.Params.image | absURL}}">
+  {{ end }}
   {{ end }}
   {{ end }}
 </head>
