@@ -52,4 +52,52 @@
     navigator.serviceWorker.register('/sw.js', { scope: '/' })
   }
   </script>
+  {{ if .IsPage }}
+  {{ if eq .Type "blog" }}
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "articleSection" : "{{ .Section }}",
+    "name" : "{{ .Title | safeJS }}",
+    "headline" : "{{ .Title | safeJS }}",
+    "description" : "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage" : "en-US",
+    "author" : "{{ .Params.author }}",
+    "creator" : "{{ .Params.author }}",
+    "accountablePerson" : "{{ .Params.author }}",
+    "copyrightHolder" : "{{ .Params.author }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "datePublished" : "{{ .Params.date }}",
+    "publisher": "Sauce Labs",
+    "logo": "https://opensource.saucelabs.com/images/appicons/icon-128x128.png",
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    {{ if .Params.image }}"image" : "{{ .Params.image | absURL }}",{{ end }}
+    "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}", "{{ end }}{{ $e }}{{ end }}" ]
+  }
+  </script>
+  {{ end }}
+  {{ end }}
+  {{ if .IsPage }}
+  {{ if eq .Type "post" }}
+    <!-- Open Graph Metadata -->
+    <meta property="og:type"   content="article" />
+    <meta property="og:url"    content="{{ .URL | absURL }}" />
+    <meta property="og:title"  content="{{ .Title }}" />
+
+    <meta name="twitter:domain" value="opensource.saucelabs.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" value="{{ .Title }}" />
+    {{ if isset .Params "summary" }}
+      <meta name="twitter:description" value="{{ .Params.summary }}"/>
+    {{ end }}
+
+    <meta name="twitter:url" value="{{ .URL | absURL }}"/>
+
+    {{ if isset .Params "image" }}
+    <meta property="og:image"  content="{{.Params.image | absURL}}">
+    <meta property="twitter:image"  content="{{.Params.image | absURL}}">
+  {{ end }}
+  {{ else }}
 </head>
