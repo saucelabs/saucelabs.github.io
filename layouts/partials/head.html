@@ -77,27 +77,24 @@
     "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}", "{{ end }}{{ $e }}{{ end }}" ]
   }
   </script>
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type"   content="article" />
+  <meta property="og:url"    content="{{ .URL | absURL }}" />
+  <meta property="og:title"  content="{{ .Title }}" />
+
+  <meta name="twitter:domain" value="opensource.saucelabs.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" value="{{ .Title }}" />
+  {{ if isset .Params "summary" }}
+    <meta name="twitter:description" value="{{ .Params.summary }}"/>
+  {{ end }}
+
+  <meta name="twitter:url" value="{{ .URL | absURL }}"/>
+
+  {{ if isset .Params "image" }}
+  <meta property="og:image"  content="{{.Params.image | absURL}}">
+  <meta property="twitter:image"  content="{{.Params.image | absURL}}">
   {{ end }}
   {{ end }}
-  {{ if .IsPage }}
-  {{ if eq .Type "post" }}
-    <!-- Open Graph Metadata -->
-    <meta property="og:type"   content="article" />
-    <meta property="og:url"    content="{{ .URL | absURL }}" />
-    <meta property="og:title"  content="{{ .Title }}" />
-
-    <meta name="twitter:domain" value="opensource.saucelabs.com" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" value="{{ .Title }}" />
-    {{ if isset .Params "summary" }}
-      <meta name="twitter:description" value="{{ .Params.summary }}"/>
-    {{ end }}
-
-    <meta name="twitter:url" value="{{ .URL | absURL }}"/>
-
-    {{ if isset .Params "image" }}
-    <meta property="og:image"  content="{{.Params.image | absURL}}">
-    <meta property="twitter:image"  content="{{.Params.image | absURL}}">
-  {{ end }}
-  {{ else }}
 </head>
