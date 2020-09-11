@@ -58,12 +58,6 @@
   {{ end }}
   {{ end }}
 
-  {{ if .Site.Data.homepage.open_sauce_projects.enable }}
-  {{ with .Site.Data.homepage.open_sauce_projects }}
-  {{ partial "projects.html" . }}
-  {{ end }}
-  {{ end }}
-
   {{ if .Site.Data.about.team.enable }}
   {{ with .Site.Data.about.team }}
   {{ partial "team.html" . }}
@@ -79,6 +73,12 @@
   {{ if .Site.Data.homepage.events.enable }}
   {{ with .Site.Data.homepage.events }}
   {{ partial "events.html" . }}
+  {{ end }}
+  {{ end }}
+
+  {{ if .Site.Data.homepage.open_sauce_projects.enable }}
+  {{ with .Site.Data.homepage.open_sauce_projects }}
+  {{ partial "projects.html" . }}
   {{ end }}
   {{ end }}
 
