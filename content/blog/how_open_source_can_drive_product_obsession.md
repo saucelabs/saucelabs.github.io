@@ -3,7 +3,10 @@ title: "How Open Source Can Drive Product Obsession"
 date: 2020-08-12T09:00:00+02:00
 description: "How Open Source Can Drive Product Obsession"
 author: "Christian Bromann"
-image: https://opensource.saucelabs.com/images/blog/how_open_source_can_drive_product_obsession_2.jpg
+images:
+    - /images/blog/how_open_source_can_drive_product_obsession_1.jpg
+    - /images/blog/how_open_source_can_drive_product_obsession_2.jpg
+    - /images/blog/how_open_source_can_drive_product_obsession_3.jpg
 tags:
     - open source
     - product
