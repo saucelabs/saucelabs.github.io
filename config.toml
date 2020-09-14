@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://saucelabs.github.io"
+baseURL = "https://opensource.saucelabs.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"

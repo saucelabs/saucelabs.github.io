@@ -1,7 +1,7 @@
 ---
 title: "Sauce Labs Open Source Documentation"
 date: 2019-06-26T12:14:34+06:00
-description: "Sauce Labs Open Source Documentation"
+description: "Sauce Labs Open Source Documentation with guidelines for Open Source best practices and policies."
 ---
 
 ##### Saucers have been using and contributing to open source projects since the company was started, but there is no clear or well-documented guidance on how to engage in open source. Questions about legal issues, licensing and what is deemed confidential or proprietary information are common.

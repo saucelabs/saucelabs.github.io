@@ -52,4 +52,38 @@
     navigator.serviceWorker.register('/sw.js', { scope: '/' })
   }
   </script>
+  {{ if .IsPage }}
+  {{ if eq .Type "blog" }}
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "articleSection" : "{{ .Section }}",
+    "name" : "{{ .Title | safeJS }}",
+    "headline" : "{{ .Title | safeJS }}",
+    "description" : "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
+    "inLanguage" : "en-US",
+    "author" : "{{ .Params.author }}",
+    "creator" : "{{ .Params.author }}",
+    "accountablePerson" : "{{ .Params.author }}",
+    "copyrightHolder" : "{{ .Params.author }}",
+    "copyrightYear" : "{{ .Date.Format "2006" }}",
+    "datePublished" : "{{ .Params.date }}",
+    "publisher": "Sauce Labs",
+    "logo": "https://opensource.saucelabs.com/images/appicons/icon-128x128.png",
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    {{ if .Params.image }}"image" : "{{ .Params.image | absURL }}",{{ end }}
+    "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}", "{{ end }}{{ $e }}{{ end }}" ]
+  }
+  </script>
+
+  <!-- Open Graph Metadata -->
+  {{ template "_internal/opengraph.html" . }}
+
+  <!-- Twitter Cards -->
+  {{ template "_internal/twitter_cards.html" . }}
+
+  {{ end }}
+  {{ end }}
 </head>
