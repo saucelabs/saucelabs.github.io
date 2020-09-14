@@ -181,8 +181,8 @@ portfolio:
 open_sauce_projects:
   enable: true
   title: "Projects"
-  heading: "Active Projects on Open Sauce"
-  intro: "Sauce Labs is committed to support the open source ecosystem by providing free licenses."
+  heading: "Open Source projects we support"
+  intro: "Sauce Labs is committed to support the open source ecosystem by providing free licenses through the Open Sauce program."
   item:
     - name: "Nuxt"
       image: "images/logos/nuxt.png"
