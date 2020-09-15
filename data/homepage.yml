@@ -133,10 +133,6 @@ events:
   heading: "Come out and join us"
   intro: "We always love to connect! If you happen to be at one of the following events please make sure to visit the Sauce Labs booth and say hi."
   item:
-    - name: "Selenium Conference"
-      image: "/images/events/seleniumconf.png"
-      description: "The Selenium Conference is a non-profit, volunteer-run event presented by members of the Selenium Community. The goal of the conference is to bring together Selenium developers & enthusiasts from around the world to share ideas, socialize, and work together on advancing the present and future success of the project."
-      link: "https://www.seleniumconf.com/"
     - name: "All Things Open"
       image: "/images/events/ato2020.png"
       description: "All Things Open is an Open Source/Open Tech/Open Web conference that takes place in Raleigh, NC. Since 2013 some of the top experts and emerging thought leaders in the world have spoken."
