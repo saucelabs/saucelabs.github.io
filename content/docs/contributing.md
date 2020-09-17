@@ -6,7 +6,7 @@ images:
     - /images/docs/contributions.svg
 ---
 
-Participation in open source projects is highly encouraged and is an essential part of the engineering culture at Sauce Labs. It can be an excellent tool to learn new technologies and professionally grow, which is a responsibility of every engineer. If your backlog doesn't allow for this, please talk to your manager.
+Participation in open source projects is highly encouraged and is an essential part of the engineering culture at Sauce Labs. We invite all engineers at Sauce Labs to use open source as an opportunity to learn new technologies, professionally grow, and contribute to the open source ecosystem. If you are struggling to find time for open source during your work time, please reach out to the [OSPO](mailto:opensource@saucelabs.com) or to your manager.
 
 The Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code that is contributed to upstream open source projects. If you are in doubt, please reach out to the [OSPO](mailto:opensource@saucelabs.com) or ask your manager for direction.
 
