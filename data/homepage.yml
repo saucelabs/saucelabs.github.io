@@ -7,7 +7,7 @@ banner:
 projects:
   enable: true
   title: "Sauce Labs Open Source Projects"
-  intro: "Some of the most popular developer tools, frameworks and experiences in the world are built around open communities. Here are a few featured Sauce Labs projects of note."
+  intro: "Some of the most popular developer tools, frameworks and experiences in the world are built around open communities. Here are a few featured projects Sauce Labs is heavily investing and contributing to."
 
 # involvement
 involvement:
