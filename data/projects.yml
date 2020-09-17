@@ -18,7 +18,12 @@ items:
   - name: "node-saucelabs"
     image: "images/logos/node-saucelabs.png"
     description: "Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions."
-    project_url: "https://www.npmjs.com/package/saucelabs"
+    project_url: "https://opensource.saucelabs.com/node-saucelabs/"
+
+  - name: "Sauce Connect Proxy"
+    image: "images/logos/docker.png"
+    description: "Docker image for Sauce Connect Proxy to use in CI/CD environments."
+    project_url: "https://hub.docker.com/repository/docker/saucelabs/sauce-connect"
 
   - name: "Sauce Connect Proxy"
     image: "images/logos/gh-action.png"
@@ -27,7 +32,7 @@ items:
 
   - name: "SauceCTL"
     image: "images/logos/go.png"
-    description: "A command line interface to run testrunner tests."
+    description: "A command line interface for the Sauce Labs Testrunner Toolkit."
     project_url: "https://opensource.saucelabs.com/testrunner-toolkit"
 
   - name: "Sauce Bindings"
@@ -64,3 +69,23 @@ items:
     image: "images/logos/python.png"
     description: "An async programming framework with a blocking look-alike syntax."
     project_url: "https://github.com/saucelabs/monocle"
+
+  - name: "Network Viewer"
+    image: "images/logos/react.png"
+    description: "Network-Viewer is a redefined HAR viewer human friendly view of requests which is build with React."
+    project_url: "https://opensource.saucelabs.com/network-viewer/"
+
+  - name: "Helm Charts"
+    image: "images/logos/helm.svg"
+    description: "Popular applications, provided by Sauce Labs, ready to launch on Kubernetes using Kubernetes Helm."
+    project_url: "https://opensource.saucelabs.com/charts"
+
+  - name: "TestCafe Prometheus"
+    image: "images/logos/testcafe.svg"
+    description: "Prometheus reporter for TestCafe allowing for alerts based on multiple suite executions across time."
+    project_url: "https://opensource.saucelabs.com/testcafe-reporter-prometheus-multi/"
+
+  - name: "The Internet"
+    image: "images/logos/saucelabs.png"
+    description: "An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against"
+    project_url: "http://the-internet.herokuapp.com/"

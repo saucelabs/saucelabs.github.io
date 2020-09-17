@@ -1,15 +1,17 @@
+<!-- projects -->
 <section class="section projects">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="section-heading">{{ site.Data.homepage.projects.title | markdownify }}</h1>
+        <p class="section-title font-meta-tags">{{ .title | markdownify }}</p>
+        <h1 class="section-heading">{{ .heading| markdownify }}</h1>
       </div>
       <div class="col-12 text-center">
-        <p class="intro">{{ site.Data.homepage.projects.intro | markdownify }}</p>
+        <p class="intro">{{ .intro | markdownify }}</p>
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {{ range $i, $project := .Site.Data.projects.items | shuffle | first 4 }}
+      {{ range .item }}
       <div class="col-xs-1 col-lg-3 col-md-4 shuffle-item">
         <div class="position-relative rounded mb-20">
           <div class="project-image"><img src="{{.image | absURL }}" alt="{{ .name }}"></div>
@@ -22,9 +24,10 @@
     </div>
 
     <div class="link">
-      <a class="sauce-button" href="/projects">
-        Explore Sauce Labs Projects
+      <a class="sauce-button" rel="noopener" target="_blank" href="https://saucelabs.com/solutions/open-source">
+        Request Open Sauce License Now!
       </a>
     </div>
   </div>
 </section>
+<!-- /projects -->
