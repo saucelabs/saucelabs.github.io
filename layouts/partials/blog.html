@@ -1,0 +1,15 @@
+<!-- blog -->
+<section class="section blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="section-title font-meta-tags">{{.Site.Data.homepage.blog.title | markdownify }}</p>
+        <h1 class="section-heading">{{ .Site.Data.homepage.blog.heading| markdownify }}</h1>
+      </div>
+      {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+      {{ .Render "post" }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /blog -->
