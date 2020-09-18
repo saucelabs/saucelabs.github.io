@@ -1,6 +1,6 @@
 ---
 title: "SeleniumConf Virtual 2020 Recap"
-date: 2020-08-24T09:00:00+02:00
+date: 2020-09-24T09:00:00+02:00
 description: "Quick recap of the recent Selenium Conference held virtually"
 author: "Diego Molina"
 images:
