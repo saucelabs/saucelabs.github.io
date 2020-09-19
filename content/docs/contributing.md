@@ -4,12 +4,15 @@ description: "Contributing to Open Source"
 draft: false
 ---
 
-Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code is contributed to upstream open source projects. If you are in doubt, please reach out to the OSPO or ask your manager for direction.
+Participation in open source projects is highly encouraged and is an essential part of the engineering culture at Sauce Labs. We invite all engineers at Sauce Labs to use open source as an opportunity to learn new technologies, professionally grow, and contribute to the open source ecosystem. If you are struggling to find time for open source during your work time, please reach out to the [OSPO](mailto:opensource@saucelabs.com) or to your manager.
+
+The Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code that is contributed to upstream open source projects. If you are in doubt, please reach out to the [OSPO](mailto:opensource@saucelabs.com) or ask your manager for direction.
 
 ### Summary
 
 We highly encourage contributions to existing open source projects. There are some requirements before you start patching, and guides to help you figure out the right path:
 
+- Everyone is encouraged to spend time working on Open Source - please talk with your peers and manager to agree on times you like to contribute to Open Source projects
 - Patches generally don't require any review from the Open Source Program Office
 - Double-check to make certain you are not sharing confidential information
 - Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email.](https://help.github.com/articles/setting-your-email-in-git/)
