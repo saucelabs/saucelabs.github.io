@@ -60,7 +60,7 @@ Upload or Import local HAR file to network-viewer either by drag and drop in com
 
 #### Fetch a HAR file using a query parameters (CORS support)
 
-`file` and `isCORSEnabled` query string parameters can be used to fetch any remote HAR file. URL format can be like this https://opensource.saucelabs.com/network-viewer/?file={HAR_FILE_URL}&isCORSEnabled={true/false}  UI is also available on the home page to help you with this feature.
+`file` and `isCORSEnabled` query string parameters can be used to fetch any remote HAR file. URL format can be like this `https://opensource.saucelabs.com/network-viewer/?file={HAR_FILE_URL}&isCORSEnabled={true/false}`  UI is also available on the home page to help you with this feature.
 
 #### Search request by URL or body content
 
@@ -84,7 +84,7 @@ This checkbox helps to filter requests by status code where status code is great
 
 Waterfall chart displays the timeline of the request. Request timeline detail is available on mouse-over of waterfall chart. It is useful to understand the request time in depth.
 
-{{< figure src="/images/blog/network-viewer/image9.png" class="img-responsive" >}}
+{{< figure src="/images/blog/network-viewer/image9.png" class="img-responsive float-left mr-5 mb-4" >}}
 
 #### Stats Row
 
@@ -191,6 +191,6 @@ If you are interested in helping us out and add features to it, we are happy for
 
 ## Reference
 
-GitHub: https://github.com/saucelabs/network-viewer
-Website: https://opensource.saucelabs.com/network-viewer
+GitHub: https://github.com/saucelabs/network-viewer  
+Website: https://opensource.saucelabs.com/network-viewer  
 Extended-debugging wiki: https://wiki.saucelabs.com/pages/viewpage.action?pageId=70072943
