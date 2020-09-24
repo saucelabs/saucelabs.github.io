@@ -58,3 +58,15 @@ body {
         height: auto;
     }
 }
+
+.hacktoberfest {
+    background-color: #072540!important;
+    padding: 100px 0 0;
+
+    .container {
+        background-image: url(/images/hacktoberfest.png);
+        height: 285px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

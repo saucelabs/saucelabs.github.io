@@ -1,0 +1,66 @@
+{{ define "main" }}
+<section class="page-title bg-primary position-relative overflow-hidden hacktoberfest">
+  <div class="container"></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="font-tertiary">{{.Title}}</h3>
+        <div class="content">
+          {{.Content }}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="bottom-informational">
+          <div class="hacktoberfest-stats">
+            <div class="stat-box">
+              <h3>Overall Stats</h3>
+              <ul>
+                <li>Total Participating Repos: <div id="total-repos" class="stats-text animated-loader">&nbsp;</div></li>
+                <li>Total Open Issues: <div id="total-open-issues" class="stats-text animated-loader">&nbsp;</span></li>
+                <li>Total Contributors: <div id="total-contributors" class="stats-text animated-loader">&nbsp;</span></li>
+                <li>Total Open Pull Requests: <div id="total-open-pull-requests" class="stats-text animated-loader">&nbsp;</span></li>
+                <li>Total Closed Issues: <div id="total-closed-issues" class="stats-text animated-loader">&nbsp;</span></li>
+                <li>Total Closed Pull Requests: <div id="total-closed-pull-requests" class="stats-text animated-loader">&nbsp;</span></li>
+              </ul>
+            </div>
+            <div class="stat-box">
+              <div class="stat-heading">
+                <h3>Participating Repos</h3>
+                <span id="hacktoberfest-repos-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-repos')">show</span>
+              </div>
+              <ul id="hacktoberfest-repos" hidden>
+              </ul>
+            </div>
+            <div class="stat-box">
+              <div class="stat-heading">
+                <h3>Contributors</h3>
+                <span id="hacktoberfest-contributors-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-contributors')">hide</span>
+              </div>
+              <ul id="hacktoberfest-contributors">
+              </ul>
+            </div>
+            <div class="stat-box issues-list">
+              <div class="stat-heading">
+                <h3>Open Hacktoberfest Issues</h3>
+                <span id="hacktoberfest-issues-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-issues')">hide</span>
+              </div>
+              <ul id="hacktoberfest-issues">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ $script := resources.Get "js/octokit.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ $script := resources.Get "js/hacktoberfest.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ end }}
