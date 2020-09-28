@@ -13,25 +13,43 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row saucebot-hacktoberfest">
       <div class="col-lg-12">
         <div class="bottom-informational">
           <div class="hacktoberfest-stats">
             <div class="stat-box">
               <h3>Overall Stats</h3>
               <ul>
-                <li>Total Participating Repos: <div id="total-repos" class="stats-text animated-loader">&nbsp;</div></li>
-                <li>Total Open Issues: <div id="total-open-issues" class="stats-text animated-loader">&nbsp;</span></li>
-                <li>Total Contributors: <div id="total-contributors" class="stats-text animated-loader">&nbsp;</span></li>
-                <li>Total Open Pull Requests: <div id="total-open-pull-requests" class="stats-text animated-loader">&nbsp;</span></li>
-                <li>Total Closed Issues: <div id="total-closed-issues" class="stats-text animated-loader">&nbsp;</span></li>
-                <li>Total Closed Pull Requests: <div id="total-closed-pull-requests" class="stats-text animated-loader">&nbsp;</span></li>
+                <li>
+                  <div id="total-repos" class="stats-text animated-loader">&nbsp;</div>
+                  Total Participating Repos
+                </li>
+                <li>
+                  <div id="total-open-issues" class="stats-text animated-loader">&nbsp;</div>
+                  Total Open Issues
+                </li>
+                <li>
+                  <div id="total-contributors" class="stats-text animated-loader">&nbsp;</div>
+                  Total Contributors
+                </li>
+                <li>
+                  <div id="total-open-pull-requests" class="stats-text animated-loader">&nbsp;</div>
+                  Total Open Pull Requests
+                </li>
+                <li>
+                  <div id="total-closed-issues" class="stats-text animated-loader">&nbsp;</div>
+                  Total Closed Issues
+                </li>
+                <li>
+                  <div id="total-closed-pull-requests" class="stats-text animated-loader">&nbsp;</div>
+                  Total Closed Pull Requests
+                </li>
               </ul>
             </div>
             <div class="stat-box">
               <div class="stat-heading">
                 <h3>Participating Repos</h3>
-                <span id="hacktoberfest-repos-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-repos')">show</span>
+                <span id="hacktoberfest-repos-toggle" class="stat-toggle sauce-button" onclick="toggleContent('hacktoberfest-repos')">show</span>
               </div>
               <ul id="hacktoberfest-repos" hidden>
               </ul>
@@ -39,15 +57,16 @@
             <div class="stat-box">
               <div class="stat-heading">
                 <h3>Contributors</h3>
-                <span id="hacktoberfest-contributors-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-contributors')">hide</span>
+                <span id="hacktoberfest-contributors-toggle" class="stat-toggle sauce-button" onclick="toggleContent('hacktoberfest-contributors')">hide</span>
               </div>
               <ul id="hacktoberfest-contributors">
+                <li>No contributors found yet, let's start hacking!</li>
               </ul>
             </div>
             <div class="stat-box issues-list">
               <div class="stat-heading">
                 <h3>Open Hacktoberfest Issues</h3>
-                <span id="hacktoberfest-issues-toggle" class="stat-toggle" onclick="toggleContent('hacktoberfest-issues')">hide</span>
+                <span id="hacktoberfest-issues-toggle" class="stat-toggle sauce-button" onclick="toggleContent('hacktoberfest-issues')">hide</span>
               </div>
               <ul id="hacktoberfest-issues">
               </ul>
@@ -56,9 +75,13 @@
         </div>
       </div>
     </div>
+    <div class="attribution">
+      Thanks to the open source team at <a href="https://comcast.github.io/hacktoberfest.html">Comcast</a>
+      for their idea and <a href="https://github.com/Comcast/Comcast.github.io">implementation</a> of this page.
+    </div>
   </div>
 </section>
-{{ $script := resources.Get "js/octokit.js" | minify}}
+{{ $script := resources.Get "js/libs/octokit.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 {{ $script := resources.Get "js/hacktoberfest.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
