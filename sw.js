@@ -1,4 +1,4 @@
-const CACHE_VERSION = 101
+const CACHE_VERSION = 102
 
 const BASE_CACHE_FILES = [
     '/plugins/bootstrap/bootstrap.min.css',
