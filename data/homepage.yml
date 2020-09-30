@@ -107,8 +107,16 @@ events:
   enable: true
   title: "Events"
   heading: "Come out and join us"
-  intro: "We always love to connect! If you happen to be at one of the following events please make sure to visit the Sauce Labs booth and say hi."
+  intro: "We always love to connect! If you happen to be at one of the following events make sure to attend a Sauce Labs speaking session or stop by our booth and say hi."
   item:
+    - name: "Open Quality Conference"
+      image: "/images/events/qualityconf.gif"
+      description: "The Open Quality Conference is for all practitioners who want to expand or learn about some of the best practices specific for each open source tools within your company or individual projects."
+      link: "https://openqualityconf.com/"
+    - name: "TestCon Europe 2020"
+      image: "/images/events/testcon.gif"
+      description: "TestCon Europe is the leading conference for everyone willing to learn testing trends, best practices and make their contribution to the smoother software development cycle and quality."
+      link: "https://testcon.lt/"
     - name: "All Things Open"
       image: "/images/events/ato2020.png"
       description: "All Things Open is an Open Source/Open Tech/Open Web conference that takes place in Raleigh, NC. Since 2013 some of the top experts and emerging thought leaders in the world have spoken."
