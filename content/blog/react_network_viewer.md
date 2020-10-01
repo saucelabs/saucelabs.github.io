@@ -182,15 +182,15 @@ We have deployed the web application on https://opensource.saucelabs.com/network
 
 While we have released the library and already use it in our production application, there are several items we would love to work on next:
 
-- Adopt parent application styles by allowing to set styles using props (#53)
-- Sort table on click of column header (#54)
-- Support HTLM, JS, CSS, image, SVG file types in the response tab of the request details view (#55)
-- Store imported local HAR file on cloud (#56)
+- Adopt parent application styles by allowing to set styles using props ([#53](https://github.com/saucelabs/network-viewer/issues/53))
+- Sort table on click of column header ([#54](https://github.com/saucelabs/network-viewer/issues/54))
+- Support HTLM, JS, CSS, image, SVG file types in the response tab of the request details view ([#55](https://github.com/saucelabs/network-viewer/issues/55))
+- Store imported local HAR file on cloud ([#56](https://github.com/saucelabs/network-viewer/issues/56))
 
 If you are interested in helping us out and add features to it, we are happy for every pull request being sent our way.
 
 ## Reference
 
-GitHub: https://github.com/saucelabs/network-viewer  
-Website: https://opensource.saucelabs.com/network-viewer  
+GitHub: https://github.com/saucelabs/network-viewer
+Website: https://opensource.saucelabs.com/network-viewer
 Extended-debugging wiki: https://wiki.saucelabs.com/pages/viewpage.action?pageId=70072943
