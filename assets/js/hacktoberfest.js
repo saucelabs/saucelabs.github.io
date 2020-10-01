@@ -1,5 +1,5 @@
 const LOADER_CLASSNAME = 'animated-loader'
-const PARTICIPATING_GH_ORGS = ['selenium', 'appium', 'webdriverio', 'saucelabs']
+const PARTICIPATING_GH_ORGS = ['seleniumhq', 'appium', 'webdriverio', 'saucelabs']
 const PUBLIC_READ_ONLY_TOKEN = 'a007c6a0a64d3b0e71abd59d8c75aa5000022d19'
 
 const openIssues = []
@@ -25,7 +25,7 @@ const participatingRepos = []
     const contributorsList = document.getElementById('hacktoberfest-contributors')
 
     function formatContributor(contributor) {
-        const html = `<a href="${contributor.html_url}"><img class="thumbnail" src="${contributor.avatar_url}" alt="${contributor.login}"/></a>`
+        const html = `<li><a href="${contributor.html_url}"><img class="thumbnail" src="${contributor.avatar_url}" alt="${contributor.login}"/></a></li>`
         return html
     }
 
