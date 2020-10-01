@@ -25,7 +25,7 @@ const participatingRepos = []
     const contributorsList = document.getElementById('hacktoberfest-contributors')
 
     function formatContributor(contributor) {
-        const html = `<a href="${contributor.html_url}"><img class="thumbnail" src="${contributor.avatar_url}" alt="${contributor.login}"/></a>`
+        const html = `<li><a href="${contributor.html_url}"><img class="thumbnail" src="${contributor.avatar_url}" alt="${contributor.login}"/></a></li>`
         return html
     }
 
