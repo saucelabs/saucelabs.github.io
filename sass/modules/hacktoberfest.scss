@@ -1,0 +1,163 @@
+.hacktoberfest {
+    background-color: #072540!important;
+    padding: 100px 0 0;
+
+    .container {
+        background-image: url(/images/hacktoberfest.png);
+        height: 285px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.hacktoberfest-stats {
+    .stat-box {
+        margin-bottom: 15px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li div {
+                display: inline-block;
+                width: 20px;
+            }
+        }
+
+        .stat-heading {
+            display: flex;
+
+            .stat-toggle {
+                cursor: pointer;
+                padding: 5px 15px;
+                height: 28px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+.attribution {
+    text-align: center;
+    border-top: 1px $separator solid;
+    padding-top: 10px;
+}
+.saucebot-hacktoberfest {
+    background: url('/images/saucebot/coding.png') bottom 20px right 20px no-repeat;
+    background-size: 150px;
+}
+#hacktoberfest-contributors {
+    display: flex;
+
+    li {
+        position: relative;
+        margin-right: 10px;
+
+        a {
+            img {
+                width: 100px;
+                display: block;
+                border-radius: 50%;
+            }
+
+            &:hover {
+                box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+            }
+
+            &:hover::before, &:hover::after {
+                display: block;
+                content: '';
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background: $bgColorSauceButtonHover;
+                border-radius: 75px;
+                z-index: -1;
+                animation: 1s clockwise infinite;
+            }
+
+            &:hover:after {
+                background: $themeColor;
+                animation: 2s counterclockwise infinite;
+            }
+
+            @keyframes clockwise {
+                0% {
+                    top: -5px;
+                    left: 0;
+                }
+                12% {
+                    top: -2px;
+                    left: 2px;
+                }
+                25% {
+                    top: 0;
+                    left: 5px;
+                }
+                37% {
+                    top: 2px;
+                    left: 2px;
+                }
+                50% {
+                    top: 5px;
+                    left: 0;
+                }
+                62% {
+                    top: 2px;
+                    left: -2px;
+                }
+                75% {
+                    top: 0;
+                    left: -5px;
+                }
+                87% {
+                    top: -2px;
+                    left: -2px;
+                }
+                100% {
+                    top: -5px;
+                    left: 0;
+                }
+            }
+
+            @keyframes counterclockwise {
+                0% {
+                    top: -5px;
+                    right: 0;
+                }
+                12% {
+                    top: -2px;
+                    right: 2px;
+                }
+                25% {
+                    top: 0;
+                    right: 5px;
+                }
+                37% {
+                    top: 2px;
+                    right: 2px;
+                }
+                50% {
+                    top: 5px;
+                    right: 0;
+                }
+                62% {
+                    top: 2px;
+                    right: -2px;
+                }
+                75% {
+                    top: 0;
+                    right: -5px;
+                }
+                87% {
+                    top: -2px;
+                    right: -2px;
+                }
+                100% {
+                    top: -5px;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
