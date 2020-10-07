@@ -88,7 +88,7 @@ values:
   enable: true
   title: "Our Values"
   heading: "Be Open and Act Open"
-  intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be good open source citizens by participating in communities, sharing our knowledge and promoting open source best practices."
+  intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be active participants in communities, sharing our knowledge and promoting open source best practices."
   item:
     - title: "Participate"
       image: "/images/icons/participate_3x.svg"
