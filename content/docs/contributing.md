@@ -23,8 +23,8 @@ The following criteria must be met when contributing to an open source project:
 - Only contribute to public repositories on GitHub (or the community GitLab version) that have a permissive, weak copyleft or string copyleft license according to the [license guide](/docs/license-guide)
 - Do not share Sauce Labs confidential information
 - Do not contribute code that is proprietary to Sauce Labs and/or a competitive differentiator
-    - In short, do not reveal our secret sauce.
-    - When in doubt, check with the OSPO and your manager for additional guidance
+  - In short, do not reveal our secret sauce.
+  - When in doubt, check with the OSPO and your manager for additional guidance
 - Keep in mind that Sauce Labs has legal ownership of the contributions you make while you are a Sauce Labs employee, and CLAs are signed on behalf of Sauce Labs
 - Only sign [allowlist CLAs](./#whitelisted-clas), please reach out to the OSPO team for advice
 
