@@ -36,6 +36,7 @@ Contributions to open source projects such as the following normally do not requ
 - Writing documentation
 - Reviewing code
 - Participating in project maintenance such as creating roadmaps, grooming backlogs, etc.
+-   [Advocating](https://opensource.org/AdvocateCircle) for your favorite projects by sharing it in social media or, why not, giving talks about it
 
 ### Code Contributions
 
