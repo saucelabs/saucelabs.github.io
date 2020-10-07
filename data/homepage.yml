@@ -107,7 +107,7 @@ events:
   enable: true
   title: "Events"
   heading: "Come out and join us"
-  intro: "We always love to connect! If you happen to be at one of the following events make sure to attend a Sauce Labs speaking session or stop by our booth and say hi."
+  intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
   item:
     - name: "Open Quality Conference"
       image: "/images/events/qualityconf.gif"
