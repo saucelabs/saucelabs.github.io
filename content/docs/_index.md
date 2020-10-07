@@ -4,7 +4,7 @@ date: 2019-06-26T12:14:34+06:00
 description: "Sauce Labs Open Source Documentation with guidelines for Open Source best practices and policies."
 ---
 
-##### Saucers have been using and contributing to open source projects since the company was started, but there is no clear or well-documented guidance on how to engage in open source. Questions about legal issues, licensing and what is deemed confidential or proprietary information are common.
+##### Saucers have been using and contributing to open source projects since the company started. Regardless, there was no guidance on how to engage in open source. This is an initiative to clarify questions about legal issues, licensing and what is confidential or proprietary information.
 
 ##### The following documents are primarily intended for Saucers - but will also serve as a reference by anyone else - on how to adopt, modify and release open source code.
 
