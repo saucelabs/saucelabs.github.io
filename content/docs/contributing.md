@@ -4,7 +4,7 @@ description: "Contributing to Open Source"
 draft: false
 ---
 
-Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code is contributed to upstream open source projects. If you are in doubt, please reach out to the OSPO or ask your manager for direction.
+Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. Saucers are responsible to preserve our valuable information and code. OSPO and your manager can help you understand and determine what is open sourceable and what must remain private. In doubt, always ask.
 
 ### Summary
 
