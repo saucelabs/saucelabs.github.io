@@ -31,7 +31,8 @@ You cannot publish anything on GitHub that exposes any proprietary company techn
 If you are in doubt, please reach out to the [Open Source team](https://wiki.saucelabs.com/display/OSS/Open+Source+Team) or ask your manager for instructions.
 
 ### Use best practices
-Follow the guidelines that are present in many of the most renowned open source projects. By adhering to the items listed below you will be certain to get your roject started on the right foot.
+
+Follow the guidelines that are present in many of the most renowned open source projects. By adhering to the items listed below you will be certain to get your project started on the right foot.
 
 #### Include the required assets
 Use the [new-project](https://github.com/saucelabs/new-project) template as a boilerplate for the files required for your project. These files are needed to correctly communicate ownership and guidelines for the project:
