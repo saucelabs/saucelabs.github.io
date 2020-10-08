@@ -8,7 +8,7 @@ Participation in open source projects is highly encouraged, and the Open Source 
 
 ### Summary
 
-We highly encourage contributions to [existing open source projects](https://opensource.saucelabs.com/projects/).
+We highly encourage contributions to any open source project that aligns with the guidelines. If you are looking for projects to contribute, but don't know how to choose, we can help.
 
 There are some requirements before you start patching, and guides to help you figure out the right path:
 
