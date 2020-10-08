@@ -12,7 +12,7 @@ We highly encourage contributions to [existing open source projects](https://ope
 
 There are some requirements before you start patching, and guides to help you figure out the right path:
 
-- [Patches](https://semver.org/) generally don't require any review from the Open Source Program Office
+- [Patches](https://en.wikipedia.org/wiki/Patch_(computing)) generally don't require any review from the Open Source Program Office
 - Double-check to make certain you are not sharing confidential information
 - Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email](https://help.github.com/articles/setting-your-email-in-git/).
 
