@@ -4,15 +4,17 @@ description: "Contributing to Open Source"
 draft: false
 ---
 
-Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. All Saucers are expected to follow common sense regarding the type of information and code is contributed to upstream open source projects. If you are in doubt, please reach out to the OSPO or ask your manager for direction.
+Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. Saucers are responsible to preserve our valuable information and code. OSPO and your manager can help you understand and determine what is open sourceable and what must remain private. In doubt, always ask.
 
 ### Summary
 
-We highly encourage contributions to existing open source projects. There are some requirements before you start patching, and guides to help you figure out the right path:
+We highly encourage contributions to any open source project that aligns with the guidelines. If you are looking for projects to contribute, but don't know how to choose, we can help.
 
-- Patches generally don't require any review from the Open Source Program Office
+There are some requirements before you start patching, and guides to help you figure out the right path:
+
+- [Patches](https://en.wikipedia.org/wiki/Patch_(computing)) generally don't require any review from the Open Source Program Office
 - Double-check to make certain you are not sharing confidential information
-- Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email.](https://help.github.com/articles/setting-your-email-in-git/)
+- Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email](https://help.github.com/articles/setting-your-email-in-git/).
 
 ### Common Contribution Rules
 
@@ -21,8 +23,8 @@ The following criteria must be met when contributing to an open source project:
 - Only contribute to public repositories on GitHub (or the community GitLab version) that have a permissive, weak copyleft or string copyleft license according to the [license guide](/docs/license-guide)
 - Do not share Sauce Labs confidential information
 - Do not contribute code that is proprietary to Sauce Labs and/or a competitive differentiator
-    - In short, do not reveal our secret sauce.
-    - When in doubt, check with the OSPO and your manager for additional guidance
+  - In short, do not reveal our secret sauce.
+  - When in doubt, check with the OSPO and your manager for additional guidance
 - Keep in mind that Sauce Labs has legal ownership of the contributions you make while you are a Sauce Labs employee, and CLAs are signed on behalf of Sauce Labs
 - Only sign [allowlist CLAs](./#whitelisted-clas), please reach out to the OSPO team for advice
 
@@ -34,6 +36,7 @@ Contributions to open source projects such as the following normally do not requ
 - Writing documentation
 - Reviewing code
 - Participating in project maintenance such as creating roadmaps, grooming backlogs, etc.
+- [Advocating](https://opensource.org/AdvocateCircle) for your favorite projects by sharing it in social media or, why not, giving talks about it
 
 ### Code Contributions
 

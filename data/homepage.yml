@@ -88,7 +88,7 @@ values:
   enable: true
   title: "Our Values"
   heading: "Be Open and Act Open"
-  intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be good open source citizens by participating in communities, sharing our knowledge and promoting open source best practices."
+  intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be active participants in communities, sharing our knowledge and promoting open source best practices."
   item:
     - title: "Participate"
       image: "/images/icons/participate_3x.svg"
@@ -96,7 +96,7 @@ values:
 
     - title: "Share"
       image: "/images/icons/share_3x.svg"
-      content: "We are eager to share our knowledge, code and practices around automated testing to benefit as many people as possible."
+      content: "We are eager to share our knowledge, code and practices around automated testing to benefit as many people as possible. The more we share, the more we grow."
 
     - title: "Promote"
       image: "/images/icons/promote_3x.svg"
@@ -107,7 +107,7 @@ events:
   enable: true
   title: "Events"
   heading: "Come out and join us"
-  intro: "We always love to connect! If you happen to be at one of the following events make sure to attend a Sauce Labs speaking session or stop by our booth and say hi."
+  intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
   item:
     - name: "Open Quality Conference"
       image: "/images/events/qualityconf.gif"
@@ -156,7 +156,7 @@ portfolio:
 # projects
 open_sauce_projects:
   enable: true
-  title: "Projects"
+  title: "Open Sauce Program"
   heading: "Open Source projects we support"
   intro: "Sauce Labs is committed to support the open source ecosystem by providing free licenses through the Open Sauce program."
   item:
@@ -236,9 +236,9 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
-  title : "Blog"
-  heading: "Read and learn more at our blog"
+  enable: true
+  title: "Blog"
+  heading: "Read and learn more"
   # blog post comes from "content/blog" folder
 
 # hiring

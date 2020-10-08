@@ -10,7 +10,7 @@ Here you can see the steps that describe how Saucers can release a new open sour
 Releasing a new open source project is straightforward, just follow these guidelines:
 
 - Get approval: ensure you have organizational buy-in from your manager and that it is permissible to open source your project
-- Employ best practices: ensure your project follows established and successful practices
+- Employ best practices: ensure your project follows established and [successful practices](https://opensource.saucelabs.com/docs/releasing/#use-best-practices)
 - Prepare your repository: clean up and refactor your code to work outside the Sauce Labs environment
 - Get reviewed: the Sauce Labs Open Source team can help and will review your project
 
@@ -30,7 +30,8 @@ You cannot publish anything on GitHub that exposes any proprietary company techn
 If you are in doubt, please reach out to the [Open Source team](https://wiki.saucelabs.com/display/OSS/Open+Source+Team) or ask your manager for instructions.
 
 ### Use best practices
-Follow the guidelines that are present in many of the most renowned open source projects. By adhering to the items listed below you will be certain to get your roject started on the right foot.
+
+Follow the guidelines that are present in many of the most renowned open source projects. By adhering to the items listed below you will be certain to get your project started on the right foot.
 
 #### Include the required assets
 Use the [new-project](https://github.com/saucelabs/new-project) template as a boilerplate for the files required for your project. These files are needed to correctly communicate ownership and guidelines for the project:
