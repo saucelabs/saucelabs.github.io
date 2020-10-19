@@ -54,3 +54,5 @@ If a non-Sauce Labs Open Source project requires you to sign a contributor agree
 - Selenium Project [CLA](https://gist.github.com/selenium-ci/90e5715f953d820cf3fc6f2c22f4184c#file-selenium_project_cla)
 - Appium Project [CLA](https://cla.js.foundation/appium/appium)
 - WebdriverIO Project [CLA](https://cla.js.foundation/webdriverio/webdriverio)
+- Google [CLA](https://cla.developers.google.com/clas)
+- Facebook [CLA](https://code.facebook.com/cla)
