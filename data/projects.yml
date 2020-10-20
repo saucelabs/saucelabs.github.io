@@ -89,3 +89,8 @@ items:
     image: "images/logos/saucelabs.png"
     description: "An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against"
     project_url: "http://the-internet.herokuapp.com/"
+
+  - name: "SauceREST Java"
+    image: "images/logos/saucelabs.png"
+    description: "A Java client to access the Sauce Labs REST API."
+    project_url: "http://opensource.saucelabs.com/saucerest-java/"
