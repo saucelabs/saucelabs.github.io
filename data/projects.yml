@@ -87,5 +87,10 @@ items:
 
   - name: "The Internet"
     image: "images/logos/saucelabs.png"
-    description: "An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against"
+    description: "An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against."
     project_url: "http://the-internet.herokuapp.com/"
+
+  - name: "GitHub Codeblock"
+    image: "images/logos/docusaurus.svg"
+    description: "A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories."
+    project_url: "http://opensource.saucelabs.com/docusaurus-theme-github-codeblock/"
