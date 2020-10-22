@@ -109,10 +109,6 @@ events:
   heading: "Come out and join us"
   intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
   item:
-    - name: "All Things Open"
-      image: "/images/events/ato2020.png"
-      description: "All Things Open is an Open Source/Open Tech/Open Web conference that takes place in Raleigh, NC. Since 2013 some of the top experts and emerging thought leaders in the world have spoken."
-      link: "https://2020.allthingsopen.org/"
     - name: "International JavaScript Conference"
       image: "/images/events/ijs.png"
       description: "Conference for JS ✓ Angular ✓ React ✓ NodeJS ✓ VueJS ✓ Architecture ✓ and more."
