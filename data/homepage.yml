@@ -110,7 +110,7 @@ events:
   intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
   item:
     - name: "Codemotion Online Tech Conference - Spanish Edition"
-      image: "/images/events/ijs.png"
+      image: "/images/events/codemotion.png"
       description: "The multitrack conference made by devs for devs"
       link: "https://events.codemotion.com/conferences/online/2020/online-tech-conference-spanish-edition/"
 
