@@ -11,7 +11,7 @@ tags:
     - community
 ---
 
-{{< figure src="/images/blog/selenium_conf_2020_recap_1.png" class="img-responsive" >}}
+{{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}
 
 >In this new blog series all about the upcoming release of Selenium 4, Simon Stewart will 
 >cover how the Selenium project works, who is involved, how you can get involved, and a 
