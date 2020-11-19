@@ -10,6 +10,8 @@ images:
 
 ##### The following documents are primarily intended for Saucers - but will also serve as a reference by anyone else - on how to adopt, modify and release open source code.
 
+{{< figure src="/images/docs/about-white.svg" class="img-responsive text-center" >}}
+
 > This content is mostly inspired by Zalando’s Open Source [documentation](https://opensource.zalando.com/docs). Please consider this as a guideline instead of a how-to, as Sauce Labs operates in a unique way and we have our own engineering culture. To understand more about companies deeply involved in open source, we recommend checking out the [TODO Group](https://todogroup.org/).
 
 ### Topics
