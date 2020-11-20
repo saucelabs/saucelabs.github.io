@@ -2,9 +2,13 @@
 title: "Releasing a new Open Source project"
 description: "Releasing a new Open Source project"
 draft: false
+images:
+    - /images/docs/about-white.svg
 ---
 
 Here you can see the steps that describe how Saucers can release a new open source project. This is a simple process, and if you need help going through it the Open Source team is here to give you a hand.
+
+{{< figure src="/images/docs/about-white.svg" class="img-responsive text-center" >}}
 
 ### Overview
 Releasing a new open source project is straightforward, just follow these guidelines:
