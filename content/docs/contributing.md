@@ -2,9 +2,13 @@
 title: "Contributing to Open Source"
 description: "Contributing to Open Source"
 draft: false
+images:
+    - /images/docs/contributions.svg
 ---
 
 Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. Saucers are responsible to preserve our valuable information and code. OSPO and your manager can help you understand and determine what is open sourceable and what must remain private. In doubt, always ask.
+
+{{< figure src="/images/docs/contributions.svg" class="img-responsive text-center" >}}
 
 ### Summary
 
