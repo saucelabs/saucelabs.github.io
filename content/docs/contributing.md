@@ -37,9 +37,10 @@ The following criteria must be met when contributing to an open source project:
 Contributions to open source projects such as the following normally do not require you to sign a CLA, are encouraged as part of your employment at Sauce Labs, and do not need any approval:
 
 - Reporting issues
-- Writing documentation
+- Writing and/ or translating documentation
 - Reviewing code
-- Participating in project maintenance such as creating roadmaps, grooming backlogs, etc.
+- Participating in project maintenance such as creating roadmaps, grooming backlogs, etc
+- Helping with design needs
 - [Advocating](https://opensource.org/AdvocateCircle) for your favorite projects by sharing it in social media or, why not, giving talks about it
 
 ### Code Contributions
