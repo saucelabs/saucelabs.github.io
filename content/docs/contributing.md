@@ -40,7 +40,7 @@ Contributions to open source projects such as the following normally do not requ
 - Writing and/ or translating documentation
 - Reviewing code
 - Participating in project maintenance such as creating roadmaps, grooming backlogs, etc
-- Helping with design needs
+- Helping with web design needs, such as: logo, illustration, color pallets, or even proposing better user experience
 - [Advocating](https://opensource.org/AdvocateCircle) for your favorite projects by sharing it in social media or, why not, giving talks about it
 
 ### Code Contributions
