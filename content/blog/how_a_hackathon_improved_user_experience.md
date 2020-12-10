@@ -4,7 +4,7 @@ date: 2020-12-10T09:00:00+02:00
 description: "How two frontend devs improved the UX through a Hackathon."
 author: "Diego Molina"
 images:
-    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+    - /images/blog/sauce_developer.png
 tags:
     - ux
     - frontend
