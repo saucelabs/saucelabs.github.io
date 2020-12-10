@@ -121,15 +121,15 @@ the demo actually helped a lot.
 
 ### Here is the before and after the idea was implemented, it can be clearly noted how the UX is improved.
 
-{{< figure src="/images/blog/current_behavior_search.gif" class="img-responsive" caption="Search (before)" >}}
+{{< figure src="/images/blog/current_behavior_search.gif" class="img-responsive" caption="Search (before - laggy)" >}}
 
 
-{{< figure src="/images/blog/new_behavior_search.gif" class="img-responsive" caption="Search (after)">}}
+{{< figure src="/images/blog/new_behavior_search.gif" class="img-responsive" caption="Search (after - smooth)">}}
 
-{{< figure src="/images/blog/current_behavior_filter.gif" class="img-responsive" caption="Filter (before)" >}}
+{{< figure src="/images/blog/current_behavior_filter.gif" class="img-responsive" caption="Filter (before - laggy)" >}}
 
 
-{{< figure src="/images/blog/new_behavior_filter.gif" class="img-responsive" caption="Filter (after)" >}}
+{{< figure src="/images/blog/new_behavior_filter.gif" class="img-responsive" caption="Filter (after - smooth)" >}}
 
 
 After chatting with Lisa and Russ, understanding how they came up with the idea, planned it 
