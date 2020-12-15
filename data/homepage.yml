@@ -109,10 +109,10 @@ events:
   heading: "Come out and join us"
   intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
   item:
-    - name: "VLC Testing 20"
-      image: "/images/events/vlctesting.png"
-      description: "The most important sofware testing event in Spain celebrates its 10th anniversary!"
-      link: "https://vlctesting.es"
+    - name: "TestJS Summit"
+      image: "/images/events/testjssummit.png"
+      description: "TestJS Summit is a 2-day conference discussing all things JS testing. The event is going to gather thousands of QAs and developers in the cloud on Jan 28-29, 2021"
+      link: "https://www.testjssummit.com"
 
 # service
 service:
