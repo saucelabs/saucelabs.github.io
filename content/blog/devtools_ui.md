@@ -3,6 +3,7 @@ title: "Chrome DevTools UI"
 date: 2021-01-11T09:00:00+02:00
 description: "Chrome DevTools has always been an essential feature in Sauce Labs for live testing real devices. This blog post reports about our recent revamp of the UI code."
 author: "Sakhi Mansoor"
+authorTwitterHandle: "sakhisheikh"
 images:
     - /images/blog/devtools-ui/after.jpg
 tags:

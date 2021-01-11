@@ -3,6 +3,7 @@ title: "Visualize HAR Files With The New React Network Viewer Component"
 date: 2020-10-01T09:00:00+02:00
 description: "To take advantage of HAR file information and provide a modern UI to visualize them, Sauce Labs has implemented a library called Network Viewer which is an open source library that is built with React.js. It is flexible enough to add many new features in the future."
 author: "Farhan Iqbalhusain Chauhan"
+authorTwitterHandle: "FARHANCHAUHAN"
 images:
     - /images/blog/network-viewer/image1.png
     - /images/blog/network-viewer/image2.jpg
