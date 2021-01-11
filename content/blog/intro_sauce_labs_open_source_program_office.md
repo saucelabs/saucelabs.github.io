@@ -3,6 +3,7 @@ title: "Intro: Sauce Labs Open Source Program Office"
 date: 2020-08-12T09:00:00+02:00
 description: "Intro: Sauce Labs Open Source Program Office"
 author: "Diego Molina"
+authorTwitterHandle: "diegofmolina"
 images:
     - /images/blog/intro_sauce_labs_open_source_program_office.jpg
 tags:
