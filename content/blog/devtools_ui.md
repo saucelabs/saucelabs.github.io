@@ -13,15 +13,15 @@ tags:
     - devtools-ui
 ---
 
-Chrome DevTools has always been an essential feature in Sauce Labs for live testing real devices. This will allow a user to inspect web pages in Android devices during live testing and use Chrome DevTools to debug issues.
+Chrome DevTools has always been an essential feature in Sauce Labs for live testing real devices. It allows users to inspect web pages in Android devices and use Chrome DevTools to debug issues.
 
 ## Background
 
-In 2016, we launched a Chrome DevTools application to our customers that enabled them to debug webpages in Chrome and Safari in Android and iOS devices respectively. We used the static asset provided by the Chromium team and cloned the whole repository of [artifacts](https://www.google.com/url?q=https://github.com/ChromeDevTools/devtools-frontend/tree/master/front_end&sa=D&ust=1610370981658000&usg=AOvVaw0F69KLsKNRZ2R6ENTiGAKs) in our product from their git source to render the DevTools UI. Some other browsers which use the Chromium DevTools protocol were also integrated with some limitations.
+In 2016, we launched a Chrome DevTools application to our customers that enabled them to debug webpages in Chrome and Safari in Android and iOS devices respectively. We used the static assets provided by the Chromium team and cloned the whole repository of [artifacts](https://github.com/ChromeDevTools/devtools-frontend/tree/master/front_end) in our product from their git source to render the DevTools UI. Some other browsers which use the Chromium DevTools protocol were also integrated with some limitations.
 
 {{< figure src="/images/blog/devtools-ui/before.jpg" class="img-responsive text-center" attr="Here is a screehost of a live testing session debugging Safari on iPad." >}}
 
-In late 2019, we started seeing some serious issues in the Chrome DevTools feature, as some browser APIs were deprecated. The Chromium team rolled out those changes in early 2019 as they migrated all of the DevTools UI to web components, which helped in maintaining the huge codebase and improving their developer experience with more generic guidelines. This article DevTools architecture refresh: migrating to Web Components entails more details on it. The problem was bigger than it seemed to be initially.
+In late 2019, we started seeing some serious issues in the Chrome DevTools feature, as some browser APIs were deprecated. The Chromium team rolled out those changes in early 2019 as they migrated all of the DevTools UI to web components, which helped in maintaining the huge codebase and improving their developer experience with more generic guidelines. This article [DevTools architecture refresh: migrating to Web Components](https://developers.google.com/web/updates/2020/12/migrating-to-web-components?hl=en) entails more details on it. The problem was bigger than it seemed to be initially.
 
 {{< figure src="/images/blog/devtools-ui/after-update.jpg" class="img-responsive text-center" attr="As you can see the error in the image below: `document.registerElement` is not a function so this issue we encountered in the beginning." >}}
 
@@ -97,7 +97,7 @@ Here we have an overview of the architecture:
 
 __Final Step:__ To integrate this UI into any webapp, all  you need is pass your WebSocket debug URL of a webpage as a query param to establish connection between DevTools and your application.
 
-> [https://d2rso8miivgcsi.cloudfront.net/inspector.html/devtools-ui/inspector.html?wss=${webSocketUrl}](https://d2rso8miivgcsi.cloudfront.net/inspector.html/devtools-ui/inspector.html?wss=${webSocketUrl})
+> [https://da38tdtjguzrq.cloudfront.net/inspector.html?wss=${webSocketUrl}](https://da38tdtjguzrq.cloudfront.net/inspector.html?wss=${webSocketUrl})
 
 We configured those CDNs in our legacy and React application and saved storage resources from our repositories around 2GBs since the bespoke Chrome DevTools UI codebase and compiled artifacts were in the repository.
 
