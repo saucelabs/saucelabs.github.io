@@ -20,7 +20,7 @@ Chrome DevTools has always been an essential feature in Sauce Labs for live test
 
 In 2016, we launched a Chrome DevTools application to our customers that enabled them to debug webpages in Chrome and Safari in Android and iOS devices respectively. We used the static assets provided by the Chromium team and cloned the whole repository of [artifacts](https://github.com/ChromeDevTools/devtools-frontend/tree/master/front_end) in our product from their git source to render the DevTools UI. Some other browsers which use the Chromium DevTools protocol were also integrated with some limitations.
 
-{{< figure src="/images/blog/devtools-ui/before.jpg" class="img-responsive text-center" attr="Here is a screenshot of a live testing session debugging Safari on iPad." >}}
+{{< figure src="/images/blog/devtools-ui/before.jpg" class="img-responsive text-center" attr="Here is a screenshot of a live testing session debugging Chrome on Android." >}}
 
 In late 2019, we started seeing some serious issues in the Chrome DevTools feature, as some browser APIs were deprecated. The Chromium team rolled out those changes in early 2019 as they migrated all of the DevTools UI to web components, which helped in maintaining the huge codebase and improving their developer experience with more generic guidelines. This article [DevTools architecture refresh: migrating to Web Components](https://developers.google.com/web/updates/2020/12/migrating-to-web-components?hl=en) entails more details on it. The problem was bigger than it seemed to be initially.
 
