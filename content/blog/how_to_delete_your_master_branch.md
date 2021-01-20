@@ -5,8 +5,8 @@ description: "How to delete your master branch"
 author: "Diego Molina"
 authorTwitterHandle: "diegofmolina"
 images:
-    - /images/blog/how_to_delete_your_master_branch_1.png
-    - /images/blog/how_to_delete_your_master_branch_2.png
+    - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_1.png
+    - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_2.png
 tags:
     - open source
     - git
@@ -16,7 +16,7 @@ tags:
     - branch
 ---
 
-{{< figure src="/images/blog/how_to_delete_your_master_branch_2.png" class="img-responsive text-center" >}}
+{{< figure src="/images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_2.png" class="img-responsive text-center" >}}
 
 At the Selenium project we practice
 [trunk based development](https://trunkbaseddevelopment.com/), in which `trunk` is the
@@ -78,7 +78,7 @@ branch, all the open pull requests got closed. This made sense, since they were 
 targeting the `master` branch. Therefore, before deleting your `master` branch, double
 check and, if needed, edit the open pull requests so they target the new branch.
 
-{{< figure src="/images/blog/how_to_delete_your_master_branch_1.png" class="img-responsive text-center my-5" >}}
+{{< figure src="/images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_1.png" class="img-responsive text-center my-5" >}}
 
 It goes without saying that the name of your new branch can be any name that works
 well for your context and environment. For example, the
