@@ -5,14 +5,14 @@ description: "How two frontend devs improved the UX through a Hackathon."
 author: "Diego Molina"
 authorTwitterHandle: "diegofmolina"
 images:
-    - /images/blog/sauce_developer.png
+    - /images/blog/how-a-hackathon-improved-user-experience/sauce_developer.png
 tags:
     - ux
     - frontend
     - hackathon
 ---
 
-{{< figure src="/images/blog/sauce_developer.gif" class="img-responsive">}}
+{{< figure src="/images/blog/how-a-hackathon-improved-user-experience/sauce_developer.gif" class="img-responsive">}}
 
 A hackathon took place a few months ago within the Engineering organization at
 Sauce Labs. One of the best projects was the one implemented by
@@ -122,15 +122,15 @@ the demo actually helped a lot.
 
 ### Here is the before and after the idea was implemented, it can be clearly noted how the UX is improved.
 
-{{< figure src="/images/blog/current_behavior_search.gif" class="img-responsive" caption="Search (before - laggy)" >}}
+{{< figure src="/images/blog/how-a-hackathon-improved-user-experience/current_behavior_search.gif" class="img-responsive" caption="Search (before - laggy)" >}}
 
 
-{{< figure src="/images/blog/new_behavior_search.gif" class="img-responsive" caption="Search (after - smooth)">}}
+{{< figure src="/images/blog/how-a-hackathon-improved-user-experience/new_behavior_search.gif" class="img-responsive" caption="Search (after - smooth)">}}
 
-{{< figure src="/images/blog/current_behavior_filter.gif" class="img-responsive" caption="Filter (before - laggy)" >}}
+{{< figure src="/images/blog/how-a-hackathon-improved-user-experience/current_behavior_filter.gif" class="img-responsive" caption="Filter (before - laggy)" >}}
 
 
-{{< figure src="/images/blog/new_behavior_filter.gif" class="img-responsive" caption="Filter (after - smooth)" >}}
+{{< figure src="/images/blog/how-a-hackathon-improved-user-experience/new_behavior_filter.gif" class="img-responsive" caption="Filter (after - smooth)" >}}
 
 
 After chatting with Lisa and Russ, understanding how they came up with the idea, planned it
