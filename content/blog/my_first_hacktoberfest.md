@@ -1,6 +1,6 @@
 ---
 title: "My First Hacktoberfest"
-date: 2021-01-20T09:00:00+02:00
+date: 2021-01-22T09:00:00+02:00
 description: "Read about Yi Min Yang's experience during his first Hacktoberfest!"
 author: "Diego Molina"
 authorTwitterHandle: "diegofmolina"
