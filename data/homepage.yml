@@ -113,6 +113,10 @@ events:
       image: "/images/events/saucecon.gif"
       description: "SauceCon brings together the global community of Sauce Labs users and automated testing experts. Join us online April 20-22, as teams from around the world will come together to learn from each other and level up their automated testing and continuous delivery skills."
       link: "https://saucecon.com/"
+    - name: "OpenJS World"
+      image: "/images/events/openjsworld.gif"
+      description: "Join JavaScript professionals including developers, software engineers, developer advocates and business leaders at the OpenJS virtual global conference."
+      link: "https://openjsf.org/openjs-world-2021/"
 
 # service
 service:
