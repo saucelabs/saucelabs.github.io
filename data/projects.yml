@@ -40,6 +40,11 @@ items:
     description: "An interface to simplify working with Sauce Labs session-related interactions."
     project_url: "https://opensource.saucelabs.com/sauce_bindings"
 
+  - name: "Salsa Verde"
+    image: "images/logos/saucelabs.png"
+    description: "A Java page object test bibrary, optimized for remote execution."
+    project_url: "https://github.com/saucelabs/salsa_verde"
+
   - name: "Sample App Mobile"
     image: "images/logos/saucelabs.png"
     description: "This is the Sauce Labs Native Sample Application which is designed to be used with mobile devices."
@@ -104,3 +109,14 @@ items:
     image: "images/logos/node.png"
     description: "Concise data definition language (RFC 8610) implementation and JSON validator in Node.js"
     project_url: "http://opensource.saucelabs.com/cddl/"
+
+  - name: "Watir"
+    image: "images/logos/watir.png"
+    description: "An open source Ruby library for automating tests."
+    project_url: "http://watir.com"
+
+  - name: "Webdrivers"
+    image: "images/logos/ruby.svg"
+    description: "Automatic download and installation of correct browser driver for Ruby Selenium projects."
+    project_url: "http://github.com/titusfortner/webdrivers"
+
