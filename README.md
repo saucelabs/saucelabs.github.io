@@ -12,6 +12,7 @@ The following tools are required to build this page:
 
 - [Hugo](https://gohugo.io/) (static website generator)
 - [Sass](https://sass-lang.com/) (CSS extension)
+- [Node.js](https://nodejs.org/en/)
 
 # File Locations
 
@@ -27,10 +28,12 @@ Important files to edit are:
 
 # Build Locally
 
-First clone the project to a directory:
+First clone the project to a directory and install all dependencies:
 
 ```sh
 $ git clone git@github.com:saucelabs/saucelabs.github.io.git
+$ cd saucelabs.github.io
+$ npm install
 ```
 
 Pull the git submodules (for the Hugo theme) after cloning the project from GitHub
