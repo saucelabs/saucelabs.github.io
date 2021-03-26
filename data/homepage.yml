@@ -122,6 +122,10 @@ events:
       image: "/images/events/openjsworld.gif"
       description: "Join JavaScript professionals including developers, software engineers, developer advocates and business leaders at the OpenJS virtual global conference."
       link: "https://openjsf.org/openjs-world-2021/"
+    - name: "OSPOCon"
+      image: "/images/events/ospocon.gif"
+      description: "An event for those working in open source program offices in organizations that rely on open source technologies to learn and share best practices, experiences and tooling to overcome challenges they face."
+      link: "https://events.linuxfoundation.org/ospocon/"
 
 # service
 service:
