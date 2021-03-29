@@ -126,6 +126,10 @@ events:
       image: "/images/events/ospocon.gif"
       description: "An event for those working in open source program offices in organizations that rely on open source technologies to learn and share best practices, experiences and tooling to overcome challenges they face."
       link: "https://events.linuxfoundation.org/ospocon/"
+    - name: "OSS Summit"
+      image: "/images/events/oss-summit.gif"
+      description: "The premier vendor-neutral conference in Europe for open source developers and technologists to collaborate, share information and learn about the latest technologies and innovations across open source."
+      link: "https://events.linuxfoundation.org/open-source-summit-europe/"
 
 # service
 service:
