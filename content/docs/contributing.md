@@ -3,7 +3,7 @@ title: "Contributing to Open Source"
 description: "Contributing to Open Source"
 draft: false
 images:
-    - /images/docs/contributions.svg
+  - /images/docs/contributions.svg
 ---
 
 Participation in open source projects is highly encouraged, and the Open Source Program Office wants to make this process as simple as possible. Saucers are responsible to preserve our valuable information and code. OSPO and your manager can help you understand and determine what is open sourceable and what must remain private. In doubt, always ask.
@@ -14,7 +14,7 @@ We highly encourage contributions to any open source project that aligns with th
 
 There are some requirements before you start patching, and guides to help you figure out the right path:
 
-- [Patches](https://en.wikipedia.org/wiki/Patch_(computing)) generally don't require any review from the Open Source Program Office
+- [Patches](<https://en.wikipedia.org/wiki/Patch_(computing)>) generally don't require any review from the Open Source Program Office
 - Double-check to make certain you are not sharing confidential information
 - Ensure your commits are associated with your saucelabs.com email (unless you have a history of contributing to the repo under a different email before your employment at Sauce Labs). [How to associate your commit with a saucelabs.com email](https://help.github.com/articles/setting-your-email-in-git/).
 

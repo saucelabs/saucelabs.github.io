@@ -5,17 +5,17 @@ description: "In the third post in his series, Simon Stewart continues talking a
 author: "Simon Stewart"
 authorTwitterHandle: "shs96c"
 images:
-    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+  - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
-    - open source
-    - selenium
-    - community
+  - open source
+  - selenium
+  - community
 ---
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}
 
->In the third post in his series, Simon Stewart continues talking about
->what's coming in Selenium 4 and reviews some of the tricks in the new release.
+> In the third post in his series, Simon Stewart continues talking about
+> what's coming in Selenium 4 and reviews some of the tricks in the new release.
 
 In my last posts, we talked about
 [how to contribute to Selenium](/blog/what_is_coming_in_selenium_4_how_can_i_contribute), and
@@ -114,5 +114,4 @@ a better fit for testers.
 I am leaving out of this post all the details related to another important trick in Selenium 4, the new
 Selenium Grid, which I will cover in the next post. Stay tuned!
 
-
-*This was originally posted at https://saucelabs.com/blog/new-tricks-in-selenium-4*
+_This was originally posted at <https://saucelabs.com/blog/new-tricks-in-selenium-4>_
