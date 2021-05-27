@@ -103,3 +103,9 @@ description = "@saucelabs"
 icon = "ti-email"
 URL = "mailto:opensource@saucelabs.com"
 description = "opensource@saucelabs.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

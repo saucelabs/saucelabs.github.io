@@ -6,3 +6,5 @@ node_modules
 package-lock.json
 .sass-cache/
 .DS_Store
+.husky/_
+.husky/.gitignore
