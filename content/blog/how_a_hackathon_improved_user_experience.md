@@ -5,11 +5,11 @@ description: "How two frontend devs improved the UX through a Hackathon."
 author: "Diego Molina"
 authorTwitterHandle: "diegofmolina"
 images:
-    - /images/blog/how-a-hackathon-improved-user-experience/sauce_developer.png
+  - /images/blog/how-a-hackathon-improved-user-experience/sauce_developer.png
 tags:
-    - ux
-    - frontend
-    - hackathon
+  - ux
+  - frontend
+  - hackathon
 ---
 
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/sauce_developer.gif" class="img-responsive">}}
@@ -31,7 +31,6 @@ create a better experience for the user during their regular testing.
 
 I had the pleasure of having a chat with both of them about their hackathon project and
 how it made it all the way from a hackathon to the production environment.
-
 
 ### What was the hackathon idea? What problem were you trying to solve with it?
 
@@ -59,7 +58,7 @@ for my colleagues, but for me personally, I've been pushing much more for that 2
 that our Director of Engineering has been telling us to use. I've been able to do things like
 finish up work on a talk, and I've been getting analytics for our frontend. Right now, we're tracking
 the success of the local search filter by the number of API calls saved. We will roll it out in a
-couple of weeks  to everybody once we have some data on how beneficial it is for the user and the company.
+couple of weeks to everybody once we have some data on how beneficial it is for the user and the company.
 
 ### The hackathon was just two days, how did you plan your work to have something that could be shown in a demo and convince Product to implement it?
 
@@ -120,34 +119,30 @@ and how we can improve already existing code to make it better.
 _Russ:_ I don't remember having to convince our Product Manager to put this into our sprint. I believe
 the demo actually helped a lot.
 
-### Here is the before and after the idea was implemented, it can be clearly noted how the UX is improved.
+### Here is the before and after the idea was implemented, it can be clearly noted how the UX is improved
 
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/current_behavior_search.gif" class="img-responsive" caption="Search (before - laggy)" >}}
-
 
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/new_behavior_search.gif" class="img-responsive" caption="Search (after - smooth)">}}
 
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/current_behavior_filter.gif" class="img-responsive" caption="Filter (before - laggy)" >}}
 
-
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/new_behavior_filter.gif" class="img-responsive" caption="Filter (after - smooth)" >}}
-
 
 After chatting with Lisa and Russ, understanding how they came up with the idea, planned it
 and developed it during the hackathon, here are my main takeaways:
 
 - Hackathons are an opportunity to innovate and improve, sometimes people don’t join them
-because they don’t find ideas. But I believe there is no small idea, and you can always find
-things to improve in the product you are working on, and slowly develop a skill to create new
-ideas. In this case, improving the user experience was the perfect justification for this idea.
+  because they don’t find ideas. But I believe there is no small idea, and you can always find
+  things to improve in the product you are working on, and slowly develop a skill to create new
+  ideas. In this case, improving the user experience was the perfect justification for this idea.
 
 - You need to plan for a hackathon, at least for a few hours, before it officially starts. I’ve
-seen many times how people plan their tasks for the hackathon during the first day of the event,
-and this dramatically reduces the chances of achieving something that can be shown by the end
-of the hackathon.
+  seen many times how people plan their tasks for the hackathon during the first day of the event,
+  and this dramatically reduces the chances of achieving something that can be shown by the end
+  of the hackathon.
 
 - Pair programming in remote environments works, but it also needs some planning and scope definition,
-so both the navigator and the driver know what to expect and how to move through the session.
-
+  so both the navigator and the driver know what to expect and how to move through the session.
 
 What are your takeaways? How do you improve UX in your product?
