@@ -192,6 +192,6 @@ If you are interested in helping us out and add features to it, we are happy for
 
 ## Reference
 
-GitHub: https://github.com/saucelabs/network-viewer
-Website: https://opensource.saucelabs.com/network-viewer
-Extended-debugging wiki: https://wiki.saucelabs.com/pages/viewpage.action?pageId=70072943
+- [GitHub](https://github.com/saucelabs/network-viewer)
+- [Network Viewer App](https://opensource.saucelabs.com/network-viewer)
+- [Extended Debugging Docs](https://docs.saucelabs.com/insights/debug/)
