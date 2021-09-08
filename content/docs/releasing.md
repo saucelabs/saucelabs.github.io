@@ -53,7 +53,7 @@ Before you begin the process in earnest, you'll want to be prepared to answer th
 
 - Open-source project maintenance can be a significant time burden--do you and/or your team have the time?  If not, then who?
 - If the project becomes popular, how will you adapt to the increased demands from the OSS community?
-- What will happen to the project if, in the future, you no longer have the resources to maintain it?  
+- What will happen to the project if, in the future, you no longer have the resources to maintain it?
 - How do you intend to handle community contributions?  To what extent will the community be involved in decision-making?
 
 ### Get approval
@@ -67,7 +67,7 @@ Let your manager know that you would like to open source your project, and make 
 #### What cannot be open sourced?
 You cannot publish anything on GitHub that exposes any proprietary company technology or processes. This normally means any code or technology built in house that is vital in the process of giving our customers a unique experience.
 
-If you are in doubt, please reach out to the [Open Source team](https://wiki.saucelabs.com/display/OSS/Open+Source+Team) or ask your manager for instructions.
+If you are in doubt, please reach out to the [Open Source team](mailto:opensource@saucelabs.com) or ask your manager for instructions.
 
 ### Use best practices
 
