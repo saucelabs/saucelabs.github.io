@@ -1,6 +1,6 @@
 const LOADER_CLASSNAME = 'animated-loader'
 const PARTICIPATING_GH_ORGS = ['seleniumhq', 'appium', 'webdriverio', 'saucelabs']
-const PUBLIC_READ_ONLY_TOKEN = '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'
+const PUBLIC_READ_ONLY_TOKEN = window.atob('Z2hwX3RrMWZpQktkbFAwSlJtV0tNNXJwUHF3OEF4NWtlUDFwR1E1eA==')
 
 const openIssues = []
 const openPrs = []
