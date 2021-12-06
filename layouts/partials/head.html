@@ -32,6 +32,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ `images/apple-touch-icon.png` | absURL }}">
   <link rel="mask-icon" color="{{ .Site.Params.theme_color }}" href="{{ `images/safari-pinned-tab.svg` | absURL }}">
 
+  <!-- OneTrust Cookies Consent Notice start for opensource.saucelabs.com -->
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="6d1eb79b-c89c-440f-87e8-dc9c37f0e44b" ></script>
+  <script type="text/javascript">
+    function OptanonWrapper() { }
+  </script>
+  <!-- OneTrust Cookies Consent Notice end for opensource.saucelabs.com -->
+
   {{ with .Site.Params.google_tag_manager_id }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   {{ end }}
