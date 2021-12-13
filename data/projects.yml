@@ -42,7 +42,7 @@ items:
 
   - name: "Salsa Verde"
     image: "images/logos/saucelabs.png"
-    description: "A Java page object test bibrary, optimized for remote execution."
+    description: "A Java page object test library, optimized for remote execution."
     project_url: "https://github.com/saucelabs/salsa_verde"
 
   - name: "Sample App Mobile"
