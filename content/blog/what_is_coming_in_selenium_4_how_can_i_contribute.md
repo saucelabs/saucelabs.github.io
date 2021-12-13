@@ -5,18 +5,18 @@ description: "First post of the Selenium 4 blog series, how can I contribute to 
 author: "Simon Stewart"
 authorTwitterHandle: "shs96c"
 images:
-    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+  - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
-    - open source
-    - selenium
-    - community
+  - open source
+  - selenium
+  - community
 ---
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}
 
->In this new blog series all about the upcoming release of Selenium 4, Simon Stewart will
->cover how the Selenium project works, who is involved, how you can get involved, and a
->sneak peek at what’s new in Selenium 4.
+> In this new blog series all about the upcoming release of Selenium 4, Simon Stewart will
+> cover how the Selenium project works, who is involved, how you can get involved, and a
+> sneak peek at what’s new in Selenium 4.
 
 As the lead of the Selenium project, I wanted to kick off a new blog series leading up to
 the release of Selenium 4. During this series, I’ll talk all about how the Selenium project
@@ -101,6 +101,4 @@ and daunting when you’re getting started. We’re here to help!
 I hope you enjoyed this intro to the Selenium project. Next week, we’ll talk about why the major version bump to
 Selenium 4. Stay tuned!
 
-
-
-*This was originally posted at https://saucelabs.com/blog/whats-coming-in-selenium-4-how-can-i-contribute*
+_This was originally posted at <https://saucelabs.com/blog/whats-coming-in-selenium-4-how-can-i-contribute>_

@@ -5,13 +5,13 @@ description: "Chrome DevTools has always been an essential feature in Sauce Labs
 author: "Sakhi Mansoor"
 authorTwitterHandle: "sakhisheikh"
 images:
-    - /images/blog/devtools-ui/after.jpg
+  - /images/blog/devtools-ui/after.jpg
 tags:
-    - ux
-    - frontend
-    - chrome
-    - devtools
-    - devtools-ui
+  - ux
+  - frontend
+  - chrome
+  - devtools
+  - devtools-ui
 ---
 
 Chrome DevTools has always been an essential feature in Sauce Labs for live testing real devices. It allows users to inspect web pages in Android devices and use Chrome DevTools to debug issues.
@@ -40,10 +40,13 @@ A few files were missing to render the DevTools UI. After digging into it furthe
 
 ## A Short Fix
 
-We made the choice to go for a __short term__ fix initially to add missing artifacts. After getting familiar with similar issues on Chromium Google source [issues portal](https://www.google.com/url?q=https://groups.google.com/g/google-chrome-developer-tools/c/RUYXxgATbeo/m/6wfd-mvmAgAJ&sa=D&ust=1610370981661000&usg=AOvVaw2798SP0pdDK4qSspF3NVBW), we found a way to fetch generated artifacts on runtime with chromium hosted repo for static assets like this:
+We made the choice to go for a **short term** fix initially to add missing artifacts. After getting familiar with similar issues on Chromium Google source [issues portal](https://www.google.com/url?q=https://groups.google.com/g/google-chrome-developer-tools/c/RUYXxgATbeo/m/6wfd-mvmAgAJ&sa=D&ust=1610370981661000&usg=AOvVaw2798SP0pdDK4qSspF3NVBW), we found a way to fetch generated artifacts on runtime with chromium hosted repo for static assets like this:
 
-> [https://chrome-devtools-frontend.appspot.com/serve_file/@f34bc3521507d3a2b58ad8ce5e63c2a7c13ff3b9/InspectorBackendCommands.js](https://chrome-devtools-frontend.appspot.com/serve_file/@f34bc3521507d3a2b58ad8ce5e63c2a7c13ff3b9/InspectorBackendCommands.js)
-    <br /><sub>(The format is @ followed by the chromium git commit hash and param in the path is file name).</sub>
+<!-- markdownlint-disable no-inline-html -->
+
+> [https://chrome-devtools-frontend.appspot.com/serve_file/@f34bc3521507d3a2b58ad8ce5e63c2a7c13ff3b9/InspectorBackendCommands.js](https://chrome-devtools-frontend.appspot.com/serve_file/@f34bc3521507d3a2b58ad8ce5e63c2a7c13ff3b9/InspectorBackendCommands.js) > <br/><sub>(The format is <code>@</code> followed by the Chromium git commit hash; the parameter in the path is the file name)</sub>
+
+<!-- markdownlint-enable no-inline-html -->
 
 With this hosted service we were able to retrieve missing artifacts and Chrome DevTools was back to life.
 
@@ -62,7 +65,7 @@ We again put all those artifacts in our product repository and shipped to the cu
 The previous solution wasn’t feasible in terms of developer experience since it had some constraints:
 In order to build all DevTools artifacts you need to have depot tools and DevTools Frontend git source on the same machine as it requires some symlinks. We didn’t want all of our developers to install these dependencies in their machines to make further needed changes to the DevTools feature.
 
-__Motivation:__ At Sauce Labs, we strive to keep a sustained balance in both developer and user experience. Our goal was to craft this feature in a way which just not only benefits us but helps the community in a certain way. As we have seen in this quest to solve this issue, there are no suitable options for the open source community to consume DevTools UI easily integratable in their project. All available options are a bit dispersed in small parts as Chrome DevTools UI isn’t commonly used as a standalone application so we decided to create such a solution. Also, we didn’t want to replicate and manage the same code in our different projects.
+**Motivation:** At Sauce Labs, we strive to keep a sustained balance in both developer and user experience. Our goal was to craft this feature in a way which just not only benefits us but helps the community in a certain way. As we have seen in this quest to solve this issue, there are no suitable options for the open source community to consume DevTools UI easily integratable in their project. All available options are a bit dispersed in small parts as Chrome DevTools UI isn’t commonly used as a standalone application so we decided to create such a solution. Also, we didn’t want to replicate and manage the same code in our different projects.
 
 After some useful discussions within our teams and even talking to the Chrome DevTools Team we reached the conclusion that we needed to build a completely independent webapp for DevTools UI, which can be later integrated in our projects and OSS can leverage it somehow.
 
@@ -96,7 +99,7 @@ Here we have an overview of the architecture:
 
 {{< figure src="/images/blog/devtools-ui/architecture.gif" class="img-responsive text-center" >}}
 
-__Final Step:__ To integrate this UI into any webapp, all  you need is pass your WebSocket debug URL of a webpage as a query param to establish connection between DevTools and your application.
+**Final Step:** To integrate this UI into any webapp, all you need is pass your WebSocket debug URL of a webpage as a query param to establish connection between DevTools and your application.
 
 > [https://da38tdtjguzrq.cloudfront.net/inspector.html?wss=${webSocketUrl}](https://da38tdtjguzrq.cloudfront.net/inspector.html?wss=${webSocketUrl})
 
