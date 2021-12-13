@@ -1,0 +1,90 @@
+extends:
+  - eslint:recommended
+  - plugin:import/errors
+  - plugin:import/warnings
+  - plugin:yml/standard
+  - plugin:toml/standard
+  - plugin:prettier/recommended
+  - plugin:md/recommended
+
+plugins:
+  - import
+  - yml
+  - toml
+  - prettier
+  - spellcheck
+  - md
+
+env:
+  browser: true
+  es6: true
+
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+
+rules:
+  # use semicolons!!
+  semi: [error, always]
+  # use single quotes
+  quotes: [error, single]
+  # force-indent 2 spaces in yaml files
+  yml/indent: [error, 2]
+  yml/plain-scalar: [error, always]
+  # this disables the line length check in the markdown plugin
+  md/remark:
+    - error
+    - plugins:
+        - [remark-lint-maximum-line-length, false]
+
+  spellcheck/spell-checker:
+    - warn
+    - comments: true
+      strings: true
+      # an identifier is a variable name
+      identifiers: false
+      lang: en_US
+      skipWords:
+        - appium
+        - saucelabs
+        - hacktoberfest
+        - whitespace
+        - preloader
+        - toggler
+        - themify
+        - favicon
+      skipIfMatch:
+        # no URLs
+        - "https?://[^s]*"
+        # no http request headers
+        - "GET\\s.+"
+        # skip tokens
+        - ^[a-zA-Z0-9=]{56}$
+      skipWordIfMatch:
+        - repos?
+        - web.*
+        - selenium.*
+        - ya?ml
+        - eslint.*
+      # 3-letter words are not checked; these are often file extensions
+      minLength: 4
+
+overrides:
+  # fix conflicts between the markdown plugin and prettier; give markdown plugin precedence
+  # more info: https://blog.frontendops.dev/2020/11/24/eslint-for-markdown/ for more
+  - files: "*.md"
+    parser: markdown-eslint-parser
+    rules:
+      prettier/prettier:
+        - error
+        - parser: markdown
+
+# this is just an .eslintignore file
+ignorePatterns:
+  - public/**/
+  - resources/**/*
+  - themes/**/*
+  - package*.json
+  - .husky/**/*
+  - assets/js/libs/**/*
+  - "!.*"

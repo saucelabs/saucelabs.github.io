@@ -10,9 +10,8 @@
     "clean": "rm -rf .sass-cache content data public resources ./assets/css",
     "lint": "run-p lint:*",
     "lint:sass": "sass-lint -c .sass-lint.yml",
-    "lint:eslint": "eslint ./assets/js",
-    "lint:markdown": "markdownlint-cli2 content",
-    "format": "markdownlint-cli2-fix \"content/**/*.md\" && prettier --write \"content/**/*.md\"",
+    "lint:eslint": "eslint .",
+    "format": "eslint --fix .",
     "sass": "mkdir -p ./assets/css && sass ./static/sass/style.scss:./assets/css/style.css",
     "start": "run-p start:*",
     "start:hugo": "hugo server -p 8080",
@@ -31,24 +30,40 @@
   },
   "devDependencies": {
     "eslint": "^7.1.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-md": "^1.0.19",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-spellcheck": "^0.0.19",
+    "eslint-plugin-toml": "^0.3.0",
+    "eslint-plugin-yml": "^0.12.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "markdownlint-cli2": "^0.1.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.3.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-toml": "^0.3.1",
     "replace-in-files-cli": "^2.0.0",
     "sass": "^1.26.7",
     "sass-lint": "^1.13.1"
   },
   "lint-staged": {
-    "*.md": [
-      "markdownlint-cli2-fix",
-      "prettier --write"
+    "*.{yaml,yml,toml,js,md}": [
+      "eslint --fix"
     ]
   },
   "engines": {
     "node": ">=12"
   },
-  "private": true
+  "private": true,
+  "prettier": {
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.{yaml,yml,toml}",
+        "options": {
+          "singleQuote": false
+        }
+      }
+    ]
+  }
 }
