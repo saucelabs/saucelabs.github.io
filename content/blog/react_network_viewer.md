@@ -1,22 +1,22 @@
 ---
-title: "Visualize HAR Files With The New React Network Viewer Component"
+title: 'Visualize HAR Files With The New React Network Viewer Component'
 date: 2020-10-01T09:00:00+02:00
-description: "To take advantage of HAR file information and provide a modern UI to visualize them, Sauce Labs has implemented a library called Network Viewer which is an open source library that is built with React.js. It is flexible enough to add many new features in the future."
-author: "Farhan Iqbalhusain Chauhan"
-authorTwitterHandle: "FARHANCHAUHAN"
+description: 'To take advantage of HAR file information and provide a modern UI to visualize them, Sauce Labs has implemented a library called Network Viewer which is an open source library that is built with React.js. It is flexible enough to add many new features in the future.'
+author: 'Farhan Iqbalhusain Chauhan'
+authorTwitterHandle: 'FARHANCHAUHAN'
 images:
-  - /images/blog/network-viewer/image1.png
-  - /images/blog/network-viewer/image2.jpg
-  - /images/blog/network-viewer/image4.png
-  - /images/blog/network-viewer/image6.png
+    - /images/blog/network-viewer/image1.png
+    - /images/blog/network-viewer/image2.jpg
+    - /images/blog/network-viewer/image4.png
+    - /images/blog/network-viewer/image6.png
 tags:
-  - react
-  - har
-  - network
-  - component
-  - viewer
-  - request
-  - response
+    - react
+    - har
+    - network
+    - component
+    - viewer
+    - request
+    - response
 ---
 
 A HAR file contains requests tracking information between a web browser and a website. It can be used to identify website performance issues like slow page loads, missing content, wrong file formats, cross-domain request issues, authentication issues and much more.
@@ -116,34 +116,34 @@ Network Viewer contains four components:
 
 This component provides the following functionality.
 
-- **Search** requests by URL or body/content.
-- **Filter by file type**, available options are XHR, JS, CSS, Img, Media, Font, Docs, WS, Manifest.
-- **Filter by Error** to filter records which have error response or status code that are greater than 400.
+-   **Search** requests by URL or body/content.
+-   **Filter by file type**, available options are XHR, JS, CSS, Img, Media, Font, Docs, WS, Manifest.
+-   **Filter by Error** to filter records which have error response or status code that are greater than 400.
 
 #### Requests table
 
 This table renders all the requests from the imported HAR file. The following columns are supported:
 
-- **File:** a name of the request, hover over it to view the full resource with a domain name
-- **Status:** a HTTP status code
-- **Method:** a HTTP method
-- **Domain:** a domain of the request
-- **Type:** MIME type of the requested resource
-- **Size:** the combined size of the response headers plus the response body, as delivered by the server
-- **Time:** the total duration, from the start of the request to the receipt of the final byte in the response
-- **Waterfall:** the timeline column displays a visual waterfall of all network requests
+-   **File:** a name of the request, hover over it to view the full resource with a domain name
+-   **Status:** a HTTP status code
+-   **Method:** a HTTP method
+-   **Domain:** a domain of the request
+-   **Type:** MIME type of the requested resource
+-   **Size:** the combined size of the response headers plus the response body, as delivered by the server
+-   **Time:** the total duration, from the start of the request to the receipt of the final byte in the response
+-   **Waterfall:** the timeline column displays a visual waterfall of all network requests
 
 The requests are colored depending on their type. A red entry shows requests with status code greater than or equal 400, which indicates an error. Light grey ones are pending requests which are not completed by the time a HAR file was recorded.
 
 The waterfall view shows the request lifecycle with the following information:
 
-- **Stalled:** time a request spent waiting before it could be sent. This includes any time spent in proxy negotiation or when waiting for an established connection to become available for reuse
-- **DNS lookup:** time spent performing the DNS lookup
-- **Initial connection/connecting:** time it took to establish a connection
-- **SSL:** time spent completing an SSL handshake
-- **Request sent/sending:** time spent issuing the network request
-- **Waiting (TTFB):** time spent waiting for the initial response, also known as the Time To First Byte
-- **Content downloaded:** time spent receiving the response data.
+-   **Stalled:** time a request spent waiting before it could be sent. This includes any time spent in proxy negotiation or when waiting for an established connection to become available for reuse
+-   **DNS lookup:** time spent performing the DNS lookup
+-   **Initial connection/connecting:** time it took to establish a connection
+-   **SSL:** time spent completing an SSL handshake
+-   **Request sent/sending:** time spent issuing the network request
+-   **Waiting (TTFB):** time spent waiting for the initial response, also known as the Time To First Byte
+-   **Content downloaded:** time spent receiving the response data.
 
 #### Stats
 
@@ -157,11 +157,11 @@ By clicking on a request, you can view the request detail component. It has two 
 
 ##### Headers Tab
 
-- A general information section which renders request url, domain, status code, method type, remote address
-- Request headers section to display the header information while requesting for the resource, for instance: content-type, origin, user-agent, cookies, authorization
-- Response headers section to display the header information which is returned by the server
-- Form Data is a list of decoded payload data
-- Query String Data is a list of decoded query string params
+-   A general information section which renders request url, domain, status code, method type, remote address
+-   Request headers section to display the header information while requesting for the resource, for instance: content-type, origin, user-agent, cookies, authorization
+-   Response headers section to display the header information which is returned by the server
+-   Form Data is a list of decoded payload data
+-   Query String Data is a list of decoded query string params
 
 ##### Response Tab
 
@@ -185,15 +185,15 @@ We have deployed the web application on <https://opensource.saucelabs.com/networ
 
 While we have released the library and already use it in our production application, there are several items we would love to work on next:
 
-- Adopt parent application styles by allowing to set styles using props ([#53](https://github.com/saucelabs/network-viewer/issues/53))
-- Sort table on click of column header ([#54](https://github.com/saucelabs/network-viewer/issues/54))
-- Support HTLM, JS, CSS, image, SVG file types in the response tab of the request details view ([#55](https://github.com/saucelabs/network-viewer/issues/55))
-- Store imported local HAR file on cloud ([#56](https://github.com/saucelabs/network-viewer/issues/56))
+-   Adopt parent application styles by allowing to set styles using props ([#53](https://github.com/saucelabs/network-viewer/issues/53))
+-   Sort table on click of column header ([#54](https://github.com/saucelabs/network-viewer/issues/54))
+-   Support HTLM, JS, CSS, image, SVG file types in the response tab of the request details view ([#55](https://github.com/saucelabs/network-viewer/issues/55))
+-   Store imported local HAR file on cloud ([#56](https://github.com/saucelabs/network-viewer/issues/56))
 
 If you are interested in helping us out and add features to it, we are happy for every pull request being sent our way.
 
 ## Reference
 
-- [GitHub](https://github.com/saucelabs/network-viewer)
-- [Network Viewer App](https://opensource.saucelabs.com/network-viewer)
-- [Extended Debugging Docs](https://docs.saucelabs.com/insights/debug/)
+-   [GitHub](https://github.com/saucelabs/network-viewer)
+-   [Network Viewer App](https://opensource.saucelabs.com/network-viewer)
+-   [Extended Debugging Docs](https://docs.saucelabs.com/insights/debug/)

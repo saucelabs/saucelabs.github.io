@@ -1,15 +1,15 @@
 ---
-title: "New Tricks in Selenium 4"
+title: 'New Tricks in Selenium 4'
 date: 2020-12-16T09:00:00+02:00
 description: "In the third post in his series, Simon Stewart continues talking about what's coming in Selenium 4 and reviews some of the tricks in the new release."
-author: "Simon Stewart"
-authorTwitterHandle: "shs96c"
+author: 'Simon Stewart'
+authorTwitterHandle: 'shs96c'
 images:
-  - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
-  - open source
-  - selenium
-  - community
+    - open source
+    - selenium
+    - community
 ---
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}

@@ -1,15 +1,15 @@
 ---
-title: "How a Hackathon Improved User Experience"
+title: 'How a Hackathon Improved User Experience'
 date: 2020-12-10T09:00:00+02:00
-description: "How two frontend devs improved the UX through a Hackathon."
-author: "Diego Molina"
-authorTwitterHandle: "diegofmolina"
+description: 'How two frontend devs improved the UX through a Hackathon.'
+author: 'Diego Molina'
+authorTwitterHandle: 'diegofmolina'
 images:
-  - /images/blog/how-a-hackathon-improved-user-experience/sauce_developer.png
+    - /images/blog/how-a-hackathon-improved-user-experience/sauce_developer.png
 tags:
-  - ux
-  - frontend
-  - hackathon
+    - ux
+    - frontend
+    - hackathon
 ---
 
 {{< figure src="/images/blog/how-a-hackathon-improved-user-experience/sauce_developer.gif" class="img-responsive">}}
@@ -132,17 +132,17 @@ the demo actually helped a lot.
 After chatting with Lisa and Russ, understanding how they came up with the idea, planned it
 and developed it during the hackathon, here are my main takeaways:
 
-- Hackathons are an opportunity to innovate and improve, sometimes people don’t join them
-  because they don’t find ideas. But I believe there is no small idea, and you can always find
-  things to improve in the product you are working on, and slowly develop a skill to create new
-  ideas. In this case, improving the user experience was the perfect justification for this idea.
+-   Hackathons are an opportunity to innovate and improve, sometimes people don’t join them
+    because they don’t find ideas. But I believe there is no small idea, and you can always find
+    things to improve in the product you are working on, and slowly develop a skill to create new
+    ideas. In this case, improving the user experience was the perfect justification for this idea.
 
-- You need to plan for a hackathon, at least for a few hours, before it officially starts. I’ve
-  seen many times how people plan their tasks for the hackathon during the first day of the event,
-  and this dramatically reduces the chances of achieving something that can be shown by the end
-  of the hackathon.
+-   You need to plan for a hackathon, at least for a few hours, before it officially starts. I’ve
+    seen many times how people plan their tasks for the hackathon during the first day of the event,
+    and this dramatically reduces the chances of achieving something that can be shown by the end
+    of the hackathon.
 
-- Pair programming in remote environments works, but it also needs some planning and scope definition,
-  so both the navigator and the driver know what to expect and how to move through the session.
+-   Pair programming in remote environments works, but it also needs some planning and scope definition,
+    so both the navigator and the driver know what to expect and how to move through the session.
 
 What are your takeaways? How do you improve UX in your product?
