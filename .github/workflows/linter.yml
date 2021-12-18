@@ -2,8 +2,6 @@ name: Run linter
 
 on:
   pull_request:
-    branches:
-      - dev
 
 jobs:
   linter:
