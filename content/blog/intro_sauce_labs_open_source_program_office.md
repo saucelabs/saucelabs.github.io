@@ -1,21 +1,21 @@
 ---
-title: "Intro: Sauce Labs Open Source Program Office"
+title: 'Intro: Sauce Labs Open Source Program Office'
 date: 2020-08-12T09:00:00+02:00
-description: "Intro: Sauce Labs Open Source Program Office"
-author: "Diego Molina"
-authorTwitterHandle: "diegofmolina"
+description: 'Intro: Sauce Labs Open Source Program Office'
+author: 'Diego Molina'
+authorTwitterHandle: 'diegofmolina'
 images:
-  - /images/blog/intro_sauce_labs_open_source_program_office.jpg
+    - /images/blog/intro_sauce_labs_open_source_program_office.jpg
 tags:
-  - intro
-  - open
-  - source
-  - program
-  - office
-  - participate
-  - share
-  - promote
-  - saucelabs
+    - intro
+    - open
+    - source
+    - program
+    - office
+    - participate
+    - share
+    - promote
+    - saucelabs
 ---
 
 {{< figure src="/images/blog/intro_sauce_labs_open_source_program_office.jpg" attr="Photo by Markus Winkler (Unsplash)" link="https://unsplash.com/@markuswinkler" class="img-responsive float-left mr-5 mb-4" target="_blank" >}}
@@ -42,12 +42,12 @@ software. This benefits everyone—not just the developers, but also the users.
 
 As a team, here’s what our Open Source Program Office is committed to doing:
 
-- **Participate**: We invest and participate in projects and communities that share our
-  common goal to create a world of digital confidence.
-- **Share**: We are eager to share our knowledge, code, and practices around automated
-  testing to benefit as many people as possible.
-- **Promote**: We encourage and celebrate our engineering teams and the work they put
-  out for the common good.
+-   **Participate**: We invest and participate in projects and communities that share our
+    common goal to create a world of digital confidence.
+-   **Share**: We are eager to share our knowledge, code, and practices around automated
+    testing to benefit as many people as possible.
+-   **Promote**: We encourage and celebrate our engineering teams and the work they put
+    out for the common good.
 
 Christian Bromann and I helped establish the Open Source Program Office at Sauce Labs
 because we personally believe so strongly in OSS. We are both software engineers with

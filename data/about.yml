@@ -1,53 +1,51 @@
 # work process
 work_process:
-  enable : true
-  title : "Work Process"
+  enable: true
+  title: Work Process
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title: Research and Plan
+      icon: images/icons/plan.png
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title: Design and Develop
+      icon: images/icons/design.png
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+    - title: Deliver
+      icon: images/icons/print.png
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # team
 team:
   enable: false
-  title : "The People That Make it Happen"
+  title: The People That Make it Happen
   team_member:
-    - title : "Christian Bromann"
-      image : "images/people/christian.jpg"
-      designation : "Senior Software Engineer"
+    - title: Christian Bromann
+      image: images/people/christian.jpg
+      designation: Senior Software Engineer
 
-    - title : "Diego Molina"
-      image : "images/people/diego.jpg"
-      designation : "Senior Software Engineer"
+    - title: Diego Molina
+      image: images/people/diego.jpg
+      designation: Senior Software Engineer
 
-    - title : "Marcus Merrell"
-      image : "images/people/marcus.jpg"
-      designation : "Technical Services Director"
+    - title: Marcus Merrell
+      image: images/people/marcus.jpg
+      designation: Technical Services Director
 
-    - title : "Nikolay Advolodkin"
-      image : "images/people/nikolay.jpg"
-      designation : "Sr. Solution Architect"
+    - title: Nikolay Advolodkin
+      image: images/people/nikolay.jpg
+      designation: Sr. Solution Architect
 
-    - title : "Titus Fortner"
-      image : "images/people/titus.jpg"
-      designation : "Sr. Solution Architect"
+    - title: Titus Fortner
+      image: images/people/titus.jpg
+      designation: Sr. Solution Architect
 
-    - title : "Wim Selles"
-      image : "images/people/wim.png"
-      designation : "Sr. Solution Architect"
-
+    - title: Wim Selles
+      image: images/people/wim.png
+      designation: Sr. Solution Architect
 
 # client logo slider
 clients_logo_slider:
-  enable : true
-  title : "My Clients"
+  enable: true
+  title: My Clients
   # clients logo comes from 'data/homepage.yml' file

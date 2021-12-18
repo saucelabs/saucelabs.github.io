@@ -1,19 +1,19 @@
 ---
-title: "How Open Source Can Drive Product Obsession"
+title: 'How Open Source Can Drive Product Obsession'
 date: 2020-08-12T09:00:00+02:00
-description: "How Open Source Can Drive Product Obsession"
-author: "Christian Bromann"
-authorTwitterHandle: "bromann"
+description: 'How Open Source Can Drive Product Obsession'
+author: 'Christian Bromann'
+authorTwitterHandle: 'bromann'
 images:
-  - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_1.jpg
-  - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_2.jpg
-  - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_3.jpg
+    - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_1.jpg
+    - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_2.jpg
+    - /images/blog/how-open-source-can-drive-product-obsession/how_open_source_can_drive_product_obsession_3.jpg
 tags:
-  - open source
-  - product
-  - obsession
-  - passion
-  - developers
+    - open source
+    - product
+    - obsession
+    - passion
+    - developers
 ---
 
 Nearly every start-up company goes through the same experience - the founders

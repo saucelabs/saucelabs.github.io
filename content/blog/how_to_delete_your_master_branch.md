@@ -1,19 +1,19 @@
 ---
-title: "How to delete your master branch"
+title: 'How to delete your master branch'
 date: 2020-08-13T09:00:00+02:00
-description: "How to delete your master branch"
-author: "Diego Molina"
-authorTwitterHandle: "diegofmolina"
+description: 'How to delete your master branch'
+author: 'Diego Molina'
+authorTwitterHandle: 'diegofmolina'
 images:
-  - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_1.png
-  - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_2.png
+    - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_1.png
+    - /images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_2.png
 tags:
-  - open source
-  - git
-  - master
-  - slave
-  - trunk
-  - branch
+    - open source
+    - git
+    - master
+    - slave
+    - trunk
+    - branch
 ---
 
 {{< figure src="/images/blog/how-to-delete-your-master-branch/how_to_delete_your_master_branch_2.png" class="img-responsive text-center" >}}

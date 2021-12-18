@@ -1,6 +1,6 @@
 ---
-title: "Open Source Licensing Guide"
-description: "Policies and guidance on which licenses can be used at Sauce Labs"
+title: 'Open Source Licensing Guide'
+description: 'Policies and guidance on which licenses can be used at Sauce Labs'
 draft: false
 ---
 
@@ -10,28 +10,28 @@ Understanding and respecting the licenses of your project dependencies is import
 
 ### Summary
 
-- Any dependency with a Permissive license can be used
-- For internal projects, Permissive, Strong and Weak Copyleft licensed code can be used
-- For Open Source projects, Strong Copyleft licensed code cannot be used
-- Make sure to investigate the specific terms of the Weak Copyleft licenses
-- You cannot use AGPL or variants thereof licensed code anywhere
-- You cannot use Commons Clause licensed code anywhere
-- You cannot use unlicensed code anywhere
+-   Any dependency with a Permissive license can be used
+-   For internal projects, Permissive, Strong and Weak Copyleft licensed code can be used
+-   For Open Source projects, Strong Copyleft licensed code cannot be used
+-   Make sure to investigate the specific terms of the Weak Copyleft licenses
+-   You cannot use AGPL or variants thereof licensed code anywhere
+-   You cannot use Commons Clause licensed code anywhere
+-   You cannot use unlicensed code anywhere
 
 ### License overview
 
 Overall there are three types of licenses which you can use:
 
-- Permissive licenses
-- Weak copyleft licenses
-- Strong copyleft licenses
+-   Permissive licenses
+-   Weak copyleft licenses
+-   Strong copyleft licenses
 
 And three types which you **can not** use in any way:
 
-- Code licensed under AGPL or variants thereof
-- Guidance on Commons Clause and similar
-- WTFPL and Beerware
-- Unlicensed code
+-   Code licensed under AGPL or variants thereof
+-   Guidance on Commons Clause and similar
+-   WTFPL and Beerware
+-   Unlicensed code
 
 This document is intended to provide a general overview and does not represent legal advice. Always check the details of each license and if you are in doubt, get in touch with the OSPO.
 
@@ -43,9 +43,9 @@ This refers to code dependency which you are free to use and change without limi
 
 Examples include [AFL](https://tldrlegal.com/l/afl3), [Apache](https://tldrlegal.com/l/apache2), [BSD](https://tldrlegal.com/l/bsd3), [MIT](https://tldrlegal.com/l/mit), [MS-PL](https://tldrlegal.com/l/mspl), [ISC](https://tldrlegal.com/l/isc), [PHP License](https://tldrlegal.com/license/the-php-license-3.0.1), and many more.
 
-- You are free to: use commercially, modify, distribute, and sublicense.
-- You must include: copyright and license
-- You cannot hold the author liable.
+-   You are free to: use commercially, modify, distribute, and sublicense.
+-   You must include: copyright and license
+-   You cannot hold the author liable.
 
 ### Weak copyleft licenses
 
@@ -53,9 +53,9 @@ This refers to code dependency which you are free to use and change, but must in
 
 Examples include [APSL](https://tldrlegal.com/l/aspl2), [CDDL](https://tldrlegal.com/l/cddl), [CPL](<https://tldrlegal.com/license/common-public-license-1.0-(cpl-1.0)>), [EPL](https://tldrlegal.com/l/epl), [IPL](https://tldrlegal.com/l/ipl), [MPL](https://tldrlegal.com/l/mpl-2.0).
 
-- You are free to: use commercially, modify, distribute, and sublicense.
-- You must include: copyright, license, changelog, source code and install instructions
-- You cannot hold the author liable or use the authors' trademarks.
+-   You are free to: use commercially, modify, distribute, and sublicense.
+-   You must include: copyright, license, changelog, source code and install instructions
+-   You cannot hold the author liable or use the authors' trademarks.
 
 ### Strong copyleft licenses
 
@@ -63,10 +63,10 @@ This refers to code dependency which requires you to license all your code under
 
 Examples include [BCL](https://www.oracle.com/downloads/licenses/binary-code-license.html), [GPL](https://tldrlegal.com/l/gpl-3.0), [LGPL](https://tldrlegal.com/l/lgpl-3.0), [NPL](<https://tldrlegal.com/license/netscape-public-license-v1.1-(npl-1.1)>), [OSL](<https://tldrlegal.com/license/open-software-license-2.1-(osl-2.1)>), [QPL](<https://tldrlegal.com/license/q-public-license-1.0-(qpl-1.0)>).
 
-- You are free to: use commercially, modify and distribute
-- You must include: copyright, license, source code, changelog, the original source and install instructions
-- You cannot hold the author liable or sublicense
-- If distributed, you must license your code under the same license.
+-   You are free to: use commercially, modify and distribute
+-   You must include: copyright, license, source code, changelog, the original source and install instructions
+-   You cannot hold the author liable or sublicense
+-   If distributed, you must license your code under the same license.
 
 ### Code licensed under AGPL or variants thereof
 
@@ -82,8 +82,8 @@ The Commons Clause license is a new license being used as a wrapper around exist
 
 Sauce Labs is not a Cloud provider (it is a SaaS), it is a commercial endeavor and the way the software is used internally is without question commercial, this license is therefore not suitable for Sauce Labs for the following reasons:
 
-- The Commons Clause is not approved by OSI and is therefore not open source, furthermore, the language of the license is unclear in regards to what is proper use, if, in breach of this license, Sauce Labs must publish all associated assets such as interfaces, build systems and modifications made under the same license.
-- Sauce Labs uses and supports Open Source under the belief that it is the freedom to use, modify, and distribute which have enabled its success. The projects using these licenses still enjoy the full freedoms and benefits from Open Source, but at the same time, limit the freedom of others to use their code - Sauce Labs does not wish to support this development.
+-   The Commons Clause is not approved by OSI and is therefore not open source, furthermore, the language of the license is unclear in regards to what is proper use, if, in breach of this license, Sauce Labs must publish all associated assets such as interfaces, build systems and modifications made under the same license.
+-   Sauce Labs uses and supports Open Source under the belief that it is the freedom to use, modify, and distribute which have enabled its success. The projects using these licenses still enjoy the full freedoms and benefits from Open Source, but at the same time, limit the freedom of others to use their code - Sauce Labs does not wish to support this development.
 
 ### WTFPL not allowed
 

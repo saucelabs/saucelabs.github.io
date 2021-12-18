@@ -14,7 +14,7 @@
 # Linter VendorPrefix, option "identifier_list"
 
 files:
-  include: 'static/sass/**/*.scss'
+  include: "static/sass/**/*.scss"
 options:
   formatter: stylish
   merge-default-rules: false
@@ -135,7 +135,7 @@ rules:
         - dpi
         - dpcm
         - dppx
-        - '%'
+        - "%"
       per-property: {}
   quotes:
     - 1

@@ -1,15 +1,15 @@
 ---
-title: "What’s Coming in Selenium 4: How Can I Contribute?"
+title: 'What’s Coming in Selenium 4: How Can I Contribute?'
 date: 2020-11-02T09:00:00+02:00
-description: "First post of the Selenium 4 blog series, how can I contribute to Selenium?"
-author: "Simon Stewart"
-authorTwitterHandle: "shs96c"
+description: 'First post of the Selenium 4 blog series, how can I contribute to Selenium?'
+author: 'Simon Stewart'
+authorTwitterHandle: 'shs96c'
 images:
-  - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
-  - open source
-  - selenium
-  - community
+    - open source
+    - selenium
+    - community
 ---
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}

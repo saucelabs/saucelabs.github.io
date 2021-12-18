@@ -1,15 +1,15 @@
 ---
-title: "My First Hacktoberfest"
+title: 'My First Hacktoberfest'
 date: 2021-01-22T09:00:00+02:00
 description: "Read about Yi Min Yang's experience during his first Hacktoberfest!"
-author: "Diego Molina"
-authorTwitterHandle: "diegofmolina"
+author: 'Diego Molina'
+authorTwitterHandle: 'diegofmolina'
 images:
-  - /images/blog/my-first-hacktoberfest/hacktoberfest.png
+    - /images/blog/my-first-hacktoberfest/hacktoberfest.png
 tags:
-  - ux
-  - frontend
-  - hackathon
+    - ux
+    - frontend
+    - hackathon
 ---
 
 {{< figure src="/images/blog/my-first-hacktoberfest/hacktoberfest.png" class="img-responsive">}}
@@ -131,21 +131,21 @@ grow as a professional.
 After talking with [Yi Min](https://www.linkedin.com/in/yi-min-yang/), learning about his open source
 experience and how much he enjoyed his first Hacktoberfest, these are my takeaways:
 
-- When finding a way to contribute to open source, it is important to find a project that is in your comfort
-  zone. This will help you figure out the initial steps so you can get into the contribution flow (creating
-  pull requests, answering reviews, etc…). For example, find a project that uses a programming language you
-  like, or a tool you are familiar with but have never contributed to.
+-   When finding a way to contribute to open source, it is important to find a project that is in your comfort
+    zone. This will help you figure out the initial steps so you can get into the contribution flow (creating
+    pull requests, answering reviews, etc…). For example, find a project that uses a programming language you
+    like, or a tool you are familiar with but have never contributed to.
 
-- An open source contributor is not someone who only writes code, it could also be someone who helps other
-  people use an open source tool or a framework, who answers questions and helps by testing and giving feedback
-  to the project.
+-   An open source contributor is not someone who only writes code, it could also be someone who helps other
+    people use an open source tool or a framework, who answers questions and helps by testing and giving feedback
+    to the project.
 
-- It is possible to contribute to open source as part of your daily work by finding connecting points between
-  your daily tasks and open source projects that you use. For example, if it is a framework you use internally,
-  you could spend 15 to 30 minutes answering questions in GitHub issues as a way to get started. Another example
-  is, if your deliverable will be used by a customer, such as an API, you could create an API client that wraps
-  the functionality of it and therefore make it simple for customers to use it, and as a side effect, create a
-  community around your product.
+-   It is possible to contribute to open source as part of your daily work by finding connecting points between
+    your daily tasks and open source projects that you use. For example, if it is a framework you use internally,
+    you could spend 15 to 30 minutes answering questions in GitHub issues as a way to get started. Another example
+    is, if your deliverable will be used by a customer, such as an API, you could create an API client that wraps
+    the functionality of it and therefore make it simple for customers to use it, and as a side effect, create a
+    community around your product.
 
 What are your takeaways? How do you find time to contribute to open source?
 

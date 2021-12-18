@@ -1,15 +1,15 @@
 ---
-title: "The new Selenium Grid"
+title: 'The new Selenium Grid'
 date: 2021-01-21T09:00:00+02:00
 description: "In the fourth and final post in his series, Simon Stewart continues talking about what's coming in Selenium 4 and reviews what's new in the Selenium Grid."
-author: "Simon Stewart"
-authorTwitterHandle: "shs96c"
+author: 'Simon Stewart'
+authorTwitterHandle: 'shs96c'
 images:
-  - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
+    - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
-  - open source
-  - selenium
-  - community
+    - open source
+    - selenium
+    - community
 ---
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}
