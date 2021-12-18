@@ -18,7 +18,7 @@
     "start:hugo": "hugo server -p 8080",
     "start:sass": "npm run sass -- --watch",
     "start:open": "open http://localhost:8080",
-    "update:sw": "replace-in-files --regex=\"CACHE_VERSION = \\d+\" --replacement=\"CACHE_VERSION = ${GITHUB_RUN_NUMBER}\" ./static/sw.js",
+    "update:sw": "replace-in-files --regex=\"CACHE_VERSION = \\d+\" --replacement=\"CACHE_VERSION = ${GITHUB_RUN_NUMBER:-BUILD_ID}\" ./static/sw.js",
     "prepare": "husky install"
   },
   "repository": {
