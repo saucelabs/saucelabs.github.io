@@ -1,9 +1,6 @@
 name: Run linter
 
-on:
-  pull_request:
-    branches:
-      - dev
+on: pull_request
 
 jobs:
   linter:
@@ -14,7 +11,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: 12.x
       - run: npm install
       - name: Run linter
         run: npm run lint

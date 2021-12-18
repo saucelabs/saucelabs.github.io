@@ -17,13 +17,13 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.66.0'
+          hugo-version: 0.66.0
       - name: Update theme
         run: git submodule update --init --recursive
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: 12.x
       - run: npm install
       - name: Update ServiceWorker
         run: npm run update:sw
@@ -34,7 +34,7 @@ jobs:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: publish
-          user_name: 'OSS Sauce Bot'
-          user_email: 'oss-sauce-bot@users.noreply.github.com'
+          user_name: OSS Sauce Bot
+          user_email: oss-sauce-bot@users.noreply.github.com
           commit_message: ${{ github.event.head_commit.message }}
           cname: opensource.saucelabs.com

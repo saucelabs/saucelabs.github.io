@@ -1,9 +1,9 @@
 ---
-title: "SeleniumConf Virtual 2020 Recap"
+title: 'SeleniumConf Virtual 2020 Recap'
 date: 2020-09-24T09:00:00+02:00
-description: "Quick recap of the recent Selenium Conference held virtually"
-author: "Diego Molina"
-authorTwitterHandle: "diegofmolina"
+description: 'Quick recap of the recent Selenium Conference held virtually'
+author: 'Diego Molina'
+authorTwitterHandle: 'diegofmolina'
 images:
     - /images/blog/selenium-conf-2020-recap/selenium_conf_2020_recap_1.png
     - /images/blog/selenium-conf-2020-recap/selenium_conf_2020_recap_2.png

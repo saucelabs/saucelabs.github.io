@@ -6,28 +6,68 @@ theme = "kross-hugo"
 title = "Sauce Labs Open Source"
 
 # css plugins
+# default parameters
+[params]
+home = "Home"
+logo_home = "images/saucelabs_logo_white.svg"
+logo_content = "images/saucelabs_logo_color.svg"
+# theme color
+theme_color = "#AC1414"
+# meta description
+author = "Sauce Labs Open Source Program Office"
+description = "Website with contents for the Sauce Labs Open Source Program Office"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
+# social links on hero
+enable_social_links_hero = false
+# Google Tag Manager
+google_tag_manager_id = "UA-6735579-1"
+
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
+
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
+
 [[params.plugins.css]]
 URL = "plugins/themify-icons/themify-icons.css"
 
 # js plugin
 [[params.plugins.js]]
 URL = "plugins/jQuery/jquery.min.js"
+
 [[params.plugins.js]]
 URL = "plugins/bootstrap/bootstrap.min.js"
+
 [[params.plugins.js]]
 URL = "plugins/slick/slick.min.js"
+
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
 
 # preconnect
 [[params.preconnect]]
 URL = "https://use.typekit.net"
+
 [[params.preconnect]]
 URL = "https://www.google-analytics.com"
+
+# contact
+[params.contact]
+enable = false
+form_action = "#"
+
+# contact form works with : https://formspree.io
+# footer
+[params.footer]
+enable = true
+
+# preloader
+[params.preloader]
+enable = true
+preloader = ""
 
 # menu
 [[menu.main]]
@@ -45,38 +85,7 @@ URL = "blog"
 name = "Blog"
 weight = 4
 
-# default parameters
-[params]
-home = "Home"
-logo_home = "images/saucelabs_logo_white.svg"
-logo_content = "images/saucelabs_logo_color.svg"
-# theme color
-theme_color = "#AC1414"
-# meta description
-author = "Sauce Labs Open Source Program Office"
-description = "Website with contents for the Sauce Labs Open Source Program Office"
-# google analitycs
-google_analitycs_id = "" # Your ID
-# copyright
-copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
-# social links on hero
-enable_social_links_hero = false
-# Google Tag Manager
-google_tag_manager_id = "UA-6735579-1"
-
-# contact
-[params.contact]
-enable = false
-form_action = "#" # contact form works with : https://formspree.io
-
-#footer
-[params.footer]
-enable = true
-
-# preloader
-[params.preloader]
-enable = true
-preloader = "" # use png, jpg, svg or gif format
+[markup] # use png, jpg, svg or gif format
 
 # social site
 [[params.social]]
@@ -103,3 +112,8 @@ description = "@saucelabs"
 icon = "ti-email"
 URL = "mailto:opensource@saucelabs.com"
 description = "opensource@saucelabs.com"
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+unsafe = true

@@ -1,122 +1,121 @@
 # projects item
 items:
-  - name: "Appium"
-    image: "images/logos/appium.png"
+  - name: Appium
+    image: images/logos/appium.png
     description: "Appium is an open source test automation framework for use with native, hybrid and mobile web apps."
     project_url: "http://appium.io/"
 
-  - name: "Selenium"
-    image: "images/logos/selenium.png"
-    description: "Selenium is a portable framework for testing web applications. Selenium provides a playback tool for authoring functional tests without the need to learn a test scripting language."
+  - name: Selenium
+    image: images/logos/selenium.png
+    description: Selenium is a portable framework for testing web applications. Selenium provides a playback tool for authoring functional tests without the need to learn a test scripting language.
     project_url: "https://www.selenium.dev/"
 
-  - name: "WebdriverIO"
-    image: "images/logos/webdriverio.png"
-    description: "Next-gen browser and mobile automation test framework for Node.js"
+  - name: WebdriverIO
+    image: images/logos/webdriverio.png
+    description: Next-gen browser and mobile automation test framework for Node.js
     project_url: "https://webdriver.io/"
 
-  - name: "node-saucelabs"
-    image: "images/logos/node-saucelabs.png"
-    description: "Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions."
+  - name: node-saucelabs
+    image: images/logos/node-saucelabs.png
+    description: Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions.
     project_url: "https://opensource.saucelabs.com/node-saucelabs/"
 
-  - name: "Sauce Connect Proxy"
-    image: "images/logos/docker.png"
-    description: "Docker image for Sauce Connect Proxy to use in CI/CD environments."
+  - name: Sauce Connect Proxy
+    image: images/logos/docker.png
+    description: Docker image for Sauce Connect Proxy to use in CI/CD environments.
     project_url: "https://hub.docker.com/repository/docker/saucelabs/sauce-connect"
 
-  - name: "Sauce Connect Proxy"
-    image: "images/logos/gh-action.png"
-    description: "A GitHub action to launch Sauce Connect Proxy."
+  - name: Sauce Connect Proxy
+    image: images/logos/gh-action.png
+    description: A GitHub action to launch Sauce Connect Proxy.
     project_url: "https://github.com/marketplace/actions/sauce-connect-proxy-action"
 
-  - name: "SauceCTL"
-    image: "images/logos/go.png"
-    description: "A command line interface for the Sauce Labs Testrunner Toolkit."
+  - name: SauceCTL
+    image: images/logos/go.png
+    description: A command line interface for the Sauce Labs Testrunner Toolkit.
     project_url: "https://opensource.saucelabs.com/testrunner-toolkit"
 
-  - name: "Sauce Bindings"
-    image: "images/logos/saucelabs.png"
-    description: "An interface to simplify working with Sauce Labs session-related interactions."
+  - name: Sauce Bindings
+    image: images/logos/saucelabs.png
+    description: An interface to simplify working with Sauce Labs session-related interactions.
     project_url: "https://opensource.saucelabs.com/sauce_bindings"
 
-  - name: "Salsa Verde"
-    image: "images/logos/saucelabs.png"
-    description: "A Java page object test library, optimized for remote execution."
+  - name: Salsa Verde
+    image: images/logos/saucelabs.png
+    description: "A Java page object test bibrary, optimized for remote execution."
     project_url: "https://github.com/saucelabs/salsa_verde"
 
-  - name: "Sample App Mobile"
-    image: "images/logos/saucelabs.png"
-    description: "This is the Sauce Labs Native Sample Application which is designed to be used with mobile devices."
+  - name: Sample App Mobile
+    image: images/logos/saucelabs.png
+    description: This is the Sauce Labs Native Sample Application which is designed to be used with mobile devices.
     project_url: "https://github.com/saucelabs/sample-app-mobile"
 
-  - name: "Sample App Web"
-    image: "images/logos/saucelabs.png"
-    description: "This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers."
+  - name: Sample App Web
+    image: images/logos/saucelabs.png
+    description: This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers.
     project_url: "https://github.com/saucelabs/sample-app-web"
 
-  - name: "Speedo"
-    image: "images/logos/speedo.png"
-    description: "Simple performance testing tool using SauceLabs"
+  - name: Speedo
+    image: images/logos/speedo.png
+    description: Simple performance testing tool using SauceLabs
     project_url: "https://github.com/saucelabs/speedo"
 
-  - name: "TraceLib"
-    image: "images/logos/node.png"
-    description: "A Node.js library that provides Chrome DevTools trace models to parse arbitrary trace logs."
+  - name: TraceLib
+    image: images/logos/node.png
+    description: A Node.js library that provides Chrome DevTools trace models to parse arbitrary trace logs.
     project_url: "https://github.com/saucelabs/tracelib"
 
-  - name: "FoxDriver"
-    image: "images/logos/node.png"
-    description: "Foxdriver is a Node library which provides a high-level API to control Firefox over the Remote Debugging Protocol."
+  - name: FoxDriver
+    image: images/logos/node.png
+    description: Foxdriver is a Node library which provides a high-level API to control Firefox over the Remote Debugging Protocol.
     project_url: "https://github.com/saucelabs/foxdriver"
 
-  - name: "Monocle"
-    image: "images/logos/python.png"
-    description: "An async programming framework with a blocking look-alike syntax."
+  - name: Monocle
+    image: images/logos/python.png
+    description: An async programming framework with a blocking look-alike syntax.
     project_url: "https://github.com/saucelabs/monocle"
 
-  - name: "Network Viewer"
-    image: "images/logos/react.png"
-    description: "Network-Viewer is a redefined HAR viewer human friendly view of requests which is build with React."
+  - name: Network Viewer
+    image: images/logos/react.png
+    description: Network-Viewer is a redefined HAR viewer human friendly view of requests which is build with React.
     project_url: "https://opensource.saucelabs.com/network-viewer/"
 
-  - name: "Helm Charts"
-    image: "images/logos/helm.svg"
+  - name: Helm Charts
+    image: images/logos/helm.svg
     description: "Popular applications, provided by Sauce Labs, ready to launch on Kubernetes using Kubernetes Helm."
     project_url: "https://opensource.saucelabs.com/charts"
 
-  - name: "TestCafe Prometheus"
-    image: "images/logos/testcafe.svg"
-    description: "Prometheus reporter for TestCafe allowing for alerts based on multiple suite executions across time."
+  - name: TestCafe Prometheus
+    image: images/logos/testcafe.svg
+    description: Prometheus reporter for TestCafe allowing for alerts based on multiple suite executions across time.
     project_url: "https://opensource.saucelabs.com/testcafe-reporter-prometheus-multi/"
 
-  - name: "The Internet"
-    image: "images/logos/saucelabs.png"
-    description: "An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against."
+  - name: The Internet
+    image: images/logos/saucelabs.png
+    description: An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against.
     project_url: "http://the-internet.herokuapp.com/"
 
-  - name: "SauceREST Java"
-    image: "images/logos/saucelabs.png"
-    description: "A Java client to access the Sauce Labs REST API."
+  - name: SauceREST Java
+    image: images/logos/saucelabs.png
+    description: A Java client to access the Sauce Labs REST API.
     project_url: "http://opensource.saucelabs.com/saucerest-java/"
 
-  - name: "GitHub Codeblock"
-    image: "images/logos/docusaurus.svg"
-    description: "A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories."
+  - name: GitHub Codeblock
+    image: images/logos/docusaurus.svg
+    description: A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.
     project_url: "http://opensource.saucelabs.com/docusaurus-theme-github-codeblock/"
 
-  - name: "CDDL Parser"
-    image: "images/logos/node.png"
-    description: "Concise data definition language (RFC 8610) implementation and JSON validator in Node.js"
+  - name: CDDL Parser
+    image: images/logos/node.png
+    description: Concise data definition language (RFC 8610) implementation and JSON validator in Node.js
     project_url: "http://opensource.saucelabs.com/cddl/"
 
-  - name: "Watir"
-    image: "images/logos/watir.png"
-    description: "An open source Ruby library for automating tests."
+  - name: Watir
+    image: images/logos/watir.png
+    description: An open source Ruby library for automating tests.
     project_url: "http://watir.com"
 
-  - name: "Webdrivers"
-    image: "images/logos/ruby.svg"
-    description: "Automatic download and installation of correct browser driver for Ruby Selenium projects."
+  - name: Webdrivers
+    image: images/logos/ruby.svg
+    description: Automatic download and installation of correct browser driver for Ruby Selenium projects.
     project_url: "http://github.com/titusfortner/webdrivers"
-

@@ -1,249 +1,249 @@
 # banner
 banner:
-  title_header : "Sauce Labs Open Source"
-  title : "Contributing to Open Source from Day One"
+  title_header: Sauce Labs Open Source
+  title: Contributing to Open Source from Day One
 
 # projects
 projects:
   enable: true
-  title: "Sauce Labs Open Source Projects"
+  title: Sauce Labs Open Source Projects
   intro: "Some of the most popular developer tools, frameworks and experiences in the world are built around open communities. Here are a few featured projects Sauce Labs is heavily investing and contributing to."
 
 # involvement
 involvement:
   enable: true
-  title: "Involvement"
-  heading: "Organizations we support"
+  title: Involvement
+  heading: Organizations we support
   item:
-    - logo: "images/logos/w3c.png"
-      title: "World Wide Web Consortium (W3C)"
-      short_title: "W3C"
-      description: "The World Wide Web Consortium is the main international standards organization for the World Wide Web."
+    - logo: images/logos/w3c.png
+      title: World Wide Web Consortium (W3C)
+      short_title: W3C
+      description: The World Wide Web Consortium is the main international standards organization for the World Wide Web.
       URL: "https://www.w3.org/"
 
-    - logo: "images/logos/linux-foundation.svg"
-      title: "Linux Foundation"
-      description: "The Linux Foundation is a trade association dedicated to fostering the growth of the Linux operating system and related projects."
+    - logo: images/logos/linux-foundation.svg
+      title: Linux Foundation
+      description: The Linux Foundation is a trade association dedicated to fostering the growth of the Linux operating system and related projects.
       URL: "https://www.linuxfoundation.org/"
 
-    - logo: "images/logos/openjsf.svg"
-      title: "OpenJS Foundation"
-      description: "The OpenJS Foundation is the open and neutral home for JavaScript communities."
+    - logo: images/logos/openjsf.svg
+      title: OpenJS Foundation
+      description: The OpenJS Foundation is the open and neutral home for JavaScript communities.
       URL: "https://openjsf.org/"
 
-    - logo: "images/logos/sfc.png"
-      title: "Software Freedom Conservancy"
-      short_title: "SFC"
+    - logo: images/logos/sfc.png
+      title: Software Freedom Conservancy
+      short_title: SFC
       description: "Software Freedom Conservancy is an organization that provides a non-profit home and infrastructure support, including legal services, for free/open source software projects."
       URL: "https://sfconservancy.org/"
 
-    - logo: "images/logos/todogroup.png"
-      title: "TODO Group"
+    - logo: images/logos/todogroup.png
+      title: TODO Group
       description: "TODO is an open group of companies who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs."
       URL: "https://todogroup.org/"
 
-    - logo: "images/logos/mobilenativefoundation.svg"
-      title: "Mobile Native Foundation"
-      description: "The Mobile Native Foundation provides a place to collaborate on open source projects and discuss wide ranging topics in order to improve processes and technologies for large-scale Android and iOS applications."
+    - logo: images/logos/mobilenativefoundation.svg
+      title: Mobile Native Foundation
+      description: The Mobile Native Foundation provides a place to collaborate on open source projects and discuss wide ranging topics in order to improve processes and technologies for large-scale Android and iOS applications.
       URL: "https://mobilenativefoundation.org/"
 
 # experience
 experience:
-  enable : false
-  title : "Experience"
+  enable: false
+  title: Experience
   item:
-    - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
+    - logo: images/experience/icon-1.png
+      title: Junior UX Designer
+      company: WEBEX
+      duration: Jan 2007 - Feb 2009
 
-    - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
+    - logo: images/experience/icon-2.png
+      title: "UX & UI Designer"
+      company: AUGMEDIX
+      duration: Mar 2009 - Aug 2014
 
-    - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
+    - logo: images/experience/icon-1.png
+      title: Senior UI Designer
+      company: THEMEFISHER
+      duration: Sep 2014 - Present
 
 # education
 education:
-  enable : false
-  title : "Education"
+  enable: false
+  title: Education
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title: Marters in UX Design
+      year: "2006"
+      academy: Masassusets Institute of Technology
 
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
+    - title: Honours in Fine Arts
+      year: "2004"
+      academy: Harvard University
 
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
+    - title: Higher Secondary Certificat
+      year: "2000"
+      academy: Cardiff School
 
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title: Secondary School Certificate
+      year: "1998"
+      academy: Cardiff School
 
 # values
 values:
   enable: true
-  title: "Our Values"
-  heading: "Be Open and Act Open"
+  title: Our Values
+  heading: Be Open and Act Open
   intro: "Sauce Labs believes in the value of open source practices and leadership. We support and encourage employees across departments to be active participants in communities, sharing our knowledge and promoting open source best practices."
   item:
-    - title: "Participate"
-      image: "/images/icons/participate_3x.svg"
-      content: "We invest and participate in projects and communities that share our common goal to create a world of digital confidence."
+    - title: Participate
+      image: /images/icons/participate_3x.svg
+      content: We invest and participate in projects and communities that share our common goal to create a world of digital confidence.
 
-    - title: "Share"
-      image: "/images/icons/share_3x.svg"
+    - title: Share
+      image: /images/icons/share_3x.svg
       content: "We are eager to share our knowledge, code and practices around automated testing to benefit as many people as possible. The more we share, the more we grow."
 
-    - title: "Promote"
-      image: "/images/icons/promote_3x.svg"
-      content: "We encourage and celebrate our engineering teams and their work they put out for the common good."
+    - title: Promote
+      image: /images/icons/promote_3x.svg
+      content: We encourage and celebrate our engineering teams and their work they put out for the common good.
 
 # events
 events:
   enable: true
-  title: "Events"
-  heading: "Come out and join us"
-  intro: "We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi."
+  title: Events
+  heading: Come out and join us
+  intro: We love to connect! If you attend one of the following events meet us in the Sauce Labs speaking session or stop by our booth and say hi.
   item:
-    - name: "SauceCon"
-      image: "/images/events/saucecon.gif"
+    - name: SauceCon
+      image: /images/events/saucecon.gif
       description: "SauceCon brings together the global community of Sauce Labs users and automated testing experts. Join us online April 20-22, as teams from around the world will come together to learn from each other and level up their automated testing and continuous delivery skills."
       link: "https://saucecon.com/"
-    - name: "OpenJS World"
-      image: "/images/events/openjsworld.gif"
+    - name: OpenJS World
+      image: /images/events/openjsworld.gif
       description: "Join JavaScript professionals including developers, software engineers, developer advocates and business leaders at the OpenJS virtual global conference."
       link: "https://openjsf.org/openjs-world-2021/"
-    - name: "OSPOCon"
-      image: "/images/events/ospocon.gif"
+    - name: OSPOCon
+      image: /images/events/ospocon.gif
       description: "An event for those working in open source program offices in organizations that rely on open source technologies to learn and share best practices, experiences and tooling to overcome challenges they face."
       link: "https://events.linuxfoundation.org/ospocon/"
-    - name: "OSS Summit"
-      image: "/images/events/oss-summit.gif"
+    - name: OSS Summit
+      image: /images/events/oss-summit.gif
       description: "The premier vendor-neutral conference in Europe for open source developers and technologists to collaborate, share information and learn about the latest technologies and innovations across open source."
       link: "https://events.linuxfoundation.org/open-source-summit-europe/"
 
 # service
 service:
-  enable : false
-  title : "Services"
+  enable: false
+  title: Services
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+    - title: UI Design
+      icon: ti-palette
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted: false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : true
+    - title: UX Design
+      icon: ti-vector
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted: true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+    - title: Interaction Design
+      icon: ti-panel
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted: false
 
 # portfolio
 portfolio:
-  enable : false
-  title : "Portfolio"
-  item_show : 5
+  enable: false
+  title: Portfolio
+  item_show: 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # projects
 open_sauce_projects:
   enable: true
-  title: "Open Sauce Program"
-  heading: "Open Source projects we support"
-  intro: "Sauce Labs is committed to support the open source ecosystem by providing free licenses through the Open Sauce program."
+  title: Open Sauce Program
+  heading: Open Source projects we support
+  intro: Sauce Labs is committed to support the open source ecosystem by providing free licenses through the Open Sauce program.
   item:
-    - name: "Nuxt"
-      image: "images/logos/nuxt.png"
+    - name: Nuxt
+      image: images/logos/nuxt.png
       description: "Build your next Vue.js application with confidence using Nuxt.js: a framework making web development simple and powerful."
       project_url: "https://nuxtjs.org/"
 
-    - name: "levelup"
-      image: "images/logos/level.png"
+    - name: levelup
+      image: images/logos/level.png
       description: "A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
       project_url: "https://github.com/Level/levelup"
 
-    - name: "Firebase"
-      image: "images/logos/firebase.gif"
+    - name: Firebase
+      image: images/logos/firebase.gif
       description: "Google's mobile platform that helps you quickly develop high-quality apps."
       project_url: "https://firebase.google.com/"
 
-    - name: "socket.io"
-      image: "images/logos/socket-io.svg"
-      description: "Enables real-time bidirectional event-based communication."
+    - name: socket.io
+      image: images/logos/socket-io.svg
+      description: Enables real-time bidirectional event-based communication.
       project_url: "https://socket.io/"
 
 # testimonial
 testimonial:
-  enable : false
-  title : "Testimonials"
+  enable: false
+  title: Testimonials
   item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: Jesica Gomez
+      image: images/testimonial/client-1.png
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: Shirley Scot
+      image: images/testimonial/client-1.png
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name: Jessica Julie
+      image: images/testimonial/client-1.png
+      designation: "CEO, Funder"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 # client logo slider
 clients_logo_slider:
-  enable : false
+  enable: false
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://examplesite.com"
+    - logo: images/clients-logo/client-logo-1.png
+      URL: "http://examplesite.com"
 
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
+    - logo: images/clients-logo/client-logo-2.png
+      URL: "#"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://examplesite.com"
+    - logo: images/clients-logo/client-logo-3.png
+      URL: "http://examplesite.com"
 
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
+    - logo: images/clients-logo/client-logo-4.png
+      URL: "#"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://examplesite.com"
+    - logo: images/clients-logo/client-logo-5.png
+      URL: "http://examplesite.com"
 
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
+    - logo: images/clients-logo/client-logo-1.png
+      URL: "#"
 
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://examplesite.com"
+    - logo: images/clients-logo/client-logo-2.png
+      URL: "http://examplesite.com"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
+    - logo: images/clients-logo/client-logo-3.png
+      URL: "#"
 
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://examplesite.com"
+    - logo: images/clients-logo/client-logo-4.png
+      URL: "http://examplesite.com"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    - logo: images/clients-logo/client-logo-5.png
+      URL: "#"
 
 # blog
 blog:
   enable: true
-  title: "Blog"
-  heading: "Read and learn more"
+  title: Blog
+  heading: Read and learn more
   # blog post comes from "content/blog" folder
 
 # hiring

@@ -1,9 +1,9 @@
 ---
-title: "What’s Coming in Selenium 4: Why The Major Version Bump?"
+title: 'What’s Coming in Selenium 4: Why The Major Version Bump?'
 date: 2020-11-13T09:00:00+02:00
 description: "In the second post in this series, Simon Stewart continues talking about what's coming in Selenium 4 and why this release has a major version bump."
-author: "Simon Stewart"
-authorTwitterHandle: "shs96c"
+author: 'Simon Stewart'
+authorTwitterHandle: 'shs96c'
 images:
     - /images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg
 tags:
@@ -14,8 +14,8 @@ tags:
 
 {{< figure src="/images/blog/what_is_coming_in_selenium_4_how_can_i_contribute_1.jpg" class="img-responsive" >}}
 
->In the second post in this series, Simon Stewart continues talking about
->what's coming in Selenium 4 and why this release has a major version bump.
+> In the second post in this series, Simon Stewart continues talking about
+> what's coming in Selenium 4 and why this release has a major version bump.
 
 In my [last post](https://opensource.saucelabs.com/blog/what_is_coming_in_selenium_4_how_can_i_contribute/),
 I shared a bit about how the Selenium project works overall. Now, let’s start talking about Selenium 4
@@ -65,4 +65,4 @@ If you’re a software developer, you may recognise this as us paying off some o
 
 Stay tuned for the next post, where I’ll go over some new tricks in Selenium 4.
 
-*This was originally posted at https://saucelabs.com/blog/whats-coming-in-selenium-4-why-the-major-version-bump*
+_This was originally posted at <https://saucelabs.com/blog/whats-coming-in-selenium-4-why-the-major-version-bump>_
