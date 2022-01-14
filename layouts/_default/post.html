@@ -4,6 +4,9 @@
       <h3 class="card-title">
         <a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
       </h3>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {{ .PublishDate.Format "Jan 02, 2006" }}
+      </h6>
       <p class="card-text">{{.Summary}}</p>
       <a href="{{.Permalink}}">Read more</a>
     </div>
