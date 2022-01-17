@@ -19,7 +19,7 @@ If you share my admiration for standards, optimistic that this common agreement 
 
 ## Open source as an ecosystem
 
-For some, open source is only a technical definition about code source that is open to copy, modify and distribute. Others may defend that, before you can even participate in an open source project, you must first learn to collaborate. That&#39;s because open source is not a verb nor one thing, it&#39;s an approach to software development, a workflow, a philosophy. Whatever your understanding may be, it is surely more than having a code publicly available.
+For some, open source is only a technical definition about source code that is open to copy, modify and distribute. Others may defend that, before you can even participate in an open source project, you must first learn to collaborate. That&#39;s because open source is not a verb nor one thing, it&#39;s an approach to software development, a workflow, a philosophy. Whatever your understanding may be, it is surely more than making code publicly available.
 
 My personal definition is that open source is an ecosystem composed of technical things like code, but mostly of people. Just placing code on a public repository will not achieve the ideal of making it shareable, as mostly, being open means open to the &quot;other&quot; which is not me or clones of me. And this &quot;other&quot; should be able to be part of the project. But… how to include this other when you have no idea who they may be? This is where standards come into play.
 
