@@ -25,7 +25,7 @@ My personal definition is that open source is an ecosystem composed of technical
 
 ## Mitigating communication imbalance
 
-Human communication is hard. If just a simple linear exchange requires at least a sender, a channel, a message and a receiver, what about a message that is continuously being sent in asynchronous ways, into multiple senders, receivers, channels, across the globe, through multiple languages and codes (both programming and cultural ones) as it can be an open source project?
+Human communication is hard. If a simple exchange requires a sender, a channel, a message and a receiver, what about a message that is continuously being sent in asynchronous ways, into multiple senders, receivers, channels, across the globe, through multiple languages and codes (both programming and cultural ones) as it can be an open source project?
 
 Clear information should be available for everyone in the open source project ecosystem, meaning, it must have ways to achieve the message to be sent and received asynchronously through the multiple players minimizing information imbalance.
 
