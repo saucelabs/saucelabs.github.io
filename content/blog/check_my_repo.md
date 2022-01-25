@@ -29,7 +29,7 @@ Human communication is hard. If just a simple linear exchange requires at least 
 
 Clear information should be available for everyone in the open source project ecosystem, meaning, it must have ways to achieve the message to be sent and received asynchronously through the multiple players minimizing information imbalance.
 
-When it comes to open source, ensuring that those outside your closest relations are on equal footing  in terms of access to information and ability to influence the project  foster collaboration principles, improve your project, and brings diversity and equity into the open source space.
+When it comes to open source, ensuring that those outside your closest relations are on equal footing in terms of access to information and ability to influence the project foster collaboration principles, improve your project, and brings diversity and equity into the open source space.
 
 To minimize the information imbalance it is necessary to apply conscious measures in different scopes of project communication: procedurally, daily, and long-term.
 
@@ -62,12 +62,10 @@ This will take less than 30 seconds… Are you ready?
 
 That&#39;s it!
 
-
 As action is set to run 00\*\*\*\* cron, meaning at 00 minutes past the hour, you will only see your actual results after this action runs. First results you will see are Sauce Labs default ones.
 
 {{< figure src="/images/blog/check_my_repo_steps.png" class="img-responsive" >}}
 _Alt: Step-by-step visual guide about how to fork and apply check-my-repo to your repository_
-
 
 ### Explaining the rules
 
@@ -141,10 +139,6 @@ There is a lot of work ahead as shown by the results of surveys on the health of
 
 That&#39;s why ensuring that these standards are used is so important for the continuation and improvement of a practice that has so much potential.
 
-
-
 _\*This text is based on a talk for_ [_Pizza Python Hamburg 2021_](https://hamburg.python.pizza/) _https://www.youtube.com/watch?v=hXKdtY8gHbs&amp;t=9240s_
-
-
 
 [1]: In February 2017 Wired magazine published the following article based on a GitHub survey, analizing diversity in open source https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/ . Although outdated, the article still reflects several issues still happening today. Recently, Linux Foundation together with several associations, including CHAOSS project, conducted another survey https://www.linuxfoundation.org/blog/addressing-diversity-equity-and-inclusion-in-2021-and-beyond/ , which shows several improvements related to diversity, equity and social justice awareness. Unfortunately the survey does not explicitly show in numbers if the 3% was improved or not, so, for now, we will still use it as a measurement.
