@@ -13,7 +13,7 @@ tags:
     - diversity and equity
 ---
 
-This is a text about open source, and everything you need to be proud of your repository. 
+This is a text about open source, and everything you need to be proud of your repository.
 
 In the text I argue that by using open standards, an open source project improves its quality and shareability, since such standards exist to foster better communication between creators and consumers of the project.
 
@@ -23,12 +23,12 @@ If you share my admiration for standards, optimistic that this common agreement 
 
 For some, open source is only a technical definition about source code that is open to copy, modify and distribute. Others may defend that, before you can even participate in an open source project, you must first learn to collaborate. That&#39;s because open source is not a verb nor one thing, it&#39;s an approach to software development, a workflow, a philosophy. Whatever your understanding may be, it is surely more than making code publicly available.
 
-As a matter of fact, even the [Open Source Initiative](https://opensource.org/osd), one of the most active organizations since the 90's in the education and promotion of non-proprietary code, although focused on a definition particularly concerned with legal licensing, includes aspects beyond the technical, such as "No Discrimination Against Persons or Groups". 
+As a matter of fact, even the [Open Source Initiative](https://opensource.org/osd), one of the most active organizations since the 90's in the education and promotion of free and open source software, although focused on a definition particularly concerned with legal licensing, includes aspects beyond the technical, such as "No Discrimination Against Persons or Groups".
 
-Christopher Hiller, recognized developer within the JavaScript community, author of [two books](https://www.goodreads.com/author/show/7135237.Christopher_Hiller) on the language and respected maintainer of key projects like Node and Mocha, mentions the importance of including humans behind the code by design. 
+Christopher Hiller, recognized developer within the JavaScript community, author of two books on the language, respected maintainer of key projects like Node and Appium and fellow colleague at Sauce Labs, mentions the importance of including humans behind the code by design.
 
->When you share your code, you (should) have some idea about who is going to use it. What does this audience expect? What are the norms in this particular community?
->The "other" lies at the edge of this audience, I think. It's not that we've shared software for everybody and anybody, but rather the people who would be interested in >contributing to the software should necessarily have some common ground. And how you idealize the project's community will very much have an impact on the the diversity of contributors. If you focus entirely on "the code", your project may meet the OSI definition of open source, but you will likely have a homogenous contributor base.
+> When you share your code, you (should) have some idea about who is going to use it. What does this audience expect? What are the norms in this particular community?
+> The "other" lies at the edge of this audience, I think. It's not that we've shared software for everybody and anybody, but rather the people who would be interested in >contributing to the software should necessarily have some common ground. And how you idealize the project's community will very much have an impact on the the diversity of contributors. If you focus entirely on "the code", your project may meet the OSI definition of open source, but you will likely have a homogenous contributor base.
 
 My personal definition is that open source is an ecosystem composed of technical things like code, but mostly of people. Just placing code on a public repository will not achieve the ideal of making it shareable, as mostly, being open means open to the &quot;other&quot; which is not me or clones of me. And this &quot;other&quot; should be able to be part of the project. But… how to include this other when you have no idea who they may be? This is where standards come into play.
 
@@ -48,7 +48,7 @@ The daily communication is about the day-to-day aspects, such as the status of t
 
 Long term is the kind of information that guarantees the history and continuation of the project. Good documentation is fundamental to understand how the project has developed so far, where it has been, and where it is going. Documents include: the mission statement, concepts, goals, list of features and requirements, and an overview of the project&#39;s roadmap.
 
-It may seem like a lot of work at first, but it will rapidly bring many benefits: facilitates new contributors onboarding, decreases maintainers&#39; work time, comply with open source licensing obligations, and protects proprietary intellectual property. Hopefully, it will help open source to have a diversity rate much more balanced than the 3%[^1] currently occupied by women.
+It may seem like a lot of work at first, but it will rapidly bring many benefits: facilitates new contributors onboarding, decreases maintainers&#39; work time, adhere to open source licensing obligations, and protects proprietary intellectual property. Hopefully, it will help open source to have a diversity rate much more balanced than the 3%[^1] currently occupied by women.
 
 Before you feel swamped… remember that open source is about community and support, this is why there&#39;s several different tools and [templates](https://github.com/saucelabs/new-project) available to help you in this endeavor.
 
@@ -56,7 +56,7 @@ One of such tools is [check-my-repo](https://github.com/saucelabs/check-my-repo)
 
 ## Check-My-Repo: automating repositories health verification
 
-[Check-my-repo](https://github.com/saucelabs/check-my-repo) is an open source tool created during my internship in the [Open Source Program Office at Sauce Labs](https://opensource.saucelabs.com/). It is an automated web application built upon [Repolinter](https://todogroup.github.io/repolinter/) that verifies the main necessary parameters to comply with open source best practices: from Readme to License. Automating this verification helps with maintenance, forwarding compliant software projectseasier to service, test, upgrade, maintain and contribute.
+[Check-my-repo](https://github.com/saucelabs/check-my-repo) is an open source tool created during my internship in the [Open Source Program Office at Sauce Labs](https://opensource.saucelabs.com/). It is an automated web application built upon [Repolinter](https://todogroup.github.io/repolinter/) that verifies the main necessary parameters to satisfy open source best practices: from Readme to License. Automating this verification helps with maintenance, forwarding compliant software projectseasier to service, test, upgrade, maintain and contribute.
 
 It is designed to serve you on a push of a button (maybe 4 buttons…) using GitHub Actions to daily check all of your repositories, displaying the results on a GitHub page under your username.
 
