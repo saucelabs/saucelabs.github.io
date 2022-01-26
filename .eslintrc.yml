@@ -2,7 +2,7 @@ extends:
   - eslint:recommended
   - plugin:import/errors
   - plugin:import/warnings
-  - plugin:yml/standard
+  - plugin:yml/prettier
   - plugin:toml/standard
   - plugin:prettier/recommended
   - plugin:md/recommended
@@ -28,8 +28,6 @@ rules:
   semi: [error, always]
   # use single quotes
   quotes: [error, single]
-  # force-indent 2 spaces in yaml files
-  yml/indent: [error, 2]
   yml/plain-scalar: [error, always]
   # this disables the line length check in the markdown plugin
   md/remark:
