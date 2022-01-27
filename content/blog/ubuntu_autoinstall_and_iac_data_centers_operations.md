@@ -4,7 +4,7 @@ date: 2022-01-14T09:00:00+02:00
 description: 'In this article, we will explain how Sauce Labs Data Center Operations Team has automated Ubuntu installations'
 author: 'Daniel Louvier'
 images:
-    - /images/blog/my-first-hacktoberfest/hacktoberfest.png
+    - /images/blog/ubuntu-autoinstall-and-iac-data-centers-operations/github1.png
 tags:
     - ux
     - frontend
