@@ -1,6 +1,6 @@
 name: Run linter
 
-on: 
+on:
   pull_request:
   push:
     branches:
