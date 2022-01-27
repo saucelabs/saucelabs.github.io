@@ -3,7 +3,6 @@ resources
 node_modules
 
 /assets/css
-package-lock.json
 .sass-cache/
 .DS_Store
 .husky/_
