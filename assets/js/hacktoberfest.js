@@ -84,21 +84,21 @@ const participatingRepos = [];
               if (
                 issue.pull_request &&
                 !issue.closed_at &&
-                issue.created_at >= '2021-10-01'
+                issue.created_at >= '2022-10-01'
               ) {
                 openPrs.push(issue);
                 contributors.push(formatContributor(issue.user));
               } else if (
                 issue.pull_request &&
-                issue.closed_at >= '2021-10-01' &&
-                issue.closed_at <= '2021-10-31'
+                issue.closed_at >= '2022-10-01' &&
+                issue.closed_at <= '2022-10-31'
               ) {
                 closedPrs += 1;
                 contributors.push(formatContributor(issue.user));
               } else if (
                 issue.closed_at &&
-                issue.closed_at >= '2021-10-01' &&
-                issue.closed_at <= '2021-10-31'
+                issue.closed_at >= '2022-10-01' &&
+                issue.closed_at <= '2022-10-31'
               ) {
                 closedIssues.push(issue);
               } else if (!issue.pull_request && !issue.closed_at) {
