@@ -5,9 +5,7 @@ const PARTICIPATING_GH_ORGS = [
   'webdriverio',
   'saucelabs',
 ];
-const PUBLIC_READ_ONLY_TOKEN = window.atob(
-  `'N/A'`
-);
+const PUBLIC_READ_ONLY_TOKEN = 'REMOVED';
 
 const openIssues = [];
 const openPrs = [];
