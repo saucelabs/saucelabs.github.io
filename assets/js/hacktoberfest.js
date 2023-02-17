@@ -6,7 +6,7 @@ const PARTICIPATING_GH_ORGS = [
   'saucelabs',
 ];
 const PUBLIC_READ_ONLY_TOKEN = window.atob(
-  'N/A'
+  `'N/A'`
 );
 
 const openIssues = [];
