@@ -9,7 +9,7 @@ title = "Sauce Labs Open Source"
 # default parameters
 [params]
 home = "Home"
-logo_home = "images/saucelabs_logo_white.svg"
+logo_home = "images/saucelabs_logo_black.svg"
 logo_content = "images/saucelabs_logo_color.svg"
 # theme color
 theme_color = "#AC1414"
@@ -19,7 +19,7 @@ description = "Website with contents for the Sauce Labs Open Source Program Offi
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "&copy; 2020 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
+copyright = "&copy; 2023 Sauce Labs Inc., all rights reserved. SAUCE and SAUCE LABS are registered trademarks owned by Sauce Labs Inc. in the United States, EU, and may be registered in other jurisdictions."
 # social links on hero
 enable_social_links_hero = false
 # Google Tag Manager

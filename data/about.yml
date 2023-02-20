@@ -43,9 +43,3 @@ team:
     - title: Wim Selles
       image: images/people/wim.png
       designation: Sr. Solution Architect
-
-# client logo slider
-clients_logo_slider:
-  enable: true
-  title: My Clients
-  # clients logo comes from 'data/homepage.yml' file

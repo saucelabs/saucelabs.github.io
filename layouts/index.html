@@ -6,37 +6,14 @@
       <div class="row h-100 align-items-center">
         <div class="col-10 mx-auto col-sm-5 ml-sm--auto mr-sm-0">
           <div class="row">
-            <p class="text-white font-meta-tags">{{ .Site.Data.homepage.banner.title_header | safeHTML }}</p>
+            <p class="font-meta-tags">{{ .Site.Data.homepage.banner.title_header | safeHTML }}</p>
           </div>
           <div class="row">
-            <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+            <h1 class="font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
           </div>
         </div>
         <div class="col-10 mx-auto col-sm-6 ml-sm-0 mr-sm-auto h-100">
-          <div class="layer" id="l1">
-            <img src="{{`/images/hero/opensourcebox.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l2">
-            <img src="{{`images/hero/checkbox.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l3">
-            <img src="{{`images/hero/clouds.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l4">
-            <img src="{{`images/hero/codewindows.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l5">
-            <img src="{{`images/hero/espressobox.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l6">
-            <img src="{{`images/hero/saucebot.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l7">
-            <img src="{{`images/hero/seleniumbox.svg` | relURL}}" alt="bg-shape">
-          </div>
-          <div class="layer" id="l8">
-            <img src="{{`images/hero/whitebot.svg` | relURL}}" alt="bg-shape">
-          </div>
+          <img src="{{`/images/hero/hero.svg` | relURL}}" width="600px" alt="bg-shape">
         </div>
       </div>
     </div>
