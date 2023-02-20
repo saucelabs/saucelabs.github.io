@@ -124,11 +124,11 @@
 .shadow {
     box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .54) !important
 }
-.bg-footer {
+.bg-footer-dark {
     background-color: $footerBackgroundColor !important
 }
 .footer-item-text {
-    color: $fontColor !important;
+    color: #EDEDEF !important;
     line-height: 1.2;
     margin-bottom: 5px;
     padding-left: 0;;
@@ -234,10 +234,10 @@ textarea.form-control {
     color: $contentPageActiveLinkColor;
 }
 .navbar.home-page .navbar-nav .nav-link {
-    color: #132322;
+    color: #fff;
 }
 .navbar.content-page .navbar-nav .nav-link {
-    color: #000000;
+    color: #AC1414;
 }
 .home-page .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");

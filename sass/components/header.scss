@@ -6,7 +6,7 @@
         width: 300px;
         background: transparent;
 
-        border-bottom: 1px solid #727A7A;
+        border-bottom: 1px solid #AAA;
         position: relative;
 
         input {
@@ -16,14 +16,14 @@
             background: transparent;
             font-size: 20px;
             line-height: 30px;
-            color: #727A7A;
+            color: #FFF;
 
             &:focus {
                 outline: none;
             }
 
             &::placeholder {
-                color: #727A7A
+                color: #BBB
             }
         }
 
@@ -45,13 +45,13 @@
                 border-radius: 30px;
                 height: 15px;
                 width: 15px;
-                border: 2px solid #727A7A;
+                border: 2px solid #BBB;
 
                 &:after {
                     content: "";
                     height: 3px;
                     width: 9px;
-                    background: #727A7A;
+                    background: #BBB;
                     position:absolute;
                     top:11px;
                     left:9px;
