@@ -16,7 +16,7 @@
             <h4 class="text-center pt-3">Documentation</h4>
             {{ range .Data.Pages }}
             <li class="py-3">
-                <a href="{{ .URL }}">{{ .Name }}</a>
+                <a href="{{ .Permalink }}">{{ .Name }}</a>
               </li>
             {{ end }}
         </aside>          

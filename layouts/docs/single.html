@@ -27,7 +27,7 @@
               {{- range $pages.ByTitle -}}
               <li class="py-3">
                 {{ if ne .Name $currentPageName }}
-                <a href="{{ .URL }}">{{ .Name }}</a>
+                <a href="{{ .Permalink }}">{{ .Name }}</a>
                 {{ else }}
                 <b class="font-meta-tags">{{ .Name }}</b>
                 {{ .TableOfContents }}
