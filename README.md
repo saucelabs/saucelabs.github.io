@@ -1,4 +1,4 @@
-# opensource.saucelabs.com
+## [Sauce Labs Open Source](https://opensource.saucelabs.com/)
 
 This repository contains static files to generate the website for Sauce Labs
 Open Source Program Office.
