@@ -1,24 +1,24 @@
-$fontFamily: "museo-sans", "HelveticaNeue", "Helvetica Neue", "serif";
+$fontFamily: "DM Mono", "HelveticaNeue", "Helvetica Neue", "serif";
 
 // colors
-$themeColor: #AC1414;
-$themeColorWithOpacity: #b52c2c;
-$linkHoverColor: #57C1E8;
-$linkColor: #E12726;
+$themeColor: #3DDC91;
+$themeColorWithOpacity: #64E3A7;
+$linkHoverColor: #3DDC91;
+$linkColor: #18583A;
 $white: #ffffff;
 
 $darkGray: #464B54;
-$projectPageBackgroundColor: $darkGray;
-$contentPageActiveLinkColor: $darkGray;
-$footerBackgroundColor: $darkGray;
+$projectPageBackgroundColor: #3DDC91;
+$contentPageActiveLinkColor: #18583A;
+$footerBackgroundColor: #3DDC91;
 
-$fontColor: #444;
+$fontColor: #132322;
 $menuColor: #888;
 $separator: #eee;
 $backgroundColor: $white;
 $bgColorSauceButton: $linkColor;
-$bgColorSauceButtonHover: #f85d5d;
-$textColorSauceButton: $white;
-$bgColorSauceButtonGradientFrom: #ee4439;
-$bgColorSauceButtonGradientTo: #d92519;
-$bgColorSauceButtonHoverGradientTo: #f83838;
+$bgColorSauceButtonHover: #8BEABD;
+$textColorSauceButton: $fontColor;
+$bgColorSauceButtonGradientFrom: #3DDC91;
+$bgColorSauceButtonGradientTo: #64E3A7;
+$bgColorSauceButtonHoverGradientTo: #B1F1D3;
