@@ -80,11 +80,6 @@ items:
     description: "Popular applications, provided by Sauce Labs, ready to launch on Kubernetes using Kubernetes Helm."
     project_url: "https://opensource.saucelabs.com/charts"
 
-  - name: TestCafe Prometheus
-    image: images/logos/testcafe.svg
-    description: Prometheus reporter for TestCafe allowing for alerts based on multiple suite executions across time.
-    project_url: "https://opensource.saucelabs.com/testcafe-reporter-prometheus-multi/"
-
   - name: The Internet
     image: images/logos/saucelabs.png
     description: An example application that captures prominent and ugly functionality found on the web. Perfect for writing automated acceptance tests against.
@@ -99,11 +94,6 @@ items:
     image: images/logos/docusaurus.svg
     description: A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.
     project_url: "http://opensource.saucelabs.com/docusaurus-theme-github-codeblock/"
-
-  - name: CDDL Parser
-    image: images/logos/node.png
-    description: Concise data definition language (RFC 8610) implementation and JSON validator in Node.js
-    project_url: "http://opensource.saucelabs.com/cddl/"
 
   - name: Watir
     image: images/logos/watir.png
