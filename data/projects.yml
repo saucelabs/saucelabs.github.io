@@ -20,12 +20,12 @@ items:
     description: Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions.
     project_url: "https://opensource.saucelabs.com/node-saucelabs/"
 
-  - name: Sauce Connect Proxy
+  - name: Sauce Connect
     image: images/logos/docker.png
     description: Docker image for Sauce Connect Proxy to use in CI/CD environments.
     project_url: "https://hub.docker.com/repository/docker/saucelabs/sauce-connect"
 
-  - name: Sauce Connect Proxy
+  - name: Sauce Connect
     image: images/logos/gh-action.png
     description: A GitHub action to launch Sauce Connect Proxy.
     project_url: "https://github.com/marketplace/actions/sauce-connect-proxy-action"
