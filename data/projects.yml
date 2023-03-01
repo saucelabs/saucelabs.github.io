@@ -16,7 +16,7 @@ items:
     project_url: "https://webdriver.io/"
 
   - name: node-saucelabs
-    image: images/logos/node-saucelabs.png
+    image: images/logos/saucelabs.png
     description: Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions.
     project_url: "https://opensource.saucelabs.com/node-saucelabs/"
 
@@ -51,7 +51,7 @@ items:
     project_url: "https://github.com/saucelabs/sample-app-web"
 
   - name: Speedo
-    image: images/logos/speedo.png
+    image: images/logos/saucelabs.png
     description: Simple performance testing tool using SauceLabs
     project_url: "https://github.com/saucelabs/speedo"
 
