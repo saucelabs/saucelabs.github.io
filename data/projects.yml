@@ -45,11 +45,6 @@ items:
     description: "A Java page object test bibrary, optimized for remote execution."
     project_url: "https://github.com/saucelabs/salsa_verde"
 
-  - name: Sample App Mobile
-    image: images/logos/saucelabs.png
-    description: This is the Sauce Labs Native Sample Application which is designed to be used with mobile devices.
-    project_url: "https://github.com/saucelabs/sample-app-mobile"
-
   - name: Sample App Web
     image: images/logos/saucelabs.png
     description: This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers.
