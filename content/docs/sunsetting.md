@@ -4,8 +4,8 @@ description: 'Sunsetting an Open Source project'
 draft: false
 ---
 
-Here you can see the steps that describe how Saucers can sunset or deprecate an open source project. This is a simple process, and if you need
-help going through it, the Open Source team can always give you a hand.
+Here you can see the steps that describe how Saucers can sunset or deprecate an open source project. This is a simple process, 
+and if you need help going through it, the Open Source Program Office can always give you a hand.
 
 ### Is it time to sunset a project?
 
@@ -58,7 +58,12 @@ of the decision process stated above.
 #### Validate dependencies
 
 Identity where your project is being used or being referenced in order to notify those projects, communities, or package
-distribution managers to make them aware about the decision of sunsetting the project.
+distribution managers to make them aware about the decision of sunsetting the project. The Linux Foundation’s Open Source 
+Security Foundation (OSSF) has developed a [criticality score](https://github.com/ossf/criticality_score) that can help you 
+with this validation.
+
+In addition, it is helpful to state clearly in the different package managers (i.e., npm, PyPI, RubyGems, etc.) that 
+“this repository will no longer be updated.”
 
 #### Communicate the decision
 
