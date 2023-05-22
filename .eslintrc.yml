@@ -86,3 +86,4 @@ ignorePatterns:
   - .husky/**/*
   - assets/js/libs/**/*
   - "!.*"
+  - node_modules/
