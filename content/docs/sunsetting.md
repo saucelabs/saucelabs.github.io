@@ -7,26 +7,7 @@ draft: false
 Here you can see the steps that describe how Saucers can sunset or deprecate an open source project. This is a simple process, and if you need
 help going through it, the Open Source team can always give you a hand.
 
-### Overview
-
-There is usually a time when an open source project ends its life and will not be developed anymore. Here are a
-set of guidelines that can help you understand if that is the case for your project and what steps to follow.
-
--   [Transferring as an alternative](#transferring-as-an-alternative): can the project continue under a new manitainer?
--   [Signs to watch for](#signs-to-watch-for): check for this signs together with your team
--   [Sunsetting](#sunsetting): How to end an open source project
--   [Be clear and formal](#be-clear-and-formal): clearly communicate to your users why and when the project will be sunset
-
-### Transferring as an alternative
-
-If the project still has users and community activity but it lacks stable maintainers, there might be people who are
-interested in becoming new maintainers. Most of the time they will reach out and ask for the option to get the project
-transferred to them, but there is also the option to look for a new maintainer through the project communication channels.
-
-If transferring is a viable option, please reach out to the Open Source team where we help you to figure out the process
-with the different internal teams at Sauce Labs.
-
-### Signs to watch for
+### Is it time to sunset a project?
 
 It often happens that a project needs to be deprecated before you even realize it. An open source might be running into
 problems and beginning to be a candidate for sunsetting when:
@@ -39,9 +20,25 @@ problems and beginning to be a candidate for sunsetting when:
 If your project has one or more of the previous signs, it might be a good idea to consider alternatives for the future
 of the project, one of them being project sunsetting.
 
+### Transferring as an alternative
+
+If the project still has users and community activity but it lacks stable maintainers, there might be people who are
+interested in becoming new maintainers. Most of the time they will reach out and ask for the option to get the project
+transferred to them, but there is also the option to look for a new maintainer through the project communication channels.
+
+Good ways to find out if someone is interested to maintain and potentially host the project are:
+
+-   Announce in the project `README` that a new maintainer is needed, and where to reach out if someone is interested.
+-   Create a GitHub issue and pin it to the repository noting that a maintainer is needed.
+-   If possible, use social media to share the announcement and links with information from the repository.
+
+If transferring is a viable option, please reach out to the Open Source team where we help you to figure out the process
+with the different internal teams at Sauce Labs.
+
 ### Sunsetting
 
-Here is a set of steps that can be followed to move your project to a sunset/end of life status.
+There is usually a time when an open source project ends its life and will not be developed anymore. Here are a
+set of guidelines that can help you understand if that is the case for your project and what steps to follow.
 
 #### Get approval
 
@@ -49,6 +46,14 @@ Getting people to agree to sunset and end their project where they have invested
 to clear all concerns and opinions from your team and involved maintainers. Most of the time, this means reaching out
 to the maintainers and the community for acknowledgment and approvement of the decision. Ideally, this should be tracked
 on an issue to enable public visibility on the decision process.
+
+Ideally, consensus should be seeked to agree on the decision to sunset the project. However, when the maintainers cannot
+agree, the manager(s) from the team(s) who maintain the project need to decide what will happen to the project. If more
+than one manager is involved and consensus is not reached, the decision should be escalated until approval or rejection
+is reached.
+
+If the project is used by customers as a way to interact with your business, Product managers/owners should also be part
+of the decision process stated above.
 
 #### Validate dependencies
 
@@ -66,6 +71,11 @@ Share the decision across the different communication channels the project has, 
 -   Communinity forums
 -   Documentation and website
 -   Mailing list
+
+Project users should have a proper time window until the project is sunset. OSPO recommends
+at least 1 month between the announcement and archiving the project, and if the project is
+used by customers, at least 3 months. However, the specific time window can be decided by
+the current maintainers and/or the team that owns the project.
 
 #### Get Reviewed
 
