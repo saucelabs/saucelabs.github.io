@@ -12,7 +12,7 @@ home = "Home"
 logo_home = "images/saucelabs_logo_black.svg"
 logo_content = "images/saucelabs_logo_color.svg"
 # theme color
-theme_color = "#AC1414"
+theme_color = "#3DDC91"
 # meta description
 author = "Sauce Labs Open Source Program Office"
 description = "Website with contents for the Sauce Labs Open Source Program Office"
