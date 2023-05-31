@@ -5,7 +5,7 @@
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#fff",
-    "theme_color": "#AC1414",
+    "theme_color": "#3DDC91",
     "icons": [
       {
         "src": "/images/appicons/icon-128x128.png",
