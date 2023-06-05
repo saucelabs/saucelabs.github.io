@@ -79,8 +79,10 @@ Share the decision across the different communication channels the project has, 
 
 Project users should have a proper time window until the project is sunset. OSPO recommends
 at least 1 month between the announcement and archiving the project, and if the project is
-used by customers, at least 3 months. However, the specific time window can be decided by
-the current maintainers and/or the team that owns the project.
+used by customers, at least 3 months. An exception to the previous is when the repository
+is used as a demo for a given tool, most of the time it could be sunset right away. In
+any case, the specific time window can be decided by the current maintainers and/or the
+team that owns the project.
 
 #### Get Reviewed
 
