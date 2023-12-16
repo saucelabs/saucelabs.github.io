@@ -2,7 +2,7 @@
 items:
   - name: Appium
     image: images/logos/appium.png
-    description: "Appium is an open source test automation framework for use with native, hybrid and mobile web apps."
+    description: Appium is an open source test automation framework for use with mobile apps.
     project_url: "http://appium.io/"
 
   - name: Selenium
@@ -17,13 +17,13 @@ items:
 
   - name: node-saucelabs
     image: images/logos/saucelabs.png
-    description: Wrapper around all Sauce Labs REST APIs for Node.js (v8 or higher) including support for Sauce Connect Proxy and TypeScript definitions.
+    description: Wrapper around all Sauce Labs REST APIs for Node.js, supports Sauce Connect.
     project_url: "https://opensource.saucelabs.com/node-saucelabs/"
 
   - name: Sauce Connect
     image: images/logos/docker.png
     description: Docker image for Sauce Connect Proxy to use in CI/CD environments.
-    project_url: "https://hub.docker.com/repository/docker/saucelabs/sauce-connect"
+    project_url: "https://github.com/saucelabs/sauce-connect-docker"
 
   - name: Sauce Connect
     image: images/logos/gh-action.png
