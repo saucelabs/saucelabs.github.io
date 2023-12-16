@@ -7,7 +7,7 @@ items:
 
   - name: Selenium
     image: images/logos/selenium.png
-    description: Selenium is a portable framework for testing web applications. Selenium provides a playback tool for authoring functional tests without the need to learn a test scripting language.
+    description: Selenium is a library useful for testing web applications.
     project_url: "https://www.selenium.dev/"
 
   - name: WebdriverIO
