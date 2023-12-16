@@ -45,34 +45,19 @@ items:
     description: This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers.
     project_url: "https://github.com/saucelabs/sample-app-web"
 
-  - name: Speedo
+  - name: Forwarder
     image: images/logos/saucelabs.png
-    description: Simple performance testing tool using SauceLabs
-    project_url: "https://github.com/saucelabs/speedo"
-
-  - name: TraceLib
-    image: images/logos/node.png
-    description: A Node.js library that provides Chrome DevTools trace models to parse arbitrary trace logs.
-    project_url: "https://github.com/saucelabs/tracelib"
-
-  - name: FoxDriver
-    image: images/logos/node.png
-    description: Foxdriver is a Node library which provides a high-level API to control Firefox over the Remote Debugging Protocol.
-    project_url: "https://github.com/saucelabs/foxdriver"
-
-  - name: Monocle
-    image: images/logos/python.png
-    description: An async programming framework with a blocking look-alike syntax.
-    project_url: "https://github.com/saucelabs/monocle"
+    description: Fast HTTP proxy with MITM and PAC
+    project_url: "https://github.com/saucelabs/forwarder"
 
   - name: Network Viewer
     image: images/logos/react.png
-    description: Network-Viewer is a redefined HAR viewer human friendly view of requests which is build with React.
+    description: Network-Viewer is a redefined HAR human friendly viewer.
     project_url: "https://opensource.saucelabs.com/network-viewer/"
 
   - name: Helm Charts
     image: images/logos/helm.svg
-    description: "Popular applications, provided by Sauce Labs, ready to launch on Kubernetes using Kubernetes Helm."
+    description: "Popular Sauce Labs applications, ready to launch on Kubernetes using Helm."
     project_url: "https://opensource.saucelabs.com/charts"
 
   - name: The Internet
@@ -94,8 +79,3 @@ items:
     image: images/logos/watir.png
     description: An open source Ruby library for automating tests.
     project_url: "http://watir.com"
-
-  - name: Webdrivers
-    image: images/logos/ruby.svg
-    description: Automatic download and installation of correct browser driver for Ruby Selenium projects.
-    project_url: "http://github.com/titusfortner/webdrivers"
