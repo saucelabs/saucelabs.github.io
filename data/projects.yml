@@ -40,11 +40,6 @@ items:
     description: An interface to simplify working with Sauce Labs session-related interactions.
     project_url: "https://opensource.saucelabs.com/sauce_bindings"
 
-  - name: Salsa Verde
-    image: images/logos/saucelabs.png
-    description: "A Java page object test bibrary, optimized for remote execution."
-    project_url: "https://github.com/saucelabs/salsa_verde"
-
   - name: Sample App Web
     image: images/logos/saucelabs.png
     description: This is the Sauce Labs Sample Application which is designed to be used from desktop web browsers.
