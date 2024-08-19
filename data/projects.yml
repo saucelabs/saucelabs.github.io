@@ -21,11 +21,6 @@ items:
     project_url: "https://opensource.saucelabs.com/node-saucelabs/"
 
   - name: Sauce Connect
-    image: images/logos/docker.png
-    description: Docker image for Sauce Connect Proxy to use in CI/CD environments.
-    project_url: "https://github.com/saucelabs/sauce-connect-docker"
-
-  - name: Sauce Connect
     image: images/logos/gh-action.png
     description: A GitHub action to launch Sauce Connect Proxy.
     project_url: "https://github.com/marketplace/actions/sauce-connect-proxy-action"
@@ -58,7 +53,7 @@ items:
   - name: Helm Charts
     image: images/logos/helm.svg
     description: "Popular Sauce Labs applications, ready to launch on Kubernetes using Helm."
-    project_url: "https://opensource.saucelabs.com/charts"
+    project_url: "https://opensource.saucelabs.com/helm-charts"
 
   - name: The Internet
     image: images/logos/saucelabs.png
