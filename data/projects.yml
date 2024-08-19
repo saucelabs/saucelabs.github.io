@@ -27,8 +27,8 @@ items:
 
   - name: SauceCTL
     image: images/logos/go.png
-    description: A command line interface for the Sauce Labs Testrunner Toolkit.
-    project_url: "https://opensource.saucelabs.com/testrunner-toolkit"
+    description: A command line interface for the Sauce Labs platform.
+    project_url: "https://opensource.saucelabs.com/saucectl"
 
   - name: Sauce Bindings
     image: images/logos/saucelabs.png
