@@ -33,7 +33,7 @@ items:
   - name: Sauce Bindings
     image: images/logos/saucelabs.png
     description: An interface to simplify working with Sauce Labs session-related interactions.
-    project_url: "https://opensource.saucelabs.com/sauce_bindings"
+    project_url: "https://github.com/saucelabs/sauce_bindings"
 
   - name: Sample App Web
     image: images/logos/saucelabs.png
