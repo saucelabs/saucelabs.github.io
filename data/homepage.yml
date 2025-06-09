@@ -15,11 +15,6 @@ involvement:
   title: Involvement
   heading: Organizations we support
   item:
-    - logo: images/logos/openjsf.svg
-      title: OpenJS Foundation
-      description: The OpenJS Foundation is the open and neutral home for JavaScript communities.
-      URL: "https://openjsf.org/"
-
     - logo: images/logos/sfc.png
       title: Software Freedom Conservancy
       short_title: SFC
@@ -108,7 +103,7 @@ open_sauce_projects:
 
 # blog
 blog:
-  enable: true
+  enable: false
   title: Blog
   heading: Read and learn more
   # blog post comes from "content/blog" folder
