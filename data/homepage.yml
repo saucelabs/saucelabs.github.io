@@ -81,7 +81,7 @@ events:
 
 # projects
 open_sauce_projects:
-  enable: true
+  enable: false
   title: Open Sauce Program
   heading: Open Source projects we support
   intro: Sauce Labs is committed to support the open source ecosystem by providing free licenses through the Open Sauce program.
