@@ -1,7 +1,7 @@
 ---
 title: 'Releasing a new Open Source project'
 description: 'Releasing a new Open Source project'
-draft: false
+draft: true
 images:
     - /images/docs/releasing.svg
 ---
